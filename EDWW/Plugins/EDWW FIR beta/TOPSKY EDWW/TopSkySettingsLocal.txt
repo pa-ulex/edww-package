@@ -1,0 +1,6 @@
+//Remove "//" in front of this setting to use the RDF function
+//RDF_Mode=1
+
+//Color_Active_Map_Type_2=100,90,80
+
+
