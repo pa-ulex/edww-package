@@ -1,0 +1,30 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+ARTCC boundary:FIR EDMM:
+Geo:EDWW COAST:
+Geo:EDWW Highway:
+NDBs:DBR:symbol
+NDBs:DIP:symbol
+NDBs:SL:symbol
+VORs:BBI:symbol
+VORs:FWE:symbol
+VORs:KLF:symbol
+SHOWC:1
+SHOWSB:0
+BELOW:200
+ABOVE:10000
+LEADER:-1
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:DFS_TWR
+WINDOWAREA:52.146215:12.390122:52.681059:14.552654
+PLUGIN:ESCenterlines:Display Active:1
+PLUGIN:ESCenterlines:Display_Centerlines:1
