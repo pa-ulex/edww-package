@@ -332,12 +332,17 @@ Setup_Informed=*:OSKAN,KOBUS:EDDC:2
 Setup_Informed=*:BEBKU:EDDP:2
 
 [EDDH_]
+Track_PredictionLine=0
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EDDH
 
 [EDDV_]
+Track_PredictionLine=0
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EDDV
+
+[EDDW_]
+Track_PredictionLine=0
 
 [EDWW_A]
 Track_PredictionLine=0
