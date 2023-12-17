@@ -1,8 +1,12 @@
 ASRFastKeys	1	\EDWW\ASR\EDWW FIR beta\EDWW-CTR-APP.asr
 ASRFastKeys	2	\EDWW\ASR\EDWW FIR beta\EDDB-GND.asr
-ASRFastKeys	3	\EDWW\ASR\EDWW FIR beta\EDAH-GND.asr
-ASRFastKeys	4	\EDWW\ASR\EDWW FIR beta\ETNL-GND.asr
-ASRFastKeys	5	\EDWW\ASR\EDWW FIR beta\ETSH-GND.asr
+ASRFastKeys	3	\EDWW\ASR\EDWW FIR beta\EDDH-GND.asr
+ASRFastKeys	4	\EDWW\ASR\EDWW FIR beta\EDDV-GND.asr
+ASRFastKeys	5	\EDWW\ASR\EDWW FIR beta\EDDW-GND.asr
+ASRFastKeys	6	\EDWW\ASR\EDWW FIR beta\EDXW-GND.asr
+ASRFastKeys	7	\EDWW\ASR\EDWW FIR beta\EDHL-GND.asr
+ASRFastKeys	8	\EDWW\ASR\EDWW FIR beta\EDAH-GND.asr
+ASRFastKeys	9	\EDWW\ASR\EDWW FIR beta\ETNL-GND.asr
 Plugins	Plugin0	\EDWW\Plugins\EDWW FIR beta\AfvEuroScopeBridge.dll
 Plugins	Plugin0Display0	Standard ES radar screen
 Plugins	Plugin0Display1	Ground Radar display
