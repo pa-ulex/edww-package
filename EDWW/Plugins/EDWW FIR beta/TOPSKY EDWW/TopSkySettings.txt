@@ -30,7 +30,7 @@ Areas_NOTAM_Activation=1
 Areas_Altitude_Filtering=1
 
 Color_Active_Map_Type_1=82,162,112 	 //ED-R + Centerlines EDDB 
-Color_Active_Map_Type_2=140,111,69	 //Sectorlines + Fixes (brown)
+Color_Active_Map_Type_2=120,101,59	 //Sectorlines + Fixes (brown)
 Color_Active_Map_Type_3=0,150,150	 //MVA
 Color_Active_Map_Type_4=0,188,198 	 //TRA + alternate colour
 Color_Active_Map_Type_8
