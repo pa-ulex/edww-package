@@ -1,12 +1,6 @@
 TAGS
 TAGFAMILY:TopDFS
-TAGTYPE:0:6:1
-TAGITEM:26::0:1:0:0:TopSky plugin:0:1:::1
-TAGITEM:23::0:1:0:0:TopSky plugin:0:1:::1
-TAGITEM:107::0:1:0:0:TopSky plugin:0:1:::1
-TAGITEM:1::0:1:0:0:Squawk Message/Warning:0:1:::1
-TAGITEM:72::0:0:0:0:TopSky plugin:0:1:::0
-TAGITEM:0::0:0:0:0::0:1:::1
+TAGTYPE:0:0:0
 TAGITEM:22::1:0:0:0:TopSky plugin:0:1:::0
 TAGITEM:40::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
@@ -100,13 +94,7 @@ TAGITEM:1::0:0:0:0:Squawk Message/Warning:0:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:22::1:0:0:0:TopSky plugin:0:1:::1
 TAGITEM:40::0:1:0:0:TopSky plugin:0:1:::1
-TAGTYPE:4:6:1
-TAGITEM:26::0:1:0:0:TopSky plugin:0:1:::1
-TAGITEM:23::0:1:0:0:TopSky plugin:0:1:::1
-TAGITEM:107::0:1:0:0:TopSky plugin:0:1:::1
-TAGITEM:1::0:1:0:0:Squawk Message/Warning:0:1:::1
-TAGITEM:72::0:0:0:0:TopSky plugin:0:1:::0
-TAGITEM:0::0:0:0:0::0:1:::1
+TAGTYPE:4:0:0
 TAGITEM:22::1:0:0:0:TopSky plugin:0:1:::0
 TAGITEM:40::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
