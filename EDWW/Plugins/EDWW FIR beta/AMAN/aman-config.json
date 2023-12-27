@@ -1,5 +1,5 @@
 {
-    "openAutomatically": true,
+    "openAutomatically": false,
     "timelines": {
         "EDDB 25": {
             "targetFixes": [ "DB433", "DB471" ],
