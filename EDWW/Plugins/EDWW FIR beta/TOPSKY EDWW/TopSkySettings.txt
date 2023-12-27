@@ -308,7 +308,7 @@ WXR_Echo_dBZ_Hi=50
 WXR_Echo_dBZ_Med=30
 WXR_Echo_dBZ_Lo=25
 
-Track_PredictionLine=1
+Track_PredictionLine=0
 
 [_CTR]
 Window_CARD=1,1525,788
@@ -330,74 +330,73 @@ Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EDDB
 Setup_Informed=*:*:EDDB:2
 Setup_Informed=*:OSKAN,KOBUS:EDDC:2
 Setup_Informed=*:BEBKU:EDDP:2
+Track_PredictionLine=1
 
 [EDDH_]
-Track_PredictionLine=0
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EDDH
 
 [EDDV_]
-Track_PredictionLine=0
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EDDV
 
-[EDDW_]
-Track_PredictionLine=0
-
 [EDWW_A]
-Track_PredictionLine=0
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS NORTH
 CPDLC_MinLevel=245
+RDF_Mode=1
 
 [EDWW_B]
+Track_PredictionLine=1
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EAST
 
 [EDWW_D]
-Track_PredictionLine=0
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS SOUTH
 CPDLC_MinLevel=245
+RDF_Mode=1
 
 [EDWW_E]
-Track_PredictionLine=0
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS NORTH
 CPDLC_MinLevel=245
 
 [EDWW_H]
-Track_PredictionLine=0
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS NORTH
 CPDLC_MinLevel=245
+RDF_Mode=1
 
 [EDWW_M]
+Track_PredictionLine=1
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EAST
 
 [EDWW_K]
+Track_PredictionLine=1
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EAST
 
 [EDWW_F]
+Track_PredictionLine=1
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EAST
 
 [EDWW_S]
-Track_PredictionLine=0
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS SOUTH
 CPDLC_MinLevel=245
+RDF_Mode=1
 
 [EDWW_R]
-Track_PredictionLine=0
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS SOUTH
 CPDLC_MinLevel=245
+RDF_Mode=1
 
 [EDWW_W]
-Track_PredictionLine=0
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS WEST
 CPDLC_MinLevel=245
+RDF_Mode=1
