@@ -4,7 +4,7 @@ ATIS2:
 ATIS3:
 ATIS4:
 PROFILE:EDWW_CTR:300:6
-ATIS2:Callsign BREMEN RADAR - CPDLC/PDC on EDWW (CPDLC above FL245/FL285 only!)
+ATIS2:Callsign BREMEN RADAR - CPDLC/PDC on EDWC (CPDLC above FL245/FL285 only!)
 ATIS3:FIR Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDWW_A_CTR:300:6
@@ -48,7 +48,7 @@ ATIS2:Callsign BREMEN RADAR - CPDLC/PDC on EDWS (CPDLC above FL245 only!)
 ATIS3:Ems Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDWW_W_CTR:300:6
-ATIS2:Callsign BREMEN RADAR
+ATIS2:Callsign BREMEN RADAR - CPDLC/PDC on EDWW (CPDLC above FL245 only!)
 ATIS3:Eider West Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDDB_S_APP:150:5
