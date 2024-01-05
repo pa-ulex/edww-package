@@ -14,10 +14,11 @@ m_Column:ATYP:5:1:16:2:32:1::TopSky plugin::0:3.8
 m_Column:W:2:1:10032:104:0:1:TopSky plugin:TopSky plugin::0:0.0
 m_Column:V:2:1:10031:0:0:1:TopSky plugin:::1:0.0
 m_Column:ADEP:5:1:61:7:1001:0:::TopSky plugin:0:0.0
+m_Column:FPC:3:1:1:100:100:1:VFPC:VFPC:VFPC:0:0.0
 m_Column:ADES:5:1:17:7:1001:1:::TopSky plugin:0:3.8
 m_Column:RWY:4:1:10050:19:0:1:TopSky plugin:::1:0.0
 m_Column:SID:9:1:10011:17:17:1:TopSky plugin:::0:0.0
-m_Column:VIA:5:1:9:0:0:1:RG Bremen:::0:0.0
+m_Column:VIA:3:1:9:0:0:1:RG Bremen:::0:0.0
 m_Column:CLMB:5:1:20:11:109:1:::TopSky plugin:0:0.0
 m_Column:RFL:5:1:22:30:59:0:::TopSky plugin:0:3.8
 m_Column:aSSR:5:1:506:871:869:1:CCAMS:CCAMS:CCAMS:0:0.0
