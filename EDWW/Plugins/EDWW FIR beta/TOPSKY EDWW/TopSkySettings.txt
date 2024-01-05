@@ -335,10 +335,12 @@ Track_PredictionLine=1
 [EDDH_]
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EDDH
+RDF_Mode=1
 
 [EDDV_]
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EDDV
+RDF_Mode=1
 
 [EDWW_A]
 Shortcut_Map_Xfr_Key=7,0x44 ; D
