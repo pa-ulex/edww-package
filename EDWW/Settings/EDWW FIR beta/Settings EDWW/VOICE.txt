@@ -4,7 +4,7 @@ AG:EDDB_ATIS:123.780
 AG:EDDB_D_APP Berlin Director:121.130
 AG:EDDB_F_APP Berlin Director:136.105
 AG:EDDB_N_APP Bremen Radar:119.630
-AG:EDDB_N_DEP Bremen Radar:134.430
+AG:EDDB_N_DEP Bremen Radar:120.340
 AG:EDDB_S_APP Bremen Radar:126.425
 AG:EDDB_S_DEP Bremen Radar:120.630
 AG:EDDB_Y_APP Bremen Radar:119.630
