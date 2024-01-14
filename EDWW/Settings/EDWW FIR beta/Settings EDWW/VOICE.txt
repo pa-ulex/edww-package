@@ -7,8 +7,6 @@ AG:EDDB_N_APP Bremen Radar:119.630
 AG:EDDB_N_DEP Bremen Radar:120.340
 AG:EDDB_S_APP Bremen Radar:126.425
 AG:EDDB_S_DEP Bremen Radar:120.630
-AG:EDDB_Y_APP Bremen Radar:119.630
-AG:EDDB_Z_APP Bremen Radar:126.425
 AG:EDDH_ATIS:124.325
 AG:EDDH_E_APP Bremen Radar:119.510
 AG:EDDH_F_APP Hamburg Director:118.205
