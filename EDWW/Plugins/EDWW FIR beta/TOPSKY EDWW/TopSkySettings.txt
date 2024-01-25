@@ -1,7 +1,7 @@
 System_UseAUP=1
 HTTP_AUP_URL=https://lara.vatsim.pt/api/areas/ED/
 
-HTTP_Areas_Remote_URL=https://raw.githubusercontent.com/hannesaltmann/EDWW-Area-Activation/main/Topsky-Area-Remote-Activation.txt
+HTTP_Areas_Remote_URL=https://raw.githubusercontent.com/VATGER-Nav/EDWW-Area-Activation/main/Topsky-Area-Remote-Activation.txt
 
 
 Setup_COOPANS=1
@@ -55,6 +55,8 @@ Color_BottomShadow=11,65,54
 Color_CARD_Mark_All=212,128,44
 Color_CARD_Mark_Own=212,128,44
 Color_CARD_Time_Vector=170,231,197
+Color_COL_Under_Threshold=53,127,11
+Color_COL_Above_Threshold=250,170,15
 Color_Concerned=0,188,198
 Color_Coordination=0,200,200
 Color_CPDLC_UM_Clearance=255,150,0
@@ -78,10 +80,6 @@ Color_Informed_3=0,188,198
 Color_Map_Auto_Symbol=100,100,100
 Color_Map_Auto_Label=80,80,80
 Color_Map_Hotspot=100,100,100
-
-Color_COL_Under_Threshold=53,127,11
-Color_COL_Above_Threshold=250,170,15
-
 Color_Potential=0,0,255
 Color_Potential_FL=0,0,255
 Color_Preactive_Map=255,069,0
@@ -105,6 +103,8 @@ Color_SEP_Tool_5=166,160,245
 Color_SEP_Tool_6=95,170,140
 Color_SEP_Tool_7=185,130,85
 Color_Sid_Star_Allocation=0,200,0
+Color_Standard_RDF=150,150,150
+Color_Standard_Line_RDF=150,150,150
 Color_Suite_Highlight=53,127,11
 Color_Track_Default=242,235,163
 Color_Track_Highlight=242,235,163
@@ -203,6 +203,9 @@ MTCD_Filter_Dep=3
 MTCD_Sep_Lat=6
 
 RDF_Mode=0
+RDF_Accuracy_Degrees=0.0
+RDF_Accuracy=0.0
+RDF_MinRadius=10
 
 RwyAppLines_Markers=15
 RwyAppLines_MarkerSpacing=1.0
