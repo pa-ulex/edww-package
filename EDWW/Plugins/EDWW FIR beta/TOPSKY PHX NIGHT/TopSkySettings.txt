@@ -1,3 +1,6 @@
+System_UseAUP=1
+HTTP_AUP_URL=https://lara.vatsim.pt/api/areas/ED/
+
 Color_Assumed=255,255,255
 Color_Concerned=255,255,255
 Color_Informed=255,255,255
@@ -292,7 +295,7 @@ Shortcut_Map_Xfr_Combo=1,0x12
 Shortcut_Map_Xfr_Key=1,0x48 ; H
 Shortcut_Map_Target=1,ALL\HELIPORTLABEL
 Shortcut_Map_Xfr_Key=2,0x54
-Shortcut_Map_Target=2,TOPOGRAPHY\TOPOGRAPHY
+Shortcut_Map_Target=2,TOPOGRAPHY\LABELS
 Shortcut_Map_Xfr_Key=3,0x56
 Shortcut_Map_Target=3,ALL\VRP
 Shortcut_Map_Xfr_Combo=4,0x12
