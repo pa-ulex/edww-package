@@ -443,7 +443,7 @@
                 "direction": "ANY"
             },
             {
-                "suffix": "1N",
+                "suffix": "2N",
                 "direction": "ANY"
             },
             {
@@ -470,7 +470,7 @@
                 "direction": "ANY"
             },
             {
-                "suffix": "1N",
+                "suffix": "2N",
                 "direction": "ANY"
             },
             {
@@ -496,7 +496,7 @@
                 "direction": "ANY"
             },
             {
-                "suffix": "1N",
+                "suffix": "2N",
                 "direction": "ANY"
             },
             {
@@ -514,15 +514,15 @@
                 "direction": "ANY"
             },
             {
-                "suffix": "1B",
+                "suffix": "2B",
                 "direction": "ANY"
             },
             {
-                "suffix": "1K",
+                "suffix": "2K",
                 "direction": "ANY"
             },
             {
-                "suffix": "1N",
+                "suffix": "2N",
                 "direction": "ANY"
             },
             {
@@ -531,7 +531,7 @@
                 "direction": "ANY"
             },
             {
-                "suffix": "1Z",
+                "suffix": "2Z",
                 "direction": "ANY"
             }
          ],
@@ -541,15 +541,15 @@
                 "direction": "ANY"
             },
             {
-                "suffix": "1B",
+                "suffix": "2B",
                 "direction": "ANY"
             },
             {
-                "suffix": "1K",
+                "suffix": "2K",
                 "direction": "ANY"
             },
             {
-                "suffix": "1N",
+                "suffix": "2N",
                 "direction": "ANY"
             },
             {
@@ -558,7 +558,7 @@
                 "direction": "ANY"
             },
             {
-                "suffix": "1Z",
+                "suffix": "2Z",
                 "direction": "ANY"
             }
          ]
@@ -780,6 +780,131 @@
                "forbidden_fls": [
                   "250"
                ]
+            }
+         ]
+      }
+   },
+   {
+      "icao": "EDAH",
+      "sids":{
+         "VCT": [
+            {
+               "direction": "ANY"
+            }
+         ],
+         "MASOR": [
+            {
+               "direction": "ANY"
+            }
+         ],
+         "PENET": [
+            {
+               "direction": "ANY"
+            }
+         ]
+      }
+   },
+   {
+      "icao": "EDAY",
+      "sids":{
+         "RENKI": [
+            {
+               "direction": "ANY"
+            }
+         ]
+      }
+   },
+   {
+      "icao": "EDAZ",
+      "sids":{
+         "BOLBO": [
+            {
+               "direction": "ANY"
+            }
+         ]
+      }
+   },
+   {
+      "icao": "EDBH",
+      "sids":{
+         "GASBO": [
+            {
+               "direction": "ANY"
+            }
+         ],
+         "PEROM": [
+            {
+               "direction": "ANY"
+            }
+         ]
+      }
+   },
+   {
+      "icao": "EDBM",
+      "sids":{
+         "BUREL": [
+            {
+               "direction": "ANY"
+            }
+         ],
+         "BUROK": [
+            {
+               "direction": "ANY"
+            }
+         ],
+         "MAG": [
+            {
+               "direction": "ANY"
+            }
+         ],
+         "POVEL": [
+            {
+               "direction": "ANY"
+            }
+         ]
+      }
+   },
+   {
+      "icao": "EDBN",
+      "sids":{
+         "BIGTI": [
+            {
+               "direction": "ANY"
+            }
+         ],
+         "GEVNI": [
+            {
+               "direction": "ANY"
+            }
+         ],
+         "LEGSA": [
+            {
+               "direction": "ANY"
+            }
+         ],
+         "TIRMI": [
+            {
+               "direction": "ANY"
+            }
+         ]
+      }
+   },
+   {
+      "icao": "ETNL",
+      "sids":{
+         "NL": [
+            {
+               "direction": "ANY"
+            }
+         ]
+      }
+   },
+   {
+      "icao": "ETSH",
+      "sids":{
+         "SH": [
+            {
+               "direction": "ANY"
             }
          ]
       }
