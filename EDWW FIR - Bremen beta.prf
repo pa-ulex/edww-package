@@ -57,7 +57,7 @@ Settings	SettingsfileSIL	\EDWW\Settings\EDWW FIR beta\Settings EDWW\SIL.txt
 Settings	SettingsfileSYMBOLOGY	\EDWW\Settings\EDWW FIR beta\Settings EDWW\SYMBOLOGY.txt
 Settings	SettingsfileTAGS	\EDWW\Settings\EDWW FIR beta\Settings EDWW\TAGS.txt
 Settings	SettingsfileVCCS	\EDWW\Settings\EDWW FIR beta\Settings EDWW\VCCS.txt
-Settings	SettingsfileVOICE	\EDWW\Settings\EDWW FIR beta\Settings EDWW\VOICE.txt
+Settings	SettingsfileVOICE	\EDWW\Settings\VoiceChannels.txt
 Settings	aircraft	\EDWW\ICAO\ICAO_Aircraft.txt
 Settings	airlines	\EDWW\ICAO\ICAO_Airlines.txt
 Settings	airportcoords	\EDWW\NavData\icao.txt
