@@ -1,5 +1,5 @@
 STUP
-m_Visible:1
+m_Visible:0
 m_X:583
 m_Y:411
 m_LineNumber:0
