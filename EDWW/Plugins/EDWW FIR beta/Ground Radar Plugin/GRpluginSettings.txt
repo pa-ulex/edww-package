@@ -101,8 +101,8 @@ RawVideo_MaxHistory=0
 System_GUI_Scale_Lists=1.0
 
 
-Color_Arrival=000,255,255
-Color_Departure=255,255,225
+Color_Departure=000,255,255
+Color_Arrival=255,255,225
 Color_RawVideo=255,255,0
 Color_Unknown=50,120,200
 
