@@ -203,8 +203,28 @@
          "color":"#00dc00"
       },
       {
+         "code":"4471",
+         "message":"TMZ",
+         "color":"#00dc00"
+      },
+      {
+         "code":"4472",
+         "message":"TMZ",
+         "color":"#00dc00"
+      },
+      {
+         "code":"4476",
+         "message":"TMZ",
+         "color":"#00dc00"
+      },
+      {
          "code":"4477",
          "message":"ARRTM",
+         "color":"#00dc00"
+      },
+      {
+         "code":"4676",
+         "message":"TMZ",
          "color":"#00dc00"
       },
       {
@@ -248,6 +268,11 @@
       {
          "code":"7027",
          "message":"CHX27",
+         "color":"#00dc00"
+      },
+      {
+         "code":"7377",
+         "message":"CHX31",
          "color":"#00dc00"
       },
       {
