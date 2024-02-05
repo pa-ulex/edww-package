@@ -252,11 +252,6 @@ STCA_WarningTime_U_Imm=50
 STCA_WarningTime_L_Imm=50
 
 System_ASP_IasMach=30000
-System_GUI_Scale_Cursors=1.0
-System_GUI_Scale_GlobalMenu=1.1
-System_GUI_Scale_Menus=1.1
-System_GUI_Scale_Screen=1.1
-System_GUI_Scale_Windows=1.1
 System_GUI_Font_1=EuroScope
 System_GUI_Font_2=EuroScope
 System_GUI_Font_Fixed_1=EuroScope
@@ -303,8 +298,6 @@ WXR_Zoom=5
 WXR_Echo_dBZ_Hi=50
 WXR_Echo_dBZ_Med=30
 WXR_Echo_dBZ_Lo=25
-
-Track_PredictionLine=0
 
 [_CTR]
 Window_CARD=1,1525,788
