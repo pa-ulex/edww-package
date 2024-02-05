@@ -39,7 +39,7 @@ Color_Active_Map_Type_10=0,0,255	    //Sector info EDYY (blue)
 Color_Active_Map_Type_11=255,0,255	   //Sector info MIL APP (magenta)
 Color_Active_Map_Type_12=255,255,255	 //Sector info other sector (white)
 Color_Active_Map_Type_13=82,162,112 	 //EDDV airspace
-Color_Active_Map_Type_14
+Color_Active_Map_Type_14=82,162,112 	 //D(HX) CTR
 Color_Active_Map_Type_15
 Color_Active_Map_Type_16
 Color_Active_Map_Type_17
