@@ -38,8 +38,8 @@ Color_Active_Map_Type_9=0,255,0	    	//Sector info APP (green)
 Color_Active_Map_Type_10=0,0,255	    //Sector info EDYY (blue)
 Color_Active_Map_Type_11=255,0,255	   //Sector info MIL APP (magenta)
 Color_Active_Map_Type_12=255,255,255	 //Sector info other sector (white)
-Color_Active_Map_Type_13
-Color_Active_Map_Type_14
+Color_Active_Map_Type_13=82,162,112 	 //EDDV airspace
+Color_Active_Map_Type_14=82,162,112 	 //D(HX) CTR
 Color_Active_Map_Type_15
 Color_Active_Map_Type_16
 Color_Active_Map_Type_17
@@ -213,21 +213,9 @@ RwyAppLines_Auto=0
 
 Shortcut_RadarMenu_Combo=0x00
 Shortcut_RadarMenu=0x00
- 
-Shortcut_FPLSEP_Combo=0x12
-Shortcut_FPLSEP=0x57
 
 Shortcut_FPL_Combo=0x00
 Shortcut_FPL=0x00
-
-Shortcut_FPL_Search_Combo=0x00
-Shortcut_FPL_Search=0x00
-
-Shortcut_Quick_Look_Combo=0x00
-Shortcut_Quick_Look=0x00
-
-Shortcut_Cursor_Ini_Combo=0x00
-Shortcut_Cursor_Ini=0x00
 
 Shortcut_Map_Xfr_Combo=1,0x12
 Shortcut_Map_Xfr_Key=1,0x4D ; M
@@ -243,7 +231,7 @@ Shortcut_Map_Target=2,VFR\VFR FIXES
 Shortcut_Map_Target=3,AIRSPACE INFO\AIRSPACE LEVELS
 Shortcut_Map_Target=4,AIRSPACE INFO\FIS REGION
 Shortcut_Map_Target=5,VFR\COAST
-Shortcut_Map_Target=6,AUTO MAPS\ENROUTE FIXES
+Shortcut_Map_Target=6,FIXES\ENROUTE FIXES
 Shortcut_Map_Target=8,AIRSPACE INFO\SECTOR INFO
 
 STCA_AlertSound=0
@@ -264,11 +252,6 @@ STCA_WarningTime_U_Imm=50
 STCA_WarningTime_L_Imm=50
 
 System_ASP_IasMach=30000
-System_GUI_Scale_Cursors=1.0
-System_GUI_Scale_GlobalMenu=1.1
-System_GUI_Scale_Menus=1.1
-System_GUI_Scale_Screen=1.1
-System_GUI_Scale_Windows=1.1
 System_GUI_Font_1=EuroScope
 System_GUI_Font_2=EuroScope
 System_GUI_Font_Fixed_1=EuroScope
@@ -315,8 +298,6 @@ WXR_Zoom=5
 WXR_Echo_dBZ_Hi=50
 WXR_Echo_dBZ_Med=30
 WXR_Echo_dBZ_Lo=25
-
-Track_PredictionLine=0
 
 [_CTR]
 Window_CARD=1,1525,788
