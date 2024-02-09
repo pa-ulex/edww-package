@@ -170,6 +170,7 @@ Airport_Radius=1.7
 Airport_Elevation=182
 Airport_Radius=1.5
 Airport_Runway_MaxWTC=27L:M
+Label=GND:DEP:3:DEP,0,0:DRWY,0,1:RMK,0,1
 
 [EDDW]
 Airport_Elevation=52
