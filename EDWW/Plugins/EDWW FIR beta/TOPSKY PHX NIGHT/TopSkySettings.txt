@@ -63,6 +63,7 @@ Color_Freq_Indicator=237,237,237
 Color_Global_Menu_Highlight=1,165,219
 Color_Heading_Vector=170,231,197
 Color_Inactive_Sector=67,73,76
+Color_Information=250,170,15
 Color_Info_Coord=1,255,255
 Color_Map_1=80,95,80
 Color_Map_2=44,44,44
