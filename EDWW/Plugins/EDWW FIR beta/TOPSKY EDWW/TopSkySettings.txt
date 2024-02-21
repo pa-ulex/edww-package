@@ -217,6 +217,9 @@ Shortcut_RadarMenu=0x00
 Shortcut_FPL_Combo=0x00
 Shortcut_FPL=0x00
 
+Shortcut_Cursor_Ini_Combo=0x00
+Shortcut_Cursor_Ini=0x00
+
 Shortcut_Map_Xfr_Combo=1,0x12
 Shortcut_Map_Xfr_Key=1,0x4D ; M
 Shortcut_Map_Xfr_Key=2,0x56 ; V
@@ -231,7 +234,7 @@ Shortcut_Map_Target=2,VFR\VFR FIXES
 Shortcut_Map_Target=3,AIRSPACE INFO\AIRSPACE LEVELS
 Shortcut_Map_Target=4,AIRSPACE INFO\FIS REGION
 Shortcut_Map_Target=5,VFR\COAST
-Shortcut_Map_Target=6,FIXES\ENROUTE FIXES
+Shortcut_Map_Target=6,FIXES\ALL ENROUTE FIXES
 Shortcut_Map_Target=8,AIRSPACE INFO\SECTOR INFO
 
 STCA_AlertSound=0
