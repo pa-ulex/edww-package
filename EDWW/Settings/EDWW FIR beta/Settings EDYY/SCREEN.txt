@@ -13,9 +13,9 @@ m_ShowTitleTrans:1
 m_ShowVoiceRoomUsers:0
 m_ShowFSSControllers:1
 m_ShowCTRControllers:1
-m_ShowAPPControllers:1
-m_ShowTWRControllers:1
-m_ShowGNDControllers:1
+m_ShowAPPControllers:0
+m_ShowTWRControllers:0
+m_ShowGNDControllers:0
 m_ShowATISControllers:0
 m_ShowOBSControllers:0
 m_ShowUnidentifiedControllers:0
