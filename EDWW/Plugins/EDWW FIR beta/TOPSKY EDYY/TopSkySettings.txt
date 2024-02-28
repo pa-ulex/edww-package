@@ -101,13 +101,13 @@ Color_Select=0,0,0
 Color_Selected=0,156,156
 Color_Selected_Group=0,156,156
 Color_Selected_Period=251,251,2
-Color_SEP_Tool_1=153,217,234
-Color_SEP_Tool_2=255,153,184
-Color_SEP_Tool_3=255,209,143
-Color_SEP_Tool_4=197,64,212
-Color_SEP_Tool_5=166,160,245
-Color_SEP_Tool_6=95,170,140
-Color_SEP_Tool_7=185,130,85
+Color_SEP_Tool_1=255,120,80
+Color_SEP_Tool_2=255,120,80
+Color_SEP_Tool_3=255,120,80
+Color_SEP_Tool_4=255,120,80
+Color_SEP_Tool_5=255,120,80
+Color_SEP_Tool_6=255,120,80
+Color_SEP_Tool_7=255,120,80
 Color_SEP_Vert=255,120,80
 Color_Sid_Star_Allocation=34,139,34
 Color_SMW_Level_Band=0,156,156
@@ -213,6 +213,8 @@ List_VFR_FPL_Area=54.911,6.344,53.616,6.344,,53.221,6.964,53.015,7.040,52.528,6.
 
 Maps_Font=EuroScope
 
+Menu_CFL_ExtendedItems=14
+
 MSAW=0
 
 MTCD_Filter_Dep=3
@@ -221,9 +223,6 @@ MTCD_Filter_Dep=3
 MTCD_Sep_Lat=6
 
 RDF_Mode=1
-RDF_Accuracy_Degrees=0.0
-RDF_Accuracy=0.0
-RDF_MinRadius=10
 
 RwyAppLines_Markers=15
 RwyAppLines_MarkerSpacing=1.0
