@@ -100,22 +100,6 @@
          ],
          "IDEKO": [
             {
-               "direction": "EVEN",
-               "forbidden_fls": [
-                  "250"
-               ],
-               "destinations": [
-                  "EDDK",
-                  "EDDL",
-                  "EDDG",
-                  "EDLW",
-                  "EDLN",
-                  "EDLP",
-                  "EDGS",
-                  "EDLV"
-               ]
-            },
-            {
                "direction": "ODD",
                "max_fl": 230,
                "destinations": [
