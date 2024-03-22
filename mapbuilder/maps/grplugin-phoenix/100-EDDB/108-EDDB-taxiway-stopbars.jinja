@@ -1,0 +1,103 @@
+{%- set default = 0.000005 -%}
+MAP:Default Stopbars
+AIRPORT:EDDB
+FOLDER:Airport Layout
+ACTIVE:1
+COLOR:holdingpoint
+
+STYLE:solid:2
+{{ data.eddb['TaxiwayMarking']['c6628d09-6490-4414-b09e-82a0158beabe'] | simplify(default) | to_line('V1') }}
+{{ data.eddb['TaxiwayMarking']['d0981932-979d-421a-bef5-0ea55355a19b'] | simplify(default) | to_line('V2') }}
+{{ data.eddb['TaxiwayMarking']['9a53fcb4-6d9a-456a-ba69-0ec666af5661'] | simplify(default) | to_line('V3') }}
+{{ data.eddb['TaxiwayMarking']['5ab40ac0-a577-4af2-9bc6-3cd284d2c086'] | simplify(default) | to_line('V4') }}
+{{ data.eddb['TaxiwayMarking']['d4f879fe-5355-45a3-b9ea-43b01fe4f016'] | simplify(default) | to_line('E') }}
+{{ data.eddb['TaxiwayMarking']['2cdcc05d-8f18-40a3-82ce-d2f5231bf022'] | simplify(default) | to_line('F') }}
+{{ data.eddb['TaxiwayMarking']['5c75e13e-157d-4357-a1e7-df8acd071537'] | simplify(default) | to_line('F') }}
+{{ data.eddb['TaxiwayMarking']['3f3508c7-71ce-4ce8-ba2e-7f93dacb0d80'] | simplify(default) | to_line('P1') }}
+{{ data.eddb['TaxiwayMarking']['ff63bb7d-fbef-40da-9b2c-2917c8b49e55'] | simplify(default) | to_line('P1') }}
+{{ data.eddb['TaxiwayMarking']['0d12856b-c328-41e9-9756-24a63e3e253e'] | simplify(default) | to_line('P2') }}
+{{ data.eddb['TaxiwayMarking']['11e66124-5ae2-409a-a07b-41eddb680444'] | simplify(default) | to_line('P2') }}
+{{ data.eddb['TaxiwayMarking']['0ae178ae-c23d-4480-b991-6857ffaee786'] | simplify(default) | to_line('L6') }}
+{{ data.eddb['TaxiwayMarking']['c0106855-2939-47d8-b3d6-cd1bbb706be7'] | simplify(default) | to_line('L6') }}
+{{ data.eddb['TaxiwayMarking']['3ff459ba-9bd1-4ce9-a2a6-59d8d3738ae6'] | simplify(default) | to_line('K') }}
+{{ data.eddb['TaxiwayMarking']['1fe0352b-68bd-4207-b0ec-9712a9ba20a5'] | simplify(default) | to_line('K') }}
+{{ data.eddb['TaxiwayMarking']['4ad5efe9-64d0-4549-a567-ec92508467e5'] | simplify(default) | to_line('K1') }}
+{{ data.eddb['TaxiwayMarking']['024b7b71-eb0a-4a65-ab3a-a86579cc3458'] | simplify(default) | to_line('K4') }}
+{{ data.eddb['TaxiwayMarking']['3260dd96-6db4-440e-8360-20ef9de1a7e4'] | simplify(default) | to_line('K4') }}
+{{ data.eddb['TaxiwayMarking']['f2233944-715c-4bae-9e55-96d718710618'] | simplify(default) | to_line('K4') }}
+{{ data.eddb['TaxiwayMarking']['7e29cabe-205a-426e-9143-0d7ba42f7d29'] | simplify(default) | to_line('K5') }}
+{{ data.eddb['TaxiwayMarking']['ef9fa650-db9d-450e-bdde-e1e889f23716'] | simplify(default) | to_line('K5') }}
+{{ data.eddb['TaxiwayMarking']['0b8e0de9-6366-4945-af5c-7925cd9a1f9e'] | simplify(default) | to_line('K5') }}
+{{ data.eddb['TaxiwayMarking']['cfc08ee8-fcb0-454f-9cb2-24817f91b757'] | simplify(default) | to_line('K5') }}
+{{ data.eddb['TaxiwayMarking']['455fe0a5-b331-472c-b5cd-50e4ae7a81d2'] | simplify(default) | to_line('K6') }}
+{{ data.eddb['TaxiwayMarking']['fa04003e-f6cb-490b-8fca-aef1c8aeb9c8'] | simplify(default) | to_line('K6') }}
+
+// ApronMarkings
+// Main Apron
+// E
+LINE:52.3590750671196:13.5083123567639:52.3592641585353:13.5081932612254
+// F
+LINE:52.3677445349943:13.5028358889693:52.3675410439435:13.50296553537
+// V1 (South)
+LINE:52.3591971055611:13.5059349344731:52.3591174986945:13.5055994402509
+// V1 (South of VM)
+LINE:52.3623266439334:13.5039549105898:52.3622470455263:13.5036198071904
+// V1 (North of VM)
+LINE:52.363542162227:13.5031853825936:52.3634626069031:13.5028502993092
+// VC (South)
+LINE:52.3593545757712:13.5065990977028:52.3592751114174:13.5062633466625
+// VC (South of VM)
+LINE:52.3624845458546:13.5046189375186:52.3624050411139:13.5042832705042
+// VC (North of VM)
+LINE:52.3636206427207:13.5035151866649:52.3636997650982:13.5038488916612
+// VC (South of Virtual Court)
+LINE:52.3661111351712:13.5019661327818:52.366179353147:13.502251414584
+// VC (North of Virtual Court)
+LINE:52.3663601141367:13.5021374021868:52.3662919856197:13.5018513966597
+// VC (North)
+LINE:52.3668286061818:13.501868432718:52.3667489425501:13.5015328900138
+// V2 (South)
+LINE:52.3594425009798:13.5069690907638:52.3595216609995:13.5073029747919
+// V2 (South of VM)
+LINE:52.362652214367:13.5053246582887:52.3625723588791:13.5049888243694
+// V2 (North of VM)
+LINE:52.3638554627555:13.5045042449239:52.3637874859946:13.5042191280379
+// V3
+LINE:52.3666704694499:13.5012040941036:52.3665913021151:13.5008695504358
+
+// Nord Apron
+// H (North of N1)
+LINE:52.3857950319297:13.5179529742545:52.3857629458032:13.5178170089039
+// K4 (South of N2)
+LINE:52.3867204223078:13.519964500581:52.3867526031977:13.5201003349627
+// K4 (North of N1)
+LINE:52.3863874986334:13.5201755864737:52.3864193313433:13.5203116373568
+// N1 (Intersection K)
+LINE:52.3826145779905:13.5150168490506:52.3825849277486:13.5153984901732
+// N1 (West of H)
+LINE:52.3854486047903:13.5174670284149:52.385365384956:13.5175209527958
+// N1 (East of H)
+LINE:52.3856354311527:13.5186508361083::52.385717425099:13.518598776668
+// N1 (West of K4)
+LINE:52.3859234930475:13.5198632275177:52.3860065412407:13.5198105910186
+// N1 (Between K4/K5)
+LINE:52.3862952978911:13.5210306032068:52.3862123188373:13.521083059117
+// N1 (East of K5)
+LINE:52.386591939891:13.5222811237165:52.3865088700303:13.5223335512796
+// N2 (West of K4)
+LINE:52.3869141748192:13.5192483493186:52.3869970172867:13.5191958201939
+// N2 (East of K4)
+LINE:52.3872241416767:13.520398254907:52.3873074237342:13.5203448899468
+// N3 (South)
+LINE:52.3837456443005:13.5239876811868:52.3841903077931:13.5237060815726
+// N3 (North)
+LINE:52.3855605768874:13.5228392592776:52.385234947168:13.5230451664204
+
+MAP:All Taxiway Stopbars
+AIRPORT:EDDB
+FOLDER:Airport Layout
+STYLE:solid
+COLOR:holdingpoint
+{% for name, geom in data.eddb['TaxiwayMarking'].items() if geom.marking_location == 'TWY_INT' %}
+    {{- geom | simplify(default) | to_line('') -}}
+{% endfor %}

@@ -1,0 +1,123 @@
+MAP:Taxi Lanes
+AIRPORT:EDDB
+FOLDER:Airport Layout
+ACTIVE:1
+STYLE:solid
+{% set default = 0.000005 %}
+COLOR:taxilane-orange
+// Apron E
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_E21_E22'] | join_segments | simplify(default) | to_line('P2 ORANGE') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_E22_E23'] | join_segments | simplify(default) | to_line('P2 ORANGE') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_E23_E24'] | join_segments | simplify(default) | to_line('P2 ORANGE') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_E24_E25'] | join_segments | simplify(default) | to_line('P2 ORANGE') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_E25_E26'] | join_segments | simplify(default) | to_line('P2 ORANGE') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_E26_E27'] | join_segments | simplify(default) | to_line('P2 ORANGE') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_E27_E28'] | join_segments | simplify(default) | to_line('P2 ORANGE') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_E28_E29'] | join_segments | simplify(default) | to_line('P2 ORANGE') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_E29_E30'] | join_segments | simplify(default) | to_line('P2 ORANGE') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_E30_E31'] | join_segments | simplify(default) | to_line('P2 ORANGE') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_E31_E32'] | join_segments | simplify(default) | to_line('P2 ORANGE') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_E32_E33'] | join_segments | simplify(default) | to_line('P2 ORANGE') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_E33_E34'] | join_segments | simplify(default) | to_line('P2 ORANGE') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_E34_E35'] | join_segments | simplify(default) | to_line('P2 ORANGE') }}
+
+COLOR:taxilane-yellow
+// Apron E
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_P1'] | join_segments | simplify(default) | to_line('P1') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APRON_E'] | join_segments | simplify(default) | to_line('P1') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_P2'] | join_segments | simplify(default) | to_line('P2') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APRON_P2'] | join_segments | simplify(default) | to_line('P2') }}
+
+// Apron B/D
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_V1'] | join_segments | simplify(default) | to_line('V1') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_VC'] | join_segments | simplify(default) | to_line('VC') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_V2'] | join_segments | simplify(default) | to_line('V2') }}
+
+// Apron A
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_F'] | join_segments | simplify(default) | to_line('F') }}
+
+// Apron C
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_E'] | join_segments | simplify(default) | to_line('E') }}
+
+// Apron 1/2/3/3a/3b
+{{ data.eddb['GuidanceLineByDesig']['GL_APRON1'] | join_segments | simplify(default) | to_line('Apron 1') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_N1'] | join_segments | simplify(default) | to_line('N1') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_N2'] | join_segments | simplify(default) | to_line('N2') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_N3'] | join_segments | simplify(default) | to_line('N3') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APRON_3B'] | join_segments | simplify(default) | to_line('N3') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_K'] | join_segments | simplify(default) | to_line('K') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_H'] | join_segments | simplify(default) | to_line('H') }}
+
+// Maintenance
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_MRO'] | join_segments | simplify(default) | to_line('MRO') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_RUP'] | join_segments | simplify(default) | to_line('RUP') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_LHT'] | join_segments | simplify(default) | to_line('LHT') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_LH2'] | join_segments | simplify(default) | to_line('LHT') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_APR_ABT'] | join_segments | simplify(default) | to_line('ABT') }}
+
+// Taxiways North of 07L/25R
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_G'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_K1'] | join_segments | simplify(default) | to_line('K1') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_K2'] | join_segments | simplify(default) | to_line('K2') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_K3'] | join_segments | simplify(default) | to_line('K3') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_K4'] | join_segments | simplify(default) | to_line('K4') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_K5'] | join_segments | simplify(default) | to_line('K5') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_J'] | join_segments | simplify(default) | to_line('K5') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_K6'] | join_segments | simplify(default) | to_line('K6') }}
+
+// Taxiways South of 07L/25R
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_C'] | join_segments | simplify(default) | to_line('C') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_D'] | join_segments | simplify(default) | to_line('D') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_L1'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_L2'] | join_segments | simplify(default) | to_line('L2') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_L3'] | join_segments | simplify(default) | to_line('L3') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_L4'] | join_segments | simplify(default) | to_line('L4') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_L5'] | join_segments | simplify(default) | to_line('L5') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_L6'] | join_segments | simplify(default) | to_line('L6') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_L7'] | join_segments | simplify(default) | to_line('L7') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_RWY_L7'] | join_segments | simplify(default) | to_line('L7') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_L8'] | join_segments | simplify(default) | to_line('L8') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_RWY_L8'] | join_segments | simplify(default) | to_line('L8') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_T'] | join_segments | simplify(default) | to_line('T') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_Y1'] | join_segments | simplify(default) | to_line('Y1') }}
+
+// Taxiways North of 07R/25L
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_A'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_B'] | join_segments | simplify(default) | to_line('B') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_M'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_M1'] | join_segments | simplify(default) | to_line('M1') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_M2'] | join_segments | simplify(default) | to_line('M2') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_M3'] | join_segments | simplify(default) | to_line('M3') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_M4'] | join_segments | simplify(default) | to_line('M4') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_M5'] | join_segments | simplify(default) | to_line('M5') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_M6'] | join_segments | simplify(default) | to_line('M6') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_M6_NEU'] | join_segments | simplify(default) | to_line('M6') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_M7'] | join_segments | simplify(default) | to_line('M7') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_M8'] | join_segments | simplify(default) | to_line('M8') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_M9'] | join_segments | simplify(default) | to_line('M9') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_Q'] | join_segments | simplify(default) | to_line('Q') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_Q1'] | join_segments | simplify(default) | to_line('Q1') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_Q2'] | join_segments | simplify(default) | to_line('Q2') }}
+{{ data.eddb['GuidanceLineByDesig']['GL_TWY_R'] | join_segments | simplify(default) | to_line('R') }}
+
+
+// Fixups
+COLOR:taxilane-orange
+{{ data.eddb['GuidanceLine']['efc911b0-a1f3-4648-aad2-761b167e9555'] | simplify(default) | to_line('P2 ORANGE') }}
+{{ data.eddb['GuidanceLine']['99185280-4696-4720-ab27-148c3ac16a5a'] | simplify(default) | to_line('P2 ORANGE') }}
+{{ data.eddb['GuidanceLine']['b0a12bf0-22c6-4605-acfc-e99ce36fc886'] | simplify(default) | to_line('D3 orange') }}
+{{ data.eddb['GuidanceLine']['87124d01-7fb4-4678-8173-5abc451e6031'] | simplify(default) | to_line('D3 orange') }}
+{{ data.eddb['GuidanceLine']['f159d450-9bf3-4b25-aa06-0649c6dd1cdb'] | simplify(default) | to_line('D3 orange') }}
+{{ data.eddb['GuidanceLine']['30d2e02d-de0c-942d-ce05-3f084f78678e'] | simplify(default) | to_line('D3 orange') }}
+{{ data.eddb['GuidanceLine']['30d2e02d-de0c-742d-ce05-3f084f78678e'] | simplify(default) | to_line('D3 orange') }}
+{{ data.eddb['GuidanceLine']['30d2e02d-de0c-642d-ce05-3f084f78678e'] | simplify(default) | to_line('D3 orange') }}
+{{ data.eddb['GuidanceLine']['b4d93702-0024-4f88-e053-15baa8c0d32d'] | simplify(default) | to_line('E3 orange') }}
+{{ data.eddb['GuidanceLine']['77b7bf34-484b-b351-fe05-400144ffb470'] | simplify(default) | to_line('E1 orange') }}
+
+COLOR:taxilane
+// N2
+LINE:52.3866385485297:13.5178873810149:52.3866743890883:13.5180376132575
+LINE:52.3873339950836:13.5206548284698:52.3877058004782:13.5222211785552
+
+// M2
+LINE:52.3468870874927:13.4678510871352:52.3479641126091:13.467168381051

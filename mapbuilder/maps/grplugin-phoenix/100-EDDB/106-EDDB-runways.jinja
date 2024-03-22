@@ -1,0 +1,14 @@
+MAP:Runways
+AIRPORT:EDDB
+FOLDER:Airport Layout
+ACTIVE:1
+
+// RWYs
+{% for name, geom in data.eddb['RunwayElement'].items() %}
+    {{- geom | to_poly(name, 'runway') }}
+{% endfor %}
+
+// RESA
+{% for name, geom in data.eddb['RunwayBlastPad'].items() %}
+    {{- geom | to_poly(name, 'apron') }}
+{% endfor %}

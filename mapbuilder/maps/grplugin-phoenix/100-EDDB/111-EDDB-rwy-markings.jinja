@@ -1,0 +1,10 @@
+{%- set default = 0.000005 -%}
+MAP:Runway Markings
+AIRPORT:EDDB
+FOLDER:Runway Info
+ACTIVE:1
+COLOR:runway-marking
+
+{% for _, geom in data.eddb['RunwayMarking'].items() if geom.marking_location != 'OTHER:PRE_THR' %}
+        {{- geom | to_poly(geom.marking_location, 'runway-marking') }}
+{% endfor %}
