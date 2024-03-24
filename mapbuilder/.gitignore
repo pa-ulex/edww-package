@@ -1,6 +1,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
-.idea
-.direnv/
-aixm/
+/build
+/dist
+/.idea
+/.direnv
+/.ruff_cache
+/result*
