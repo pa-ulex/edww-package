@@ -15,11 +15,11 @@ PROFILE:EDUU_OH_CTR:300:6
 ATIS2:Callsign RHEIN RADAR - CPDLC on EDU2
 ATIS3:Ostsee Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
-PROFILE:EDUU_P_CTR:300:6
+PROFILE:EDUU_SPE_CTR:300:6
 ATIS2:Callsign RHEIN RADAR - CPDLC on EDUP
 ATIS3:Spree Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
-PROFILE:EDUU_A_CTR:300:6
+PROFILE:EDUU_SAL_CTR:300:6
 ATIS2:Callsign RHEIN RADAR - CPDLC on EDUA
 ATIS3:Saale Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
