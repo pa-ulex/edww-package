@@ -324,9 +324,6 @@ System_UseReportedGS=1
 System_UseAcceptedCoordColor=1
 System_UseTSAborderHighlightColor=1
 
-System_FIC_Position=1
-System_FIC_Position_Free_Filtered=1
-
 TextNotes_Font=EuroScope
 
 Track_PredictionLine=0
