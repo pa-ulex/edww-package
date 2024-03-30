@@ -123,9 +123,9 @@ Color_Potential_FL=255,130,71
 Color_Preactive_Map=255,069,0
 Color_Preactive_Text_Map=255,069,0
 Color_Predisplay_Map=255,069,0
-Color_Proposition_Accepted=230,185,184
-Color_Proposition_In=200,154,153
-Color_Proposition_Out=200,154,153
+Color_Proposition_Accepted=35,145,35
+Color_Proposition_In=125,80,70
+Color_Proposition_Out=125,80,70
 Color_QDM=0,0,0
 Color_Radar_Win_Bg=200,200,200
 Color_Raw_Video1
