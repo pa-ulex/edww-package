@@ -259,6 +259,7 @@ System_GUI_Font_1=EuroScope
 System_GUI_Font_2=EuroScope
 System_GUI_Font_Fixed_1=EuroScope
 System_FIC_Position=1
+System_FIC_Position_Free_Filtered=1
 System_ProxySounds=0
 System_TransferConfirmation=0
 System_TrueColorMode=1
