@@ -12,7 +12,7 @@ COLORDEF:taxilane:150:147:90
 COLORDEF:taxilane-blue:0:90:193
 COLORDEF:taxilane-orange:188:94:0
 COLORDEF:taxilane-yellow:150:147:90
-COLORDEF:grass:29:127:32
+COLORDEF:grass:169:199:170
 
 COLORDEF:labels-stand:40:40:40
 COLORDEF:labels-twy:20:20:20
