@@ -3,34 +3,6 @@ DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
 SECTORFILE:
 SECTORTITLE:
-Free Text:EDVK #LeckerLayout Infrastructure\APR:freetext
-Free Text:EDVK #LeckerLayout Infrastructure\Fire Station:freetext
-Free Text:EDVK #LeckerLayout Infrastructure\FUEL:freetext
-Free Text:EDVK #LeckerLayout Infrastructure\GA Terminal:freetext
-Free Text:EDVK #LeckerLayout Infrastructure\GAT:freetext
-Free Text:EDVK #LeckerLayout Infrastructure\Piper:freetext
-Free Text:EDVK #LeckerLayout Infrastructure\Terminal:freetext
-Free Text:EDVK #LeckerLayout Infrastructure\TWR:freetext
-Free Text:EDVK #LeckerLayout NOTAMS\NO:freetext
-Free Text:EDVK #LeckerLayout Parking\01:freetext
-Free Text:EDVK #LeckerLayout Parking\02:freetext
-Free Text:EDVK #LeckerLayout Parking\03:freetext
-Free Text:EDVK #LeckerLayout Taxiway\A:freetext
-Free Text:EDVK #LeckerLayout Taxiway\B:freetext
-Free Text:EDVK #LeckerLayout Taxiway\C:freetext
-Free Text:EDVK #LeckerLayout Taxiway\E:freetext
-Free Text:EDVK #LeckerLayout Taxiway\E2:freetext
-Free Text:EDVK #LeckerLayout Taxiway\E3:freetext
-Free Text:EDVK #LeckerLayout Taxiway\E4:freetext
-Free Text:EDVK #LeckerLayout Taxiway\L:freetext
-Free Text:EDVK #LeckerLayout Taxiway\L:freetext
-Free Text:EDVK #LeckerLayout Taxiway\L:freetext
-Geo:EDVK Groundlayout #LeckerLayout Infrastructure:
-Geo:EDVK Groundlayout #LeckerLayout Parking:
-Geo:EDVK Groundlayout #LeckerLayout Taxiway:
-Regions:EDVK #LeckerLayout:polygon
-Regions:EDVK #LeckerLayout NOTAMS:polygon
-Regions:EDVK #LeckerLayout Runway:polygon
 SHOWC:1
 SHOWSB:1
 BELOW:0
