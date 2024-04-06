@@ -1,9 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:D:\Users\User\Euroscope\EDWW FIR\EDWW-EDWW_20240103200412-231301-0002.sct
-SECTORTITLE:EDWW-EDWW_20240103200412-231301-0002.sct
-Geo:EDWW COAST:
+SECTORFILE:
+SECTORTITLE:
 NDBs:DBR:symbol
 NDBs:DIP:symbol
 NDBs:SL:symbol
