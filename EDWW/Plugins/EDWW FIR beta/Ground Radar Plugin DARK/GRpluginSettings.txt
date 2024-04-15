@@ -88,8 +88,6 @@ GroundLabel_Font=EuroScope
 AppLabel_Font=EuroScope
 TowerLabel_Font=EuroScope
 
-Color_SelectedLabelFill_Gnd=0,0,50
-Color_Warning=255,128,0
 
 RawVideo=1
 RawVideo_Brightness=70
@@ -98,6 +96,8 @@ RawVideo_MaxHistory=0
 
 System_GUI_Scale_Lists=1.0
 
+GroundLabel_Transparency_Bg=150
+GroundLabel_Transparency_Bd=150
 
 Color_Departure=000,255,255
 Color_Arrival=255,255,225
