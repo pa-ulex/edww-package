@@ -1,0 +1,36 @@
+[data]
+
+[data.eddb]
+type = "aixm"
+source = "aixm/EDDB_AerodromeMapping_2024-03-21_2024-03-21_snapshot.xml"
+
+#[data.rivers]
+#type = "kml"
+#source = "kml/Rivers.kml"
+
+#[data.eddb_kml]
+#type = "kml"
+#source = "kml/eddb.kml"
+
+
+[profiles]
+
+[profiles.TWR_NIGHT]
+maps = [
+    { map = "settings-grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/GRpluginSettings.txt" },
+    { map = "settings-topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/TopSkySettings.txt" },
+    { map = "grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/GRpluginMaps.txt" },
+    { map = "topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/TopSkyMaps.txt" },
+]
+dir = "Plugins/EDWW FIR beta/TWR_NIGHT/"
+aliases = [ "dark" ]
+
+[profiles.TWR_DAY]
+maps = [
+    { map = "settings-grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/GRpluginSettings.txt" },
+    { map = "settings-topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/TopSkySettings.txt" },
+    { map = "grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/GRpluginMaps.txt" },
+    { map = "topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/TopSkyMaps.txt" },
+]
+dir = "Plugins/EDWW FIR beta/TWR_DAY/"
+aliases = [ "bright" ]
