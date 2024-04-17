@@ -14,7 +14,7 @@ Plugins	Plugin1	\EDWW\Plugins\EDWW FIR beta\TOPSKY EDWW\TopSky.dll
 Plugins	Plugin1Display0	SMR radar display
 Plugins	Plugin1Display1	Standard ES radar screen
 Plugins	Plugin1Display2	Ground Radar display
-Plugins	Plugin2	\EDWW\Plugins\EDWW FIR beta\Ground Radar Plugin\GRplugin.dll
+Plugins	Plugin2	\EDWW\Plugins\EDWW FIR beta\Ground Radar Plugin DARK\GRplugin.dll
 Plugins	Plugin2Display0	Ground Radar display
 Plugins	Plugin2Display1	Standard ES radar screen
 Plugins	Plugin3	\EDWW\Plugins\EDWW FIR beta\VFPC.dll
