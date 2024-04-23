@@ -2,7 +2,7 @@
 
 [data.eddb]
 type = "aixm"
-source = "aixm/EDDB_AerodromeMapping_2024-03-21_2024-03-21_snapshot.xml"
+source = "aixm/EDDB_AerodromeMapping_2024-04-18_2024-04-18_snapshot.xml"
 
 #[data.rivers]
 #type = "kml"
