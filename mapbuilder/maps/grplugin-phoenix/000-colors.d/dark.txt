@@ -8,7 +8,7 @@ COLORDEF:highway:52:34:0
 COLORDEF:holdingpoint:193:121:4
 COLORDEF:base:10:10:10
 COLORDEF:leadin:60:60:60
-COLORDEF:taxilane:145:136:94
+COLORDEF:taxilane:135:126:84
 COLORDEF:taxilane-blue:0:90:193
 COLORDEF:taxilane-orange:188:94:0
 COLORDEF:taxilane-yellow:135:126:84
