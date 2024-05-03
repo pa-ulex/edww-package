@@ -926,6 +926,7 @@
                "direction": "ANY",
                "forbidden_fls": [
                   "250"
+               ]
             }
          ]
       }
