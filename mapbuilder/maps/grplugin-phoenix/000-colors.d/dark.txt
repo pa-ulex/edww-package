@@ -7,18 +7,18 @@ COLORDEF:taxiway:53:53:53
 COLORDEF:highway:52:34:0
 COLORDEF:holdingpoint:193:121:4
 COLORDEF:base:10:10:10
-COLORDEF:leadin:80:80:80
+COLORDEF:leadin:60:60:60
 COLORDEF:taxilane:145:136:94
 COLORDEF:taxilane-blue:0:90:193
 COLORDEF:taxilane-orange:188:94:0
-COLORDEF:taxilane-yellow:145:136:94
+COLORDEF:taxilane-yellow:135:126:84
 COLORDEF:grass:18:28:20
 
-COLORDEF:labels-stand:200:200:200
-COLORDEF:labels-twy:200:200:200
+COLORDEF:labels-stand:120:120:120
+COLORDEF:labels-twy:150:150:150
 
-COLORDEF:rrs-marker:200:200:200
-COLORDEF:tora-label:200:200:200
+COLORDEF:rrs-marker:150:150:150
+COLORDEF:tora-label:150:150:150
 
 COLORDEF:aor-apron-1:144:120:201
 COLORDEF:aor-apron-2:96:64:178
