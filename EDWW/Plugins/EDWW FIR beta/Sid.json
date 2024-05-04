@@ -930,5 +930,427 @@
             }
          ]
       }
+   },
+   {
+      "icao": "EDVE",
+      "sids":{
+         "VCT": [
+            {
+               "direction": "ANY",
+               "forbidden_fls": [
+                  "250"
+               ]
+            }
+         ],
+         "BATEL": [
+            {
+               "direction": "ODD",
+               "max_fl": 230,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "EVEN",
+               "max_fl": 100,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "max_fl": 90,
+               "destinations": [
+                  "EDDH"
+               ]
+            },
+            {
+               "direction": "ANY",
+               "max_fl": 100,
+               "destinations": [
+                  "EDDV"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "forbidden_fls": [
+                  "250"
+               ]
+            }
+         ],
+         "DIRBO": [
+            {
+               "direction": "ODD",
+               "max_fl": 230,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "EVEN",
+               "max_fl": 100,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "max_fl": 90,
+               "destinations": [
+                  "EDDH"
+               ]
+            },
+            {
+               "direction": "ANY",
+               "max_fl": 100,
+               "destinations": [
+                  "EDDV"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "forbidden_fls": [
+                  "250"
+               ]
+            }
+         ],
+         "HLZ": [
+            {
+               "direction": "ODD",
+               "max_fl": 230,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "EVEN",
+               "max_fl": 100,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "max_fl": 90,
+               "destinations": [
+                  "EDDH"
+               ]
+            },
+            {
+               "direction": "ANY",
+               "max_fl": 100,
+               "destinations": [
+                  "EDDV"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "forbidden_fls": [
+                  "250"
+               ]
+            }
+         ],
+         "DLE": [
+            {
+               "direction": "ODD",
+               "max_fl": 230,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "EVEN",
+               "max_fl": 100,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "max_fl": 90,
+               "destinations": [
+                  "EDDH"
+               ]
+            },
+            {
+               "direction": "ANY",
+               "max_fl": 100,
+               "destinations": [
+                  "EDDV"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "forbidden_fls": [
+                  "250"
+               ]
+            }
+         ],
+         "NIE": [
+            {
+               "direction": "ODD",
+               "max_fl": 230,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "EVEN",
+               "max_fl": 100,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "max_fl": 90,
+               "destinations": [
+                  "EDDH"
+               ]
+            },
+            {
+               "direction": "ANY",
+               "max_fl": 100,
+               "destinations": [
+                  "EDDV"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "forbidden_fls": [
+                  "250"
+               ]
+            }
+         ],
+         "NORTA": [
+            {
+               "direction": "ODD",
+               "max_fl": 230,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "EVEN",
+               "max_fl": 100,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "max_fl": 90,
+               "destinations": [
+                  "EDDH"
+               ]
+            },
+            {
+               "direction": "ANY",
+               "max_fl": 100,
+               "destinations": [
+                  "EDDV"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "forbidden_fls": [
+                  "250"
+               ]
+            }
+         ],
+         "POVEL": [
+            {
+               "direction": "ODD",
+               "max_fl": 230,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "EVEN",
+               "max_fl": 100,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "max_fl": 90,
+               "destinations": [
+                  "EDDH"
+               ]
+            },
+            {
+               "direction": "ANY",
+               "max_fl": 100,
+               "destinations": [
+                  "EDDV"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "forbidden_fls": [
+                  "250"
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "icao": "EDVK",
+      "sids":{
+         "VCT": [
+            {
+               "direction": "ANY",
+               "forbidden_fls": [
+                  "250"
+               ]
+            }
+         ],
+         "ELNAT": [
+            {
+               "direction": "ODD",
+               "max_fl": 230,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "EVEN",
+               "destinations": [
+                  "EDDL",
+                  "EDDK",
+                  "EDL",
+                  "EDK"
+               ]
+            },
+            {
+               "direction": "ANY",
+               "forbidden_fls": [
+                  "250"
+               ]
+            }
+         ],
+         "EMBAD": [
+            {
+               "direction": "ODD",
+               "max_fl": 230,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "EVEN",
+               "destinations": [
+                  "EDDL",
+                  "EDDK",
+                  "EDL",
+                  "EDK"
+               ]
+            },
+            {
+               "direction": "ANY",
+               "forbidden_fls": [
+                  "250"
+               ]
+            }
+         ],
+         "LUXUX": [
+            {
+               "direction": "ODD",
+               "max_fl": 230,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "EVEN",
+               "destinations": [
+                  "EDDL",
+                  "EDDK",
+                  "EDL",
+                  "EDK"
+               ]
+            },
+            {
+               "direction": "ANY",
+               "forbidden_fls": [
+                  "250"
+               ]
+            }
+         ],
+         "WERRA": [
+            {
+               "direction": "ODD",
+               "max_fl": 230,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "EVEN",
+               "destinations": [
+                  "EDDL",
+                  "EDDK",
+                  "EDL",
+                  "EDK"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "forbidden_fls": [
+                  "250"
+               ]
+            }
+         ],
+         "WRB": [
+            {
+               "direction": "ODD",
+               "max_fl": 230,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "EVEN",
+               "destinations": [
+                  "EDDL",
+                  "EDDK",
+                  "EDL",
+                  "EDK"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "forbidden_fls": [
+                  "250"
+               ]
+            }
+         ],
+         "XAROL": [
+            {
+               "direction": "ODD",
+               "max_fl": 230,
+               "destinations": [
+                  "EDDF"
+               ]
+            },
+            {
+               "direction": "EVEN",
+               "destinations": [
+                  "EDDL",
+                  "EDDK",
+                  "EDL",
+                  "EDK"
+               ]
+            },
+            {
+               "direction": "ANY",
+               "forbidden_fls": [
+                  "250"
+               ]
+            }
+         ]
+      }
    }
 ]

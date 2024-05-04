@@ -145,7 +145,7 @@ Divergence_RAM_DCT_DelayTime=120
 
 Equip_UseCodes=0
 
-FPCP_Inhibit_VFR=1
+//FPCP_Inhibit_VFR=1
 
 FlightLeg_Font=EuroScope
 FlightLeg_FontSize=10
