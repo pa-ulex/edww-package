@@ -1,5 +1,5 @@
 System_UseAUP=1
-HTTP_AUP_URL=https://lara.vatsim.pt/api/areas/ED/
+HTTP_AUP_URL=https://atciss.vatsim-germany.org/api/areas/topsky
 
 HTTP_Areas_Remote_URL=https://raw.githubusercontent.com/VATGER-Nav/EDWW-Area-Activation/main/Topsky-Area-Remote-Activation.txt
 
