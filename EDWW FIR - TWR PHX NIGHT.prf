@@ -1,91 +1,91 @@
-ASRFastKeys	1	\EDWW\ASR\EDWW FIR beta\EDWW-TWR.asr
-ASRFastKeys	2	\EDWW\ASR\EDWW FIR beta\EDDB-GND.asr
-ASRFastKeys	3	\EDWW\ASR\EDWW FIR beta\EDDH-GND.asr
-ASRFastKeys	4	\EDWW\ASR\EDWW FIR beta\EDDV-GND.asr
-ASRFastKeys	5	\EDWW\ASR\EDWW FIR beta\EDDW-GND.asr
-ASRFastKeys	6	\EDWW\ASR\EDWW FIR beta\EDXW-GND.asr
-ASRFastKeys	7	\EDWW\ASR\EDWW FIR beta\EDHL-GND.asr
-ASRFastKeys	8	\EDWW\ASR\EDWW FIR beta\EDVK-GND.asr
-ASRFastKeys	9	\EDWW\ASR\EDWW FIR beta\EDAH-GND.asr
-Plugins	Plugin0	\EDWW\Plugins\EDWW FIR beta\AfvEuroScopeBridge.dll
+ASRFastKeys	1	\EDWW\ASR\EDWW-TWR.asr
+ASRFastKeys	2	\EDWW\ASR\EDDB-GND.asr
+ASRFastKeys	3	\EDWW\ASR\EDDH-GND.asr
+ASRFastKeys	4	\EDWW\ASR\EDDV-GND.asr
+ASRFastKeys	5	\EDWW\ASR\EDDW-GND.asr
+ASRFastKeys	6	\EDWW\ASR\EDXW-GND.asr
+ASRFastKeys	7	\EDWW\ASR\EDHL-GND.asr
+ASRFastKeys	8	\EDWW\ASR\EDVK-GND.asr
+ASRFastKeys	9	\EDWW\ASR\EDAH-GND.asr
+Plugins	Plugin0	\EDWW\Plugins\AfvEuroScopeBridge.dll
 Plugins	Plugin0Display0	Standard ES radar screen
 Plugins	Plugin0Display1	Ground Radar display
-Plugins	Plugin1	\EDWW\Plugins\EDWW FIR beta\TOPSKY PHX NIGHT\TopSky.dll
+Plugins	Plugin1	\EDWW\Plugins\TOPSKY PHX NIGHT\TopSky.dll
 Plugins	Plugin1Display0	SMR radar display
 Plugins	Plugin1Display1	Standard ES radar screen
 Plugins	Plugin1Display2	Ground Radar display
-Plugins	Plugin2	\EDWW\Plugins\EDWW FIR beta\Ground Radar Plugin DARK\GRplugin.dll
+Plugins	Plugin2	\EDWW\Plugins\Ground Radar Plugin DARK\GRplugin.dll
 Plugins	Plugin2Display0	Ground Radar display
 Plugins	Plugin2Display1	Standard ES radar screen
-Plugins	Plugin3	\EDWW\Plugins\EDWW FIR beta\VFPC.dll
+Plugins	Plugin3	\EDWW\Plugins\VFPC.dll
 Plugins	Plugin3Display0	Standard ES radar screen
 Plugins	Plugin3Display1	Ground Radar display
-Plugins	Plugin4	\EDWW\Plugins\EDWW FIR beta\CCAMS.dll
+Plugins	Plugin4	\EDWW\Plugins\CCAMS.dll
 Plugins	Plugin4Display0	Standard ES radar screen
 Plugins	Plugin4Display1	Ground Radar display
-Plugins	Plugin5	\EDWW\Plugins\EDWW FIR beta\RG Bremen.dll
+Plugins	Plugin5	\EDWW\Plugins\RG Bremen.dll
 Plugins	Plugin5Display0	Ground Radar display
 Plugins	Plugin5Display1	Standard ES radar screen
-Plugins	Plugin6	\EDWW\Plugins\EDWW FIR beta\Squawk PHX\Squawks.dll
+Plugins	Plugin6	\EDWW\Plugins\Squawk PHX\Squawks.dll
 Plugins	Plugin6Display0	Ground Radar display
 Plugins	Plugin6Display1	Standard ES radar screen
-Plugins	Plugin7	\EDWW\Plugins\EDWW FIR beta\IASsure\IASsure.dll
+Plugins	Plugin7	\EDWW\Plugins\IASsure\IASsure.dll
 Plugins	Plugin7Display0	Ground Radar display
 Plugins	Plugin7Display1	Standard ES radar screen
-Plugins	Plugin8	\EDWW\Plugins\EDWW FIR beta\VCH.dll
+Plugins	Plugin8	\EDWW\Plugins\VCH.dll
 Plugins	Plugin8Display0	Ground Radar display
 Plugins	Plugin8Display1	Standard ES radar screen
-Plugins	Plugin9	\EDWW\Plugins\EDWW FIR beta\DelHel\DelHel.dll
+Plugins	Plugin9	\EDWW\Plugins\DelHel\DelHel.dll
 Plugins	Plugin9Display0	Ground Radar display
 Plugins	Plugin9Display1	Standard ES radar screen
-Plugins	Plugin10	\EDWW\Plugins\EDWW FIR beta\A-CDM\CDM.dll
+Plugins	Plugin10	\EDWW\Plugins\A-CDM\CDM.dll
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
-Settings	Settingsfile	\EDWW\Settings\EDWW FIR beta\Settings PHX\GENERAL.txt
-Settings	SettingsfileARR	\EDWW\Settings\EDWW FIR beta\Settings PHX\ARR.txt
-Settings	SettingsfileCONFLICT	\EDWW\Settings\EDWW FIR beta\Settings PHX\CONFLICT.txt
-Settings	SettingsfileDEP	\EDWW\Settings\EDWW FIR beta\Settings PHX\DEP.txt
-Settings	SettingsfileFP	\EDWW\Settings\EDWW FIR beta\Settings PHX\FP.txt
-Settings	SettingsfilePILOTING	\EDWW\Settings\EDWW FIR beta\Settings PHX\PILOTING.txt
-Settings	SettingsfilePLUGINS	\EDWW\Settings\EDWW FIR beta\Settings PHX\PLUGINS.txt
-Settings	SettingsfilePROFILE	\EDWW\Settings\EDWW FIR beta\Settings PHX\PROFILE.txt
-Settings	SettingsfileSCREEN	\EDWW\Settings\EDWW FIR beta\Settings PHX\SCREEN.txt
-Settings	SettingsfileSEL	\EDWW\Settings\EDWW FIR beta\Settings PHX\SEL.txt
-Settings	SettingsfileSIL	\EDWW\Settings\EDWW FIR beta\Settings PHX\SIL.txt
-Settings	SettingsfileSYMBOLOGY	\EDWW\Settings\EDWW FIR beta\Settings PHX\SYMBOLOGY NIGHT.txt
-Settings	SettingsfileTAGS	\EDWW\Settings\EDWW FIR beta\Settings PHX\TAGS.txt
-Settings	SettingsfileVCCS	\EDWW\Settings\EDWW FIR beta\Settings PHX\VCCS.txt
+Settings	Settingsfile	\EDWW\Settings\Settings PHX\GENERAL.txt
+Settings	SettingsfileARR	\EDWW\Settings\Settings PHX\ARR.txt
+Settings	SettingsfileCONFLICT	\EDWW\Settings\Settings PHX\CONFLICT.txt
+Settings	SettingsfileDEP	\EDWW\Settings\Settings PHX\DEP.txt
+Settings	SettingsfileFP	\EDWW\Settings\Settings PHX\FP.txt
+Settings	SettingsfilePILOTING	\EDWW\Settings\Settings PHX\PILOTING.txt
+Settings	SettingsfilePLUGINS	\EDWW\Settings\Settings PHX\PLUGINS.txt
+Settings	SettingsfilePROFILE	\EDWW\Settings\Settings PHX\PROFILE.txt
+Settings	SettingsfileSCREEN	\EDWW\Settings\Settings PHX\SCREEN.txt
+Settings	SettingsfileSEL	\EDWW\Settings\Settings PHX\SEL.txt
+Settings	SettingsfileSIL	\EDWW\Settings\Settings PHX\SIL.txt
+Settings	SettingsfileSYMBOLOGY	\EDWW\Settings\Settings PHX\SYMBOLOGY NIGHT.txt
+Settings	SettingsfileTAGS	\EDWW\Settings\Settings PHX\TAGS.txt
+Settings	SettingsfileVCCS	\EDWW\Settings\Settings PHX\VCCS.txt
 Settings	SettingsfileVOICE	\EDWW\Settings\VoiceChannels.txt
-Settings	SettingsfileORIGPLANE	\EDWW\Settings\EDWW FIR beta\Settings PHX\GENERAL.txt
-Settings	SettingsfileSTUP	\EDWW\Settings\EDWW FIR beta\Settings PHX\STUP.txt
-Settings	SettingsfileTAXIOUT	\EDWW\Settings\EDWW FIR beta\Settings PHX\GENERAL.txt
-Settings	SettingsfileTAKEOFF	\EDWW\Settings\EDWW FIR beta\Settings PHX\GENERAL.txt
-Settings	SettingsfileADCS	\EDWW\Settings\EDWW FIR beta\Settings PHX\GENERAL.txt
-Settings	SettingsfileTAXIIN	\EDWW\Settings\EDWW FIR beta\Settings PHX\GENERAL.txt
+Settings	SettingsfileORIGPLANE	\EDWW\Settings\Settings PHX\GENERAL.txt
+Settings	SettingsfileSTUP	\EDWW\Settings\Settings PHX\STUP.txt
+Settings	SettingsfileTAXIOUT	\EDWW\Settings\Settings PHX\GENERAL.txt
+Settings	SettingsfileTAKEOFF	\EDWW\Settings\Settings PHX\GENERAL.txt
+Settings	SettingsfileADCS	\EDWW\Settings\Settings PHX\GENERAL.txt
+Settings	SettingsfileTAXIIN	\EDWW\Settings\Settings PHX\GENERAL.txt
 Settings	aircraft	\EDWW\ICAO\ICAO_Aircraft.txt
 Settings	airlines	\EDWW\ICAO\ICAO_Airlines.txt
 Settings	airportcoords	\EDWW\NavData\icao.txt
 Settings	airports	\EDWW\ICAO\ICAO_Airports.txt
 Settings	airways	\EDWW\NavData\airway.txt
 Settings	alias	\EDWW\Alias\alias.txt
-Sounds	Sound0	\EDWW\Sounds\EDWW FIR beta\handoff_request.wav
-Sounds	Sound1	\EDWW\Sounds\EDWW FIR beta\handoff_accept.wav
-Sounds	Sound10	\EDWW\Sounds\EDWW FIR beta\disconnected.wav
-Sounds	Sound11	\EDWW\Sounds\EDWW FIR beta\ongoing_request.wav
-Sounds	Sound12	\EDWW\Sounds\EDWW FIR beta\ongoing_accepted.wav
-Sounds	Sound13	\EDWW\Sounds\EDWW FIR beta\ongoing_refused.wav
-Sounds	Sound14	\EDWW\Sounds\EDWW FIR beta\ongoing_manual.wav
-Sounds	Sound15	\EDWW\Sounds\EDWW FIR beta\new_atis.wav
-Sounds	Sound16	\EDWW\Sounds\EDWW FIR beta\handoff_refused.wav
-Sounds	Sound17	\EDWW\Sounds\EDWW FIR beta\pointout.wav
-Sounds	Sound18	\EDWW\Sounds\EDWW FIR beta\startup.wav
-Sounds	Sound2	\EDWW\Sounds\EDWW FIR beta\startup.wav
-Sounds	Sound3	\EDWW\Sounds\EDWW FIR beta\radio_message.wav
-Sounds	Sound4	\EDWW\Sounds\EDWW FIR beta\private_message.wav
-Sounds	Sound8	\EDWW\Sounds\EDWW FIR beta\supervisor_message.wav
-Sounds	Sound7	\EDWW\Sounds\EDWW FIR beta\landline_request.wav
-Sounds	Sound9	\EDWW\Sounds\EDWW FIR beta\connected.wav
-RecentFiles	Recent1	\EDWW\ASR\EDWW FIR beta\EDWW-TWR.asr
+Sounds	Sound0	\EDWW\Sounds\handoff_request.wav
+Sounds	Sound1	\EDWW\Sounds\handoff_accept.wav
+Sounds	Sound10	\EDWW\Sounds\disconnected.wav
+Sounds	Sound11	\EDWW\Sounds\ongoing_request.wav
+Sounds	Sound12	\EDWW\Sounds\ongoing_accepted.wav
+Sounds	Sound13	\EDWW\Sounds\ongoing_refused.wav
+Sounds	Sound14	\EDWW\Sounds\ongoing_manual.wav
+Sounds	Sound15	\EDWW\Sounds\new_atis.wav
+Sounds	Sound16	\EDWW\Sounds\handoff_refused.wav
+Sounds	Sound17	\EDWW\Sounds\pointout.wav
+Sounds	Sound18	\EDWW\Sounds\startup.wav
+Sounds	Sound2	\EDWW\Sounds\startup.wav
+Sounds	Sound3	\EDWW\Sounds\radio_message.wav
+Sounds	Sound4	\EDWW\Sounds\private_message.wav
+Sounds	Sound8	\EDWW\Sounds\supervisor_message.wav
+Sounds	Sound7	\EDWW\Sounds\landline_request.wav
+Sounds	Sound9	\EDWW\Sounds\connected.wav
+RecentFiles	Recent1	\EDWW\ASR\EDWW-TWR.asr
 TeamSpeakVccs	TsVccsMiniControlX	1375
 TeamSpeakVccs	TsVccsMiniControlY	24
 TeamSpeakVccs	Ts3DialogLeft	1066
