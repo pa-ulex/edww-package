@@ -18,6 +18,9 @@
 //Remove "//" in front of this setting to use a gray color to disable minor D(CTR) highlight when online
 //Color_Active_Map_Type_14=110,90,80
 
+//Remove "//" in front of this setting to use leader lines for all stations
+//Track_PredictionLine=1
+
 //BEGIN SCALING (change values to your liking) 
 
 //Global Menu
@@ -37,6 +40,6 @@
 
 //END SCALING
 
-//Add "//" in front of this setting to disable tag Highlight for all EDDB inbounds on all EDDB stations
-[EDDB]
-Setup_Informed=*:*:EDDB:2
+//Remove "//" in front of this setting to enable tag Highlight for all EDDB inbounds on all EDDB stations
+//[EDDB]
+//Setup_Informed=*:*:EDDB:2

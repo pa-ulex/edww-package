@@ -1,5 +1,5 @@
 System_UseAUP=1
-HTTP_AUP_URL=https://lara.vatsim.pt/api/areas/ED/
+HTTP_AUP_URL=https://atciss.vatsim-germany.org/api/areas/topsky
 
 HTTP_Areas_Remote_URL=https://raw.githubusercontent.com/VATGER-Nav/EDWW-Area-Activation/main/Topsky-Area-Remote-Activation.txt
 
@@ -334,6 +334,6 @@ Shortcut_Map_Xfr_Key=2,0x48 ; H
 Shortcut_Map_Xfr_Key=3,0x42 ; B
 Shortcut_Map_Xfr_Key=4,0x44 ; D
 Shortcut_Map_Target=1,EDYY\FIR/UIR
-Shortcut_Map_Target=3,EDYY\LOWER SECTORS
+Shortcut_Map_Target=3,GENERAL\LOWER SECTORS
 Shortcut_Map_Target=4,AIRSPACE INFO\TACTICAL DIRECTS
 
