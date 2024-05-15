@@ -1,0 +1,45 @@
+//You can add personal settings here so they won't get overwritten by data updates from GNG.
+
+//Remove "//" in front of this setting to use the RDF function on every station.
+//RDF_Mode=1
+
+//Remove "//" in front of this setting to use gray sector lines
+//Color_Active_Map_Type_2=110,90,80
+
+//Remove "//" in front of this setting to use a brown color for EDDV C/D/TMZ airspaces
+//Color_Active_Map_Type_13=120,101,59
+
+//Remove "//" in front of this setting to use a gray color for EDDV C/D/TMZ airspaces
+//Color_Active_Map_Type_13=110,90,80
+
+//Remove "//" in front of this setting to use a brown color to disable minor D(CTR) highlight when online
+//Color_Active_Map_Type_14=120,101,59
+
+//Remove "//" in front of this setting to use a gray color to disable minor D(CTR) highlight when online
+//Color_Active_Map_Type_14=110,90,80
+
+//Remove "//" in front of this setting to use leader lines for all stations
+//Track_PredictionLine=1
+
+//BEGIN SCALING (change values to your liking) 
+
+//Global Menu
+//System_GUI_Scale_GlobalMenu=
+
+//Radar Menu
+//System_GUI_Scale_Menus=
+
+//Route Vector
+//System_GUI_Scale_Screen=
+
+//Radar Targets
+//System_GUI_Scale_Tracks=
+
+//All other windows
+//System_GUI_Scale_Windows=
+
+//END SCALING
+
+//Remove "//" in front of this setting to enable tag Highlight for all EDDB inbounds on all EDDB stations
+//[EDDB]
+//Setup_Informed=*:*:EDDB:2
