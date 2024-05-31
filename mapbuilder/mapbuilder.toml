@@ -2,7 +2,8 @@
 
 [data.eddb]
 type = "aixm"
-source = "aixm/EDDB_AerodromeMapping_2024-04-18_2024-04-18_snapshot.xml"
+#source = "aixm:dfs:0:EDDB AerodromeMapping"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDB_AerodromeMapping_2024-05-16_2024-05-16_snapshot.zip"
 
 #[data.rivers]
 #type = "kml"
@@ -34,3 +35,29 @@ maps = [
 ]
 dir = "Plugins/EDWW FIR beta/TWR_DAY/"
 aliases = [ "bright" ]
+
+[runways]
+
+[runways.EDDB.25R]
+thr = [ 52.377431, 13.526097 ]
+bearing = 245
+fap = [ 52.448706, 13.829058 ] # UBURU
+loc = [ 52.365689, 13.476564 ]
+
+[runways.EDDB.25L]
+thr = [ 52.358425, 13.523161 ] 
+bearing = 245
+fap = [ 52.411089, 13.746475 ] # XANIM
+loc = [ 52.343619, 13.460783 ]
+
+[runways.EDDB.07L]
+thr = [ 52.367689, 13.485025 ]
+bearing = 65
+fap = [ 52.295367, 13.182458 ] # ODIDO
+loc = [ 52.379442, 13.534594 ]
+
+[runways.EDDB.07R]
+thr = [ 52.345433, 13.468428 ]
+bearing = 65
+fap = [ 52.292308, 13.246033 ] # TEBGO
+loc = [ 52.360244, 13.530831 ]
