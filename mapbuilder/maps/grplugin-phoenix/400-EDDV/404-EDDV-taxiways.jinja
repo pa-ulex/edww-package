@@ -1,0 +1,15 @@
+MAP:Taxiway Movement Areas
+AIRPORT:EDDV
+FOLDER:Airport Layout
+ACTIVE:1
+COLOR:taxiway
+{% for name, geom in data.eddv['TaxiwayElement'].items() %}
+    {{- geom | to_poly(name, 'taxiway') }}
+{% endfor %}
+
+//Taxiway Z
+COLOR:taxiway
+COORD:N052.27.41.020:E009.41.19.713
+COORD:N052.27.41.158:E009.41.20.065
+COORD:N052.27.40.906:E009.41.20.380
+COORD:N052.27.40.759:E009.41.20.042

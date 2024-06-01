@@ -1,0 +1,36 @@
+MAP:Leadin Lines
+AIRPORT:EDDV
+FOLDER:Airport Layout
+ACTIVE:1
+COLOR:leadin
+STYLE:solid
+
+//TERMINAL A
+{% for stand in ['APRON 1', 'APRON 2_1', 'APRON3_1', 'APRON 4_1', 'APRON 5', 'APRON 6', 'APRON 26'] %}
+    {{- data.eddv['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
+{% endfor %}
+
+//TERMINAL B
+{% for stand in ['APRON 7', 'APRON 8', 'APRON 9', 'APRON 10', 'APRON 11', 'APRON 12'] %}
+    {{- data.eddv['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
+{% endfor %}
+
+//TERMINAL C
+{% for stand in ['APRON 13', 'APRON 14', 'APRON 15', 'APRON 16', 'APRON 17', 'APRON 18', 'APRON 19', 'APRON 20'] %}
+    {{- data.eddv['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
+{% endfor %}
+
+//OTHER
+{% for stand in ['APRON 21', 'APRON 23', 'APRON 27_2', 'APRON 28 L1', 'APRON 41', 'APRON 42', 'APRON 45', 'APRON 46', 'APRON 47', 'APRON 48', 'APRON 48 48R', 'APRON 49', 'APRON 50', 'APRON 51', 'APRON 51 51R', 'APRON 52', 'APRON 53', 'APRON 53 53R', 'APRON 54', 'APRON 55', 'APRON 56', 'APRON 57', 'APRON 58', 'APRON 59', 'APRON 60', 'APRON 60 60R', 'APRON 61 F1'] %}
+    {{- data.eddv['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
+{% endfor %}
+
+MAP:Leadin Lines Additional
+AIRPORT:EDDV
+FOLDER:Airport Layout
+ACTIVE:1
+COLOR:leadin
+STYLE:solid
+{% for stand in ['APRON 1A', 'APRON 2A_1', 'APRON 5A', 'APRON 7A', 'APRON 10A', 'APRON 11A_1', 'APRON 14A', 'APRON 15A_1', 'APRON 17A', 'APRON 18A', 'APRON 19A', 'APRON 45R', 'APRON 46R', 'APRON 48R', 'APRON 49R', 'APRON 51R', 'APRON 53R', 'APRON 54R', 'APRON 56R', 'APRON 57R', 'APRON 58A', 'APRON 59R', 'APRON 60A', 'APRON 60R', 'APRON 61R F1', 'APRON 27A L1', 'APRON 27R'] %}
+    {{- data.eddv['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
+{% endfor %}
