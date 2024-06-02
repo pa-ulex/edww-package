@@ -1,0 +1,317 @@
+MAP:Taxi Lanes
+AIRPORT:EDDV
+FOLDER:Airport Layout
+ACTIVE:1
+STYLE:solid
+{% set default = 0.000005 %}
+COLOR:taxilane-yellow
+// Taxiways South of 07L/25R
+{{ data.eddv['GuidanceLineByDesig']['A A1 INT NO'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A A1 INT O'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A A1 INT W'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A A2 INT NW'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A A2 INT SO'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A A2 INT SW'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A B INT O'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A B INT W'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A C INT NO'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A C INT NW'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A C INT SO'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A C INT SW'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A D INT O'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A D1 INT O'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A RWY O'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A_10'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A_10O'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A_11'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A_11O'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A_12'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A_13'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A_4'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A_5'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A_6'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A_7'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A_7O'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A_8'] | join_segments | simplify(default) | to_line('A') }}
+{{ data.eddv['GuidanceLineByDesig']['A_9'] | join_segments | simplify(default) | to_line('A') }}
+
+{{ data.eddv['GuidanceLineByDesig']['A1 BC INT NO_1'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1 BC INT NO_2'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1 BC INT NW_1'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1 BC INT NW_2'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1 BC INT NW_3'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1 C INT O'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1 C INT W'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1 L1 INT_1'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1 L1 INT_2'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_10'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_11'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_12'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_12A'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_13'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_14'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_15'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_16'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_17'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_18'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_19'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_2'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_2'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_20'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_21'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_22'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_23'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_24'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_25'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_26'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_27'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_28'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_29'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_3'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_30'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_4'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_5'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_7'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_8'] | join_segments | simplify(default) | to_line('A1') }}
+{{ data.eddv['GuidanceLineByDesig']['A1_9'] | join_segments | simplify(default) | to_line('A1') }}
+
+{{ data.eddv['GuidanceLineByDesig']['B A1'] | join_segments | simplify(default) | to_line('B') }}
+{{ data.eddv['GuidanceLineByDesig']['B RWY O'] | join_segments | simplify(default) | to_line('B') }}
+{{ data.eddv['GuidanceLineByDesig']['B RWY W'] | join_segments | simplify(default) | to_line('B') }}
+{{ data.eddv['GuidanceLineByDesig']['B_1'] | join_segments | simplify(default) | to_line('B') }}
+
+{{ data.eddv['GuidanceLineByDesig']['C A1 INT'] | join_segments | simplify(default) | to_line('C') }}
+{{ data.eddv['GuidanceLineByDesig']['C A1 L1 INT'] | join_segments | simplify(default) | to_line('C') }}
+{{ data.eddv['GuidanceLineByDesig']['C F1 INT'] | join_segments | simplify(default) | to_line('C') }}
+{{ data.eddv['GuidanceLineByDesig']['C L1 INT_1'] | join_segments | simplify(default) | to_line('C') }}
+{{ data.eddv['GuidanceLineByDesig']['C L1 INT_2'] | join_segments | simplify(default) | to_line('C') }}
+{{ data.eddv['GuidanceLineByDesig']['C RWY O'] | join_segments | simplify(default) | to_line('C') }}
+{{ data.eddv['GuidanceLineByDesig']['C RWY W'] | join_segments | simplify(default) | to_line('C') }}
+{{ data.eddv['GuidanceLineByDesig']['C_1'] | join_segments | simplify(default) | to_line('C') }}
+{{ data.eddv['GuidanceLineByDesig']['C_3'] | join_segments | simplify(default) | to_line('C') }}
+{{ data.eddv['GuidanceLineByDesig']['C_4'] | join_segments | simplify(default) | to_line('C') }}
+
+{{ data.eddv['GuidanceLineByDesig']['D RWY O'] | join_segments | simplify(default) | to_line('D') }}
+{{ data.eddv['GuidanceLineByDesig']['D RWY W'] | join_segments | simplify(default) | to_line('D') }}
+{{ data.eddv['GuidanceLineByDesig']['D_1'] | join_segments | simplify(default) | to_line('D') }}
+{{ data.eddv['GuidanceLineByDesig']['D_2'] | join_segments | simplify(default) | to_line('D') }}
+{{ data.eddv['GuidanceLineByDesig']['D_3'] | join_segments | simplify(default) | to_line('D') }}
+{{ data.eddv['GuidanceLineByDesig']['D_4'] | join_segments | simplify(default) | to_line('D') }}
+{{ data.eddv['GuidanceLineByDesig']['D_5'] | join_segments | simplify(default) | to_line('D') }}
+
+{{ data.eddv['GuidanceLineByDesig']['D1_1'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_10'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_11'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_12'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_13'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_14'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_15'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_16'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_16A'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_17'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_18'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_19'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_2'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_20'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_21'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_22'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_23'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_24'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_25'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_26'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_27'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_28'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_29'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_3'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_4'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_5'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_6'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_7'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_8'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['D1_9'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['JUNC D1 LEADIN_0'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['JUNC D1 LEADIN_1'] | join_segments | simplify(default) | to_line('D1') }}
+{{ data.eddv['GuidanceLineByDesig']['JUNC D1 LEADIN_2'] | join_segments | simplify(default) | to_line('D1') }}
+
+{{ data.eddv['GuidanceLineByDesig']['E D INT W'] | join_segments | simplify(default) | to_line('E') }}
+{{ data.eddv['GuidanceLineByDesig']['E D1 INT W'] | join_segments | simplify(default) | to_line('E') }}
+{{ data.eddv['GuidanceLineByDesig']['E RWY O'] | join_segments | simplify(default) | to_line('E') }}
+{{ data.eddv['GuidanceLineByDesig']['E_1'] | join_segments | simplify(default) | to_line('E') }}
+{{ data.eddv['GuidanceLineByDesig']['E_2'] | join_segments | simplify(default) | to_line('E') }}
+{{ data.eddv['GuidanceLineByDesig']['E_3'] | join_segments | simplify(default) | to_line('E') }}
+
+{{ data.eddv['GuidanceLineByDesig']['F L INT'] | join_segments | simplify(default) | to_line('F') }}
+{{ data.eddv['GuidanceLineByDesig']['F L TURNAROUND'] | join_segments | simplify(default) | to_line('F') }}
+{{ data.eddv['GuidanceLineByDesig']['F M INT N'] | join_segments | simplify(default) | to_line('F') }}
+{{ data.eddv['GuidanceLineByDesig']['F M INT S'] | join_segments | simplify(default) | to_line('F') }}
+{{ data.eddv['GuidanceLineByDesig']['F_1'] | join_segments | simplify(default) | to_line('F') }}
+{{ data.eddv['GuidanceLineByDesig']['F_2'] | join_segments | simplify(default) | to_line('F') }}
+{{ data.eddv['GuidanceLineByDesig']['F_2A'] | join_segments | simplify(default) | to_line('F') }}
+{{ data.eddv['GuidanceLineByDesig']['F_2B'] | join_segments | simplify(default) | to_line('F') }}
+{{ data.eddv['GuidanceLineByDesig']['F_3'] | join_segments | simplify(default) | to_line('F') }}
+{{ data.eddv['GuidanceLineByDesig']['F_4'] | join_segments | simplify(default) | to_line('F') }}
+{{ data.eddv['GuidanceLineByDesig']['F_5'] | join_segments | simplify(default) | to_line('F') }}
+
+{{ data.eddv['GuidanceLineByDesig']['F1 D1 INT N'] | join_segments | simplify(default) | to_line('F1') }}
+{{ data.eddv['GuidanceLineByDesig']['F1 D1 INT S'] | join_segments | simplify(default) | to_line('F1') }}
+{{ data.eddv['GuidanceLineByDesig']['F1 L1 INT_1'] | join_segments | simplify(default) | to_line('F1') }}
+{{ data.eddv['GuidanceLineByDesig']['F1 L1 INT_2'] | join_segments | simplify(default) | to_line('F1') }}
+{{ data.eddv['GuidanceLineByDesig']['F1_1'] | join_segments | simplify(default) | to_line('F1') }}
+{{ data.eddv['GuidanceLineByDesig']['F1_2'] | join_segments | simplify(default) | to_line('F1') }}
+{{ data.eddv['GuidanceLineByDesig']['F1_3'] | join_segments | simplify(default) | to_line('F1') }}
+{{ data.eddv['GuidanceLineByDesig']['F1_4'] | join_segments | simplify(default) | to_line('F1') }}
+{{ data.eddv['GuidanceLineByDesig']['F1_5'] | join_segments | simplify(default) | to_line('F1') }}
+{{ data.eddv['GuidanceLineByDesig']['F1_6'] | join_segments | simplify(default) | to_line('F1') }}
+{{ data.eddv['GuidanceLineByDesig']['F1_7'] | join_segments | simplify(default) | to_line('F1') }}
+{{ data.eddv['GuidanceLineByDesig']['F1_8'] | join_segments | simplify(default) | to_line('F1') }}
+
+{{ data.eddv['GuidanceLineByDesig']['G F INT'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.eddv['GuidanceLineByDesig']['G L INT'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.eddv['GuidanceLineByDesig']['G LAERMSCH INT O'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.eddv['GuidanceLineByDesig']['G LAERMSCH INT W'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.eddv['GuidanceLineByDesig']['G LAERMSCHUTZ'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.eddv['GuidanceLineByDesig']['G_1'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.eddv['GuidanceLineByDesig']['G_10'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.eddv['GuidanceLineByDesig']['G_2'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.eddv['GuidanceLineByDesig']['G_3'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.eddv['GuidanceLineByDesig']['G_4'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.eddv['GuidanceLineByDesig']['G_5'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.eddv['GuidanceLineByDesig']['G_6'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.eddv['GuidanceLineByDesig']['G_7'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.eddv['GuidanceLineByDesig']['G_8'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.eddv['GuidanceLineByDesig']['G_9'] | join_segments | simplify(default) | to_line('G') }}
+
+{{ data.eddv['GuidanceLineByDesig']['GA2 N'] | join_segments | simplify(default) | to_line('GA2') }}
+{{ data.eddv['GuidanceLineByDesig']['GA2 RWY O'] | join_segments | simplify(default) | to_line('GA2') }}
+{{ data.eddv['GuidanceLineByDesig']['GA2 RWY W'] | join_segments | simplify(default) | to_line('GA2') }}
+
+{{ data.eddv['GuidanceLineByDesig']['H G INT'] | join_segments | simplify(default) | to_line('H') }}
+{{ data.eddv['GuidanceLineByDesig']['H RWY'] | join_segments | simplify(default) | to_line('H') }}
+{{ data.eddv['GuidanceLineByDesig']['H_1 O'] | join_segments | simplify(default) | to_line('H') }}
+{{ data.eddv['GuidanceLineByDesig']['H_1 W'] | join_segments | simplify(default) | to_line('H') }}
+{{ data.eddv['GuidanceLineByDesig']['H_2'] | join_segments | simplify(default) | to_line('H') }}
+
+{{ data.eddv['GuidanceLineByDesig']['J G INT'] | join_segments | simplify(default) | to_line('J') }}
+{{ data.eddv['GuidanceLineByDesig']['J RWY'] | join_segments | simplify(default) | to_line('J') }}
+{{ data.eddv['GuidanceLineByDesig']['J_1'] | join_segments | simplify(default) | to_line('J') }}
+{{ data.eddv['GuidanceLineByDesig']['J_2'] | join_segments | simplify(default) | to_line('J') }}
+{{ data.eddv['GuidanceLineByDesig']['J_3'] | join_segments | simplify(default) | to_line('J') }}
+
+{{ data.eddv['GuidanceLineByDesig']['K G INT O'] | join_segments | simplify(default) | to_line('K') }}
+{{ data.eddv['GuidanceLineByDesig']['K G INT W'] | join_segments | simplify(default) | to_line('K') }}
+{{ data.eddv['GuidanceLineByDesig']['K RWY O'] | join_segments | simplify(default) | to_line('K') }}
+{{ data.eddv['GuidanceLineByDesig']['K RWY W'] | join_segments | simplify(default) | to_line('K') }}
+{{ data.eddv['GuidanceLineByDesig']['K_1 O'] | join_segments | simplify(default) | to_line('K') }}
+{{ data.eddv['GuidanceLineByDesig']['K_1 W'] | join_segments | simplify(default) | to_line('K') }}
+{{ data.eddv['GuidanceLineByDesig']['K_2'] | join_segments | simplify(default) | to_line('K') }}
+{{ data.eddv['GuidanceLineByDesig']['K_3'] | join_segments | simplify(default) | to_line('K') }}
+{{ data.eddv['GuidanceLineByDesig']['K_4'] | join_segments | simplify(default) | to_line('K') }}
+{{ data.eddv['GuidanceLineByDesig']['K_5'] | join_segments | simplify(default) | to_line('K') }}
+{{ data.eddv['GuidanceLineByDesig']['K KTO INT'] | join_segments | simplify(default) | to_line('K to') }}
+{{ data.eddv['GuidanceLineByDesig']['KTO RWY'] | join_segments | simplify(default) | to_line('K to') }}
+
+{{ data.eddv['GuidanceLineByDesig']['L M INT NO'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L M INT NW'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L M INT S'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L M INT SW'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L RWY O'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L RWY W'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L Z INT N'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L Z INT S'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L_1'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L_2'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L_2'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L_2A'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L_2B'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L_3'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L_3A'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L_4'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L_5'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L_6'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L_6S'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L_7'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L_8'] | join_segments | simplify(default) | to_line('L') }}
+{{ data.eddv['GuidanceLineByDesig']['L_9'] | join_segments | simplify(default) | to_line('L') }}
+
+{{ data.eddv['GuidanceLineByDesig']['L1 F1 INT2 NO'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1 F1 INT2 NW'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1 F1 INT2 SO'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1 F1 INT2 SW'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1 LEADIN N_1'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1 LEADIN N_2'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1 LEADIN O_1'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1 LEADIN O_2'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1 LEADIN O_3'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1_1'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1_2'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1_3'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1_4'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1_4A'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1_5'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1_6'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1_7'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1_8'] | join_segments | simplify(default) | to_line('L1') }}
+{{ data.eddv['GuidanceLineByDesig']['L1_9'] | join_segments | simplify(default) | to_line('L1') }}
+
+{{ data.eddv['GuidanceLineByDesig']['LEADIN BC_1'] | join_segments | simplify(default) | to_line('Leadin BC') }}
+{{ data.eddv['GuidanceLineByDesig']['LEADIN BC_2'] | join_segments | simplify(default) | to_line('Leadin BC') }}
+{{ data.eddv['GuidanceLineByDesig']['LEADIN BC_3'] | join_segments | simplify(default) | to_line('Leadin BC') }}
+{{ data.eddv['GuidanceLineByDesig']['LEADIN BC_4'] | join_segments | simplify(default) | to_line('Leadin BC') }}
+{{ data.eddv['GuidanceLineByDesig']['LEADIN BC_5'] | join_segments | simplify(default) | to_line('Leadin BC') }}
+{{ data.eddv['GuidanceLineByDesig']['LEADIN BC_6'] | join_segments | simplify(default) | to_line('Leadin BC') }}
+
+{{ data.eddv['GuidanceLineByDesig']['LEADIN C_1'] | join_segments | simplify(default) | to_line('Leadin C') }}
+{{ data.eddv['GuidanceLineByDesig']['LEADIN C_2'] | join_segments | simplify(default) | to_line('Leadin C') }}
+{{ data.eddv['GuidanceLineByDesig']['LEADIN C_3'] | join_segments | simplify(default) | to_line('Leadin C') }}
+{{ data.eddv['GuidanceLineByDesig']['LEADIN C_4'] | join_segments | simplify(default) | to_line('Leadin C') }}
+
+{{ data.eddv['GuidanceLineByDesig']['LEADIN N_1'] | join_segments | simplify(default) | to_line('Leadin N') }}
+{{ data.eddv['GuidanceLineByDesig']['LEADIN N_2'] | join_segments | simplify(default) | to_line('Leadin N') }}
+{{ data.eddv['GuidanceLineByDesig']['LEADIN N_3'] | join_segments | simplify(default) | to_line('Leadin N') }}
+{{ data.eddv['GuidanceLineByDesig']['LEADIN N_4'] | join_segments | simplify(default) | to_line('Leadin N') }}
+{{ data.eddv['GuidanceLineByDesig']['LEADIN N_5'] | join_segments | simplify(default) | to_line('Leadin N') }}
+{{ data.eddv['GuidanceLineByDesig']['LEADIN N_6'] | join_segments | simplify(default) | to_line('Leadin N') }}
+
+{{ data.eddv['GuidanceLineByDesig']['M N INT'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M P INT O'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M P INT W'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M Q INT O'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M Q INT W'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M T2 INT O'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M T2 INT W'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_0'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_0A'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_0B'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_1'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_10'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_11'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_12'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_13'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_14'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_15'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_16'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_17'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_18'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_19'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_2'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_20'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_2'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_3'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_4'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_5'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_6'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_7'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_8'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M_9'] | join_segments | simplify(default) | to_line('M') }}
+
+{{ data.eddv['GuidanceLineByDesig']['N RWY'] | join_segments | simplify(default) | to_line('N') }}
+{{ data.eddv['GuidanceLineByDesig']['N_1'] | join_segments | simplify(default) | to_line('N') }}
+{{ data.eddv['GuidanceLineByDesig']['N_2'] | join_segments | simplify(default) | to_line('N') }}
+
+{{ data.eddv['GuidanceLineByDesig']['P_4'] | join_segments | simplify(default) | to_line('P') }}
+
+{{ data.eddv['GuidanceLineByDesig']['Q'] | join_segments | simplify(default) | to_line('Q') }}
+
+{{ data.eddv['GuidanceLineByDesig']['T2 GA2'] | join_segments | simplify(default) | to_line('T2') }}
+
+{{ data.eddv['GuidanceLineByDesig']['Z_1'] | join_segments | simplify(default) | to_line('Z') }}

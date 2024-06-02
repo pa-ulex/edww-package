@@ -5,6 +5,11 @@ type = "aixm"
 #source = "aixm:dfs:0:EDDB AerodromeMapping"
 source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDB_AerodromeMapping_2024-05-16_2024-05-16_snapshot.zip"
 
+[data.eddv]
+type = "aixm"
+#source = "aixm:dfs:0:EDDV AerodromeMapping"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDV_AerodromeMapping_2024-05-16_2024-05-16_snapshot.zip"
+
 #[data.rivers]
 #type = "kml"
 #source = "kml/Rivers.kml"
@@ -18,20 +23,14 @@ source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aero
 
 [profiles.TWR_NIGHT]
 maps = [
-    { map = "settings-grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/GRpluginSettings.txt" },
-    { map = "settings-topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/TopSkySettings.txt" },
     { map = "grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/GRpluginMaps.txt" },
-    { map = "topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/TopSkyMaps.txt" },
 ]
 dir = "Plugins/EDWW FIR beta/TWR_NIGHT/"
 aliases = [ "dark" ]
 
 [profiles.TWR_DAY]
 maps = [
-    { map = "settings-grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/GRpluginSettings.txt" },
-    { map = "settings-topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/TopSkySettings.txt" },
     { map = "grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/GRpluginMaps.txt" },
-    { map = "topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/TopSkyMaps.txt" },
 ]
 dir = "Plugins/EDWW FIR beta/TWR_DAY/"
 aliases = [ "bright" ]
