@@ -236,6 +236,8 @@ Shortcut_Map_Target=4,AIRSPACE INFO\FIS REGION
 Shortcut_Map_Target=5,VFR\COAST
 Shortcut_Map_Target=6,FIXES\LoA FIXES NAMES
 Shortcut_Map_Target=8,AIRSPACE INFO\SECTOR INFO
+Shortcut_Map_Xfr_Key=9,0x42
+Shortcut_Map_Target=9,SECTORS\UPPER SECTORS HIGHLIGHT
 
 STCA_AlertSound=0
 STCA_Sep_Lat_SepLevel=24500
