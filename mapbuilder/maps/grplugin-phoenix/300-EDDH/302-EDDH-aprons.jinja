@@ -1,0 +1,9 @@
+MAP:Apron Movement Areas
+AIRPORT:EDDH
+FOLDER:Airport Layout
+ACTIVE:1
+COLOR:apron
+//RWY
+{% for name, geom in data.eddh['ApronElement'].items() %}
+    {{- geom | to_poly(name, 'apron') }}
+{% endfor %}
