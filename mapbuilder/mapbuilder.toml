@@ -5,6 +5,11 @@ type = "aixm"
 #source = "aixm:dfs:0:EDDB AerodromeMapping"
 source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDB_AerodromeMapping_2024-05-16_2024-05-16_snapshot.zip"
 
+[data.eddh]
+type = "aixm"
+#source = "aixm:dfs:0:EDDH AerodromeMapping"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDH_AerodromeMapping_2024-05-16_2024-05-16_snapshot.zip"
+
 [data.eddv]
 type = "aixm"
 #source = "aixm:dfs:0:EDDV AerodromeMapping"
