@@ -20,6 +20,11 @@ type = "aixm"
 #source = "aixm:dfs:0:EDHI AerodromeMapping"
 source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDHI_AerodromeMapping_2024-05-16_2024-05-16_snapshot.zip"
 
+[data.edhl]
+type = "aixm"
+#source = "aixm:dfs:0:EDHL AerodromeMapping"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDHL_AerodromeMapping_2024-05-16_2024-05-16_snapshot.zip"
+
 [data.edve]
 type = "aixm"
 #source = "aixm:dfs:0:EDVE AerodromeMapping"

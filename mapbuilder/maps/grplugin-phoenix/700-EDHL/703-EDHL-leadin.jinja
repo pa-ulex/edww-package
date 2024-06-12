@@ -1,0 +1,32 @@
+MAP:Leadin Lines
+AIRPORT:EDHL
+FOLDER:Airport Layout
+ACTIVE:1
+COLOR:leadin
+STYLE:solid
+{% set default = 0.000005 %}
+//APRON
+{{ data.edhl['GuidanceLineByDesig']['LEAD IN 1M_01'] | join_segments | simplify(default) | to_line('1M') }}
+{{ data.edhl['GuidanceLineByDesig']['OVERSTEER 01 1M'] | join_segments | simplify(default) | to_line('1M') }}
+{{ data.edhl['GuidanceLineByDesig']['OVERSTEER 02 1M'] | join_segments | simplify(default) | to_line('1M') }}
+
+{{ data.edhl['GuidanceLineByDesig']['LEAD IN 2M_01'] | join_segments | simplify(default) | to_line('2M') }}
+{{ data.edhl['GuidanceLineByDesig']['OVERSTEER 01 2M'] | join_segments | simplify(default) | to_line('2M') }}
+{{ data.edhl['GuidanceLineByDesig']['OVERSTEER 01 3M'] | join_segments | simplify(default) | to_line('2M') }}
+
+{{ data.edhl['GuidanceLineByDesig']['LEAD IN 3M_01'] | join_segments | simplify(default) | to_line('3M') }}
+{{ data.edhl['GuidanceLineByDesig']['OVERSTEER 01 3M'] | join_segments | simplify(default) | to_line('3M') }}
+{{ data.edhl['GuidanceLineByDesig']['OVERSTEER 02 2M'] | join_segments | simplify(default) | to_line('3M') }}
+
+{{ data.edhl['GuidanceLineByDesig']['LEAD IN 4M_01'] | join_segments | simplify(default) | to_line('4M') }}
+{{ data.edhl['GuidanceLineByDesig']['LEAD IN 4M_02'] | join_segments | simplify(default) | to_line('4M') }}
+{{ data.edhl['GuidanceLineByDesig']['OVERSTEER 01 4M'] | join_segments | simplify(default) | to_line('4M') }}
+{{ data.edhl['GuidanceLineByDesig']['OVERSTEER 02 4M'] | join_segments | simplify(default) | to_line('4M') }}
+
+{{ data.edhl['GuidanceLineByDesig']['LEAD IN 5M_01'] | join_segments | simplify(default) | to_line('5M') }}
+{{ data.edhl['GuidanceLineByDesig']['LEAD IN 5M_02'] | join_segments | simplify(default) | to_line('5M') }}
+{{ data.edhl['GuidanceLineByDesig']['LEAD IN 5M_03'] | join_segments | simplify(default) | to_line('5M') }}
+{{ data.edhl['GuidanceLineByDesig']['LEAD OUT 5M_01'] | join_segments | simplify(default) | to_line('5M') }}
+{{ data.edhl['GuidanceLineByDesig']['LEAD OUT 5M_02'] | join_segments | simplify(default) | to_line('5M') }}
+{{ data.edhl['GuidanceLineByDesig']['LEAD OUT 5M_03'] | join_segments | simplify(default) | to_line('5M') }}
+{{ data.edhl['GuidanceLineByDesig']['LEAD OUT 5M_SIGN'] | join_segments | simplify(default) | to_line('5M') }}
