@@ -1,0 +1,68 @@
+MAP:Taxi Lanes
+AIRPORT:EDHI
+FOLDER:Airport Layout
+ACTIVE:1
+STYLE:solid
+{% set default = 0.000005 %}
+
+COLOR:taxilane-blue
+{{ data.edhi['GuidanceLineByDesig']['I-BLUE'] | join_segments | simplify(default) | to_line('I-BLUE') }}
+
+COLOR:taxilane-orange
+{{ data.edhi['GuidanceLineByDesig']['I-ORANGE'] | join_segments | simplify(default) | to_line('I-ORANGE') }}
+
+COLOR:taxilane-yellow
+{{ data.edhi['GuidanceLineByDesig']['APRON 3'] | join_segments | simplify(default) | to_line('APRON 3') }}
+
+{{ data.edhi['GuidanceLineByDesig']['BELUGA'] | join_segments | simplify(default) | to_line('BELUGA') }}
+
+{{ data.edhi['GuidanceLineByDesig']['COMPASSBASE'] | join_segments | simplify(default) | to_line('COMPASSBASE') }}
+
+{{ data.edhi['GuidanceLineByDesig']['HANGAR 102-104'] | join_segments | simplify(default) | to_line('HANGAR 102-104') }}
+
+{{ data.edhi['GuidanceLineByDesig']['HANGAR 11'] | join_segments | simplify(default) | to_line('HANGAR 11') }}
+
+{{ data.edhi['GuidanceLineByDesig']['HANGARS 11'] | join_segments | simplify(default) | to_line('HANGARS 11') }}
+
+{{ data.edhi['GuidanceLineByDesig']['HANGAR 213'] | join_segments | simplify(default) | to_line('HANGAR 213') }}
+
+{{ data.edhi['GuidanceLineByDesig']['HANGAR 214'] | join_segments | simplify(default) | to_line('HANGAR 214') }}
+
+{{ data.edhi['GuidanceLineByDesig']['I'] | join_segments | simplify(default) | to_line('I') }}
+{{ data.edhi['GuidanceLineByDesig']['I_1'] | join_segments | simplify(default) | to_line('I') }}
+
+{{ data.edhi['GuidanceLineByDesig']['TLANE L1'] | join_segments | simplify(default) | to_line('LANE 1') }}
+
+{{ data.edhi['GuidanceLineByDesig']['TLANE L2'] | join_segments | simplify(default) | to_line('LANE 2') }}
+
+
+{{ data.edhi['GuidanceLineByDesig']['TWY B'] | join_segments | simplify(default) | to_line('B') }}
+
+{{ data.edhi['GuidanceLineByDesig']['TWY C'] | join_segments | simplify(default) | to_line('C') }}
+
+{{ data.edhi['GuidanceLineByDesig']['TWY D NORD'] | join_segments | simplify(default) | to_line('D NORTH') }}
+{{ data.edhi['GuidanceLineByDesig']['TWY D NORTH'] | join_segments | simplify(default) | to_line('D NORTH') }}
+
+{{ data.edhi['GuidanceLineByDesig']['TWY D SOUTH'] | join_segments | simplify(default) | to_line('D SOUTH') }}
+{{ data.edhi['GuidanceLineByDesig']['TWY D SUED'] | join_segments | simplify(default) | to_line('D SOUTH') }}
+
+{{ data.edhi['GuidanceLineByDesig']['TWY E'] | join_segments | simplify(default) | to_line('E') }}
+
+{{ data.edhi['GuidanceLineByDesig']['TWY G'] | join_segments | simplify(default) | to_line('G') }}
+{{ data.edhi['GuidanceLineByDesig']['TEY G'] | join_segments | simplify(default) | to_line('G') }}
+
+{{ data.edhi['GuidanceLineByDesig']['TWY I'] | join_segments | simplify(default) | to_line('I') }}
+
+{{ data.edhi['GuidanceLineByDesig']['TWY K'] | join_segments | simplify(default) | to_line('K') }}
+
+{{ data.edhi['GuidanceLineByDesig']['TWY M'] | join_segments | simplify(default) | to_line('M') }}
+
+{{ data.edhi['GuidanceLineByDesig']['TWY N'] | join_segments | simplify(default) | to_line('N') }}
+
+{{ data.edhi['GuidanceLineByDesig']['TWY N1'] | join_segments | simplify(default) | to_line('N1') }}
+
+{{ data.edhi['GuidanceLineByDesig']['TWY O'] | join_segments | simplify(default) | to_line('O') }}
+
+{{ data.edhi['GuidanceLineByDesig']['WENDEHAMMER'] | join_segments | simplify(default) | to_line('LINE-UP') }}
+{{ data.edhi['GuidanceLineByDesig']['WENDEHAMMER SUED'] | join_segments | simplify(default) | to_line('LINE-UP') }}
+{{ data.edhi['GuidanceLineByDesig']['WENDEHAMMER-NORD'] | join_segments | simplify(default) | to_line('LINE-UP') }}

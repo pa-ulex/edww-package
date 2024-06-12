@@ -15,6 +15,11 @@ type = "aixm"
 #source = "aixm:dfs:0:EDDV AerodromeMapping"
 source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDV_AerodromeMapping_2024-05-16_2024-05-16_snapshot.zip"
 
+[data.edhi]
+type = "aixm"
+#source = "aixm:dfs:0:EDHI AerodromeMapping"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDHI_AerodromeMapping_2024-05-16_2024-05-16_snapshot.zip"
+
 #[data.rivers]
 #type = "kml"
 #source = "kml/Rivers.kml"
