@@ -5,7 +5,6 @@ ACTIVE:1
 STYLE:solid
 {% set default = 0.000005 %}
 COLOR:taxilane-yellow
-// Taxiways South of 07L/25R
 {{ data.eddv['GuidanceLineByDesig']['A A1 INT NO'] | join_segments | simplify(default) | to_line('A') }}
 {{ data.eddv['GuidanceLineByDesig']['A A1 INT O'] | join_segments | simplify(default) | to_line('A') }}
 {{ data.eddv['GuidanceLineByDesig']['A A1 INT W'] | join_segments | simplify(default) | to_line('A') }}
@@ -273,6 +272,8 @@ COLOR:taxilane-yellow
 {{ data.eddv['GuidanceLineByDesig']['LEADIN N_6'] | join_segments | simplify(default) | to_line('Leadin N') }}
 
 {{ data.eddv['GuidanceLineByDesig']['M N INT'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M O INT O'] | join_segments | simplify(default) | to_line('M') }}
+{{ data.eddv['GuidanceLineByDesig']['M O INT W'] | join_segments | simplify(default) | to_line('M') }}
 {{ data.eddv['GuidanceLineByDesig']['M P INT O'] | join_segments | simplify(default) | to_line('M') }}
 {{ data.eddv['GuidanceLineByDesig']['M P INT W'] | join_segments | simplify(default) | to_line('M') }}
 {{ data.eddv['GuidanceLineByDesig']['M Q INT O'] | join_segments | simplify(default) | to_line('M') }}
@@ -308,6 +309,20 @@ COLOR:taxilane-yellow
 {{ data.eddv['GuidanceLineByDesig']['N_1'] | join_segments | simplify(default) | to_line('N') }}
 {{ data.eddv['GuidanceLineByDesig']['N_2'] | join_segments | simplify(default) | to_line('N') }}
 
+{{ data.eddv['GuidanceLineByDesig']['O'] | join_segments | simplify(default) | to_line('O') }}
+{{ data.eddv['GuidanceLineByDesig']['O GA1'] | join_segments | simplify(default) | to_line('O') }}
+{{ data.eddv['GuidanceLineByDesig']['O GA1-2'] | join_segments | simplify(default) | to_line('O') }}
+{{ data.eddv['GuidanceLineByDesig']['O GA1-3'] | join_segments | simplify(default) | to_line('O') }}
+{{ data.eddv['GuidanceLineByDesig']['O GA1-4'] | join_segments | simplify(default) | to_line('O') }}
+{{ data.eddv['GuidanceLineByDesig']['O GA1-5'] | join_segments | simplify(default) | to_line('O') }}
+
+{{ data.eddv['GuidanceLineByDesig']['P GA1 INT N'] | join_segments | simplify(default) | to_line('P') }}
+{{ data.eddv['GuidanceLineByDesig']['P GA1 INT O'] | join_segments | simplify(default) | to_line('P') }}
+{{ data.eddv['GuidanceLineByDesig']['P GA1 INT S'] | join_segments | simplify(default) | to_line('P') }}
+{{ data.eddv['GuidanceLineByDesig']['P GA1 INT W'] | join_segments | simplify(default) | to_line('P') }}
+{{ data.eddv['GuidanceLineByDesig']['P_1'] | join_segments | simplify(default) | to_line('P') }}
+{{ data.eddv['GuidanceLineByDesig']['P_2'] | join_segments | simplify(default) | to_line('P') }}
+{{ data.eddv['GuidanceLineByDesig']['P_3'] | join_segments | simplify(default) | to_line('P') }}
 {{ data.eddv['GuidanceLineByDesig']['P_4'] | join_segments | simplify(default) | to_line('P') }}
 
 {{ data.eddv['GuidanceLineByDesig']['Q'] | join_segments | simplify(default) | to_line('Q') }}
