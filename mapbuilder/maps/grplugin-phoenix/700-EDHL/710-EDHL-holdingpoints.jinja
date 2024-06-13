@@ -1,0 +1,9 @@
+MAP:Holding Points
+AIRPORT:EDHL
+FOLDER:Holding Points
+ACTIVE:1
+COLOR:holdingpoint
+STYLE:Solid:2
+{% for _, geom in data.edhl['TaxiHoldingPositionMarking'].items() %}
+    {{- geom | geoms | to_line('hp') }}
+{% endfor %}
