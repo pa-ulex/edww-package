@@ -45,7 +45,7 @@ STYLE:solid
 {% endfor %}
 
 // Apron 2
-{% for stand in ['GL_APR_19', 'GL_APR_21', 'GL_APR_22', 'GL_APR_24', 'GL_APR_25', 'GL_APR_27'] %}
+{% for stand in ['GL_APR_19', 'GL_APR_21', 'GL_APR_22', 'GL_APR_24', 'GL_APR_25', 'GL_APR_27', 'GL_APR_28', 'GL_APR_29', 'GL_APR_30'] %}
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 
