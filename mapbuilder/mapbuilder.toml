@@ -38,12 +38,36 @@ source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aero
 #type = "kml"
 #source = "kml/eddb.kml"
 
+[data.mva_summer]
+type = "raw"
+source = "common/mva_summer.txt"
+
+[data.mva_winter]
+type = "raw"
+source = "common/mva_winter.txt"
+
+[data.topo_highway]
+type = "raw"
+source = "common/topo_highway.txt"
+
+[data.topo_river]
+type = "raw"
+source = "common/topo_river.txt"
+
+[data.topo_lake]
+type = "raw"
+source = "common/topo_lake.txt"
+
+[data.topo_coast]
+type = "raw"
+source = "common/topo_coast.txt"
 
 [profiles]
 
 [profiles.TWR_NIGHT]
 maps = [
     { map = "grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/GRpluginMaps.txt" },
+    { map = "topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/TopSkyMaps.txt" },
 ]
 dir = "Plugins/EDWW FIR beta/TWR_NIGHT/"
 aliases = [ "dark" ]
@@ -51,6 +75,7 @@ aliases = [ "dark" ]
 [profiles.TWR_DAY]
 maps = [
     { map = "grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/GRpluginMaps.txt" },
+    { map = "topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/TopSkyMaps.txt" },
 ]
 dir = "Plugins/EDWW FIR beta/TWR_DAY/"
 aliases = [ "bright" ]
