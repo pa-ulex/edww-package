@@ -74,6 +74,7 @@ dir = "Plugins/EDWW FIR beta/EDWW/"
 maps = [
     { map = "grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/GRpluginMaps.txt" },
     { map = "topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/TopSkyMaps.txt" },
+    { map = "grplugin-stands", target = "Plugins/EDWW FIR beta/TWR_NIGHT/GRpluginStands.txt" },
 ]
 dir = "Plugins/EDWW FIR beta/TWR_NIGHT/"
 aliases = [ "dark" ]
@@ -82,6 +83,7 @@ aliases = [ "dark" ]
 maps = [
     { map = "grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/GRpluginMaps.txt" },
     { map = "topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/TopSkyMaps.txt" },
+    { map = "grplugin-stands", target = "Plugins/EDWW FIR beta/TWR_DAY/GRpluginStands.txt" },
 ]
 dir = "Plugins/EDWW FIR beta/TWR_DAY/"
 aliases = [ "bright" ]
