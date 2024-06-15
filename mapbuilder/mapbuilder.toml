@@ -64,6 +64,12 @@ source = "common/topo_coast.txt"
 
 [profiles]
 
+[profiles.EDWW]
+maps = [
+    { map = "topsky-edww", target = "Plugins/EDWW FIR beta/EDWW/TopSkyMaps.txt" },
+]
+dir = "Plugins/EDWW FIR beta/EDWW/"
+
 [profiles.TWR_NIGHT]
 maps = [
     { map = "grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/GRpluginMaps.txt" },
