@@ -70,6 +70,12 @@ maps = [
 ]
 dir = "Plugins/EDWW FIR beta/EDWW/"
 
+[profiles.EDYY]
+maps = [
+    { map = "topsky-edyy", target = "Plugins/EDWW FIR beta/EDYY/TopSkyMaps.txt" },
+]
+dir = "Plugins/EDWW FIR beta/EDYY/"
+
 [profiles.TWR_NIGHT]
 maps = [
     { map = "grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/GRpluginMaps.txt" },
