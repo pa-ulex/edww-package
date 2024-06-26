@@ -38,12 +38,57 @@ source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aero
 #type = "kml"
 #source = "kml/eddb.kml"
 
+[data.mva_summer]
+type = "raw"
+source = "common/mva_summer.txt"
+
+[data.mva_winter]
+type = "raw"
+source = "common/mva_winter.txt"
+
+[data.topo_highway]
+type = "raw"
+source = "common/topo_highway.txt"
+
+[data.topo_river]
+type = "raw"
+source = "common/topo_river.txt"
+
+[data.topo_lake]
+type = "raw"
+source = "common/topo_lake.txt"
+
+[data.topo_coast]
+type = "raw"
+source = "common/topo_coast.txt"
 
 [profiles]
+
+[profiles.EDWW]
+maps = [
+    { map = "topsky-edww", target = "Plugins/EDWW FIR beta/EDWW/TopSkyMaps.txt" },
+]
+dir = "Plugins/EDWW FIR beta/EDWW/"
+
+[profiles.EDYY]
+maps = [
+    { map = "topsky-edyy", target = "Plugins/EDWW FIR beta/EDYY/TopSkyMaps.txt" },
+]
+dir = "Plugins/EDWW FIR beta/EDYY/"
+
+[profiles.EDUU]
+maps = [
+    { map = "topsky-eduu", target = "Plugins/EDWW FIR beta/EDUU/TopSkyMaps.txt" },
+]
+dir = "Plugins/EDWW FIR beta/EDUU/"
 
 [profiles.TWR_NIGHT]
 maps = [
     { map = "grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/GRpluginMaps.txt" },
+    { map = "grplugin-stands", target = "Plugins/EDWW FIR beta/TWR_NIGHT/GRpluginStands.txt" },
+    { map = "grplugin-settings", target = "Plugins/EDWW FIR beta/TWR_NIGHT/GRpluginSettings.txt" },
+    { map = "topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/TopSkyMaps.txt" },
+    { map = "topsky-phoenix-settings", target = "Plugins/EDWW FIR beta/TWR_NIGHT/TopSkySettings.txt" },
 ]
 dir = "Plugins/EDWW FIR beta/TWR_NIGHT/"
 aliases = [ "dark" ]
@@ -51,6 +96,10 @@ aliases = [ "dark" ]
 [profiles.TWR_DAY]
 maps = [
     { map = "grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/GRpluginMaps.txt" },
+    { map = "grplugin-stands", target = "Plugins/EDWW FIR beta/TWR_DAY/GRpluginStands.txt" },
+    { map = "grplugin-settings", target = "Plugins/EDWW FIR beta/TWR_DAY/GRpluginSettings.txt" },
+    { map = "topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/TopSkyMaps.txt" },
+    { map = "topsky-phoenix-settings", target = "Plugins/EDWW FIR beta/TWR_DAY/TopSkySettings.txt" },
 ]
 dir = "Plugins/EDWW FIR beta/TWR_DAY/"
 aliases = [ "bright" ]
