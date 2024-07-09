@@ -310,8 +310,6 @@ Window_CARD=1,1525,788
 Window_PredTfc=1,1,48,200,200
 Window_SepList=225,48
 Label_WTC_Default=0000
-Shortcut_Map_Xfr_Key=7,0x44 ; D
-Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS CTR
 
 [_APP]
 MTCD=0
@@ -333,6 +331,10 @@ RDF_Mode=1
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EDDV
 RDF_Mode=1
+
+[EDWW_CTR]
+Shortcut_Map_Xfr_Key=7,0x44 ; D
+Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS BIG
 
 [EDWW_A]
 Shortcut_Map_Xfr_Key=7,0x44 ; D
