@@ -95,6 +95,6 @@ TeamSpeakVccs	Ts3DialogBottom	1100
 LastSession	atis_url0	http://uniatis.net/atis.php?arr=$arrrwy($atisairportA)&dep=$deprwy($atisairportA)&apptype=ILS&info=$atiscodeA&metar=$metar($atisairportA)&nognd&depfreq=
 LastSession	atis_url1	http://uniatis.net/atis.php?arr=$arrrwy($atisairportB)&dep=$deprwy($atisairportB)&apptype=ILS&info=$atiscodeB&metar=$metar($atisairportB)&nognd&depfreq=
 LastSession	atis_url2	http://uniatis.net/atis.php?arr=$arrrwy($atisairportC)&dep=$deprwy($atisairportC)&apptype=ILS&info=$atiscodeC&metar=$metar($atisairportC)&nognd&depfreq=
-LastSession	atis_url3	http://uniatis.net/atis.php?arr=$arrrwy($atisairportD)&dep=$deprwy($atisairportD)&apptype=ILS&info=$atiscodeD&metar=$metar($atisairportD)&nognd&depfreq=
+LastSession	atis_url3	https://ascarion.org/vatsim/edaz.php?arr=$arrrwy($atisairportD)&dep=$deprwy($atisairportD)&info=$atiscodeD&metar=egal
 LastSession	atis_freq4	118000
 Settings	sector	\EDWW-EDWW_20240103200412-231301-0002.sct
