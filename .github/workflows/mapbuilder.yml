@@ -15,10 +15,6 @@ jobs:
           key: sources
       - name: Run mapbuilder
         uses: vatger-nav/mapbuilder@main
-        with:
-          # defaults
-          target-path: '.'
-          source-path: 'mapbuilder'
       - name: Store cached sources
         uses: actions/cache/save@v4
         with:
