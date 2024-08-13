@@ -17,7 +17,7 @@ jobs:
         uses: vatger-nav/mapbuilder@main
         with:
           # defaults
-          target-path: 'EDWW'
+          target-path: '.'
           source-path: 'mapbuilder'
       - name: Store cached sources
         uses: actions/cache/save@v4
