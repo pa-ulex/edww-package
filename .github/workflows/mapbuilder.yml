@@ -1,3 +1,8 @@
+name: mapbuilder
+run-name: Building maps for commit ${{ github.sha }} by ${{ github.actor }}
+on:
+  push
+  
 jobs:
   build-maps:
     runs-on: ubuntu-latest
