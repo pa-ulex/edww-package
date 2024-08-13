@@ -1,8 +1,0 @@
-MAP:Taxiway Movement Areas
-AIRPORT:ETNW
-FOLDER:Airport Layout
-ACTIVE:1
-
-{% for name, geom in data.etnw_kml['Vertical Structures'].items() %}
-    {{- geom | to_poly(name, 'building') }}
-{% endfor %}
