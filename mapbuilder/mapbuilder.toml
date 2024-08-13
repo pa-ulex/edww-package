@@ -35,6 +35,11 @@ type = "kml"
 source = "kml/ETNW.kml"
 root = "ETNW"
 
+[data.etmn_kml]
+type = "kml"
+source = "kml/ETMN.kml"
+root = "ETMN"
+
 #[data.rivers]
 #type = "kml"
 #source = "kml/Rivers.kml"

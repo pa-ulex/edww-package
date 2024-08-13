@@ -1,0 +1,13 @@
+MAP:Taxiway Movement Areas
+AIRPORT:ETMN
+FOLDER:Airport Layout
+ACTIVE:1
+
+{% for name, geom in data.etmn_kml['Taxiways'].items() %}
+    {{- geom | to_poly(name, 'taxiway') }}
+{% endfor %}
+
+
+{% for name, geom in data.etmn_kml['Taxiways_Cutout'].items() %}
+    {{- geom | to_poly(name, 'base') }}
+{% endfor %}

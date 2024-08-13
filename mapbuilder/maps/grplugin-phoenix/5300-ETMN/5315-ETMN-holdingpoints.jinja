@@ -1,0 +1,10 @@
+MAP:Holding Points
+AIRPORT:ETMN
+FOLDER:Holding Points
+ACTIVE:1
+COLOR:holdingpoint
+STYLE:Solid:4
+{% set default = 0.000005 %}
+{% for name, geom in data.etmn_kml['Holdingpoints'].items() %}
+    {{- geom | simplify(default) | to_line(name) }}
+{% endfor %}
