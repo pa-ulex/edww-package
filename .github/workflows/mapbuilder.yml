@@ -24,3 +24,8 @@ jobs:
         with:
           path: .cache
           key: sources
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "[AUTO] mapbuilder ${{ github.sha }}"
+          commit_user_name: mapbuilder
+          commit_user_email: mapbuilder@vatger.de
