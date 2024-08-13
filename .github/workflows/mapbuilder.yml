@@ -13,7 +13,7 @@ jobs:
         with:
           # defaults
           target-path: '.'
-          source-path: 'mapdata'
+          source-path: 'mapbuilder'
       - name: Store cached sources
         uses: actions/cache/save@v4
         with:
