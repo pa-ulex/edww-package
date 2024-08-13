@@ -76,42 +76,42 @@ source = "common/topo_coast.txt"
 
 [profiles.EDWW]
 maps = [
-    { map = "topsky-edww", target = "Plugins/EDWW FIR beta/EDWW/TopSkyMaps.txt" },
+    { map = "topsky-edww", target = "EDWW/Plugins/TOPSKY EDWW/TopSkyMaps.txt" },
 ]
-dir = "Plugins/EDWW FIR beta/EDWW/"
+dir = "EDWW/Plugins/TOPSKY EDWW/"
 
 [profiles.EDYY]
 maps = [
-    { map = "topsky-edyy", target = "Plugins/EDWW FIR beta/EDYY/TopSkyMaps.txt" },
+    { map = "topsky-edyy", target = "EDWW/Plugins/TOPSKY EDYY/TopSkyMaps.txt" },
 ]
-dir = "Plugins/EDWW FIR beta/EDYY/"
+dir = "EDWW/Plugins/TOPSKY EDYY/"
 
 [profiles.EDUU]
 maps = [
-    { map = "topsky-eduu", target = "Plugins/EDWW FIR beta/EDUU/TopSkyMaps.txt" },
+    { map = "topsky-eduu", target = "EDWW/Plugins/TOPSKY EDUU/TopSkyMaps.txt" },
 ]
-dir = "Plugins/EDWW FIR beta/EDUU/"
+dir = "EDWW/Plugins/TOPSKY EDUU/"
 
 [profiles.TWR_NIGHT]
 maps = [
-    { map = "grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/GRpluginMaps.txt" },
-    { map = "grplugin-stands", target = "Plugins/EDWW FIR beta/TWR_NIGHT/GRpluginStands.txt" },
-    { map = "grplugin-settings", target = "Plugins/EDWW FIR beta/TWR_NIGHT/GRpluginSettings.txt" },
-    { map = "topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_NIGHT/TopSkyMaps.txt" },
-    { map = "topsky-phoenix-settings", target = "Plugins/EDWW FIR beta/TWR_NIGHT/TopSkySettings.txt" },
+    { map = "grplugin-phoenix", target = "EDWW/Plugins/Ground Radar Plugin DARK/GRpluginMaps.txt" },
+    { map = "grplugin-stands", target = "EDWW/Plugins/Ground Radar Plugin DARK/GRpluginStands.txt" },
+    { map = "grplugin-settings", target = "EDWW/Plugins/Ground Radar Plugin DARK/GRpluginSettings.txt" },
+    { map = "topsky-phoenix", target = "EDWW/Plugins/TOPSKY PHX NIGHT/TopSkyMaps.txt" },
+    { map = "topsky-phoenix-settings", target = "EDWW/Plugins/TOPSKY PHX NIGHT/TopSkySettings.txt" },
 ]
-dir = "Plugins/EDWW FIR beta/TWR_NIGHT/"
+dir = "EDWW/Plugins/"
 aliases = [ "dark" ]
 
 [profiles.TWR_DAY]
 maps = [
-    { map = "grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/GRpluginMaps.txt" },
-    { map = "grplugin-stands", target = "Plugins/EDWW FIR beta/TWR_DAY/GRpluginStands.txt" },
-    { map = "grplugin-settings", target = "Plugins/EDWW FIR beta/TWR_DAY/GRpluginSettings.txt" },
-    { map = "topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/TopSkyMaps.txt" },
-    { map = "topsky-phoenix-settings", target = "Plugins/EDWW FIR beta/TWR_DAY/TopSkySettings.txt" },
+    { map = "grplugin-phoenix", target = "EDWW/Plugins/Ground Radar Plugin BRIGHT/GRpluginMaps.txt" },
+    { map = "grplugin-stands", target = "EDWW/Plugins/Ground Radar Plugin BRIGHT/GRpluginStands.txt" },
+    { map = "grplugin-settings", target = "EDWW/Plugins/Ground Radar Plugin BRIGHT/GRpluginSettings.txt" },
+    { map = "topsky-phoenix", target = "EDWW/Plugins/TOPSKY PHX DAY/TopSkyMaps.txt" },
+    { map = "topsky-phoenix-settings", target = "EDWW/Plugins/TOPSKY PHX DAY/TopSkySettings.txt" },
 ]
-dir = "Plugins/EDWW FIR beta/TWR_DAY/"
+dir = "EDWW/Plugins/"
 aliases = [ "bright" ]
 
 [runways]
