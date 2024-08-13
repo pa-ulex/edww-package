@@ -1,7 +1,0 @@
-MAP:Buildings
-AIRPORT:EDDB
-FOLDER:Airport Layout
-ACTIVE:1
-{% set default = 0.000005 %}
-
-{{ data.eddb['VerticalStructureByName']['VERTICALSTRUCTURE'] | simplify(default) | to_poly('Building', 'building') }}

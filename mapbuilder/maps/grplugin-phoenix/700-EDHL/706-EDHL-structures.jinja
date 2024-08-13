@@ -1,9 +1,0 @@
-MAP:Buildings
-AIRPORT:EDHL
-FOLDER:Airport Layout
-ACTIVE:1
-{% set default = 0.000005 %}
-
-{% for _, geom in data.edhl['VerticalStructure'].items() if geom.type == 'BUILDING' or geom.type == 'DAM' %}
-    {{- geom | geoms | simplify(default) | filter_smaller_than(0.00000001) | to_poly('', 'building') }}
-{% endfor %}

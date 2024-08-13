@@ -1,0 +1,27 @@
+MAP:Taxi Lanes
+AIRPORT:EDVE
+FOLDER:Airport Layout
+ACTIVE:1
+STYLE:solid
+{% set default = 0.000005 %}
+
+COLOR:taxilane-yellow
+{{ data.edve['GuidanceLineByDesig']['GL A'] | join_segments | simplify(default) | to_line('A') }}
+
+{{ data.edve['GuidanceLineByDesig']['GL B'] | join_segments | simplify(default) | to_line('B') }}
+
+{{ data.edve['GuidanceLineByDesig']['GL C'] | join_segments | simplify(default) | to_line('C') }}
+
+{{ data.edve['GuidanceLineByDesig']['GL D'] | join_segments | simplify(default) | to_line('D') }}
+
+{{ data.edve['GuidanceLineByDesig']['GL E'] | join_segments | simplify(default) | to_line('E') }}
+
+{{ data.edve['GuidanceLineByDesig']['GL F'] | join_segments | simplify(default) | to_line('F') }}
+
+{{ data.edve['GuidanceLineByDesig']['GL G'] | join_segments | simplify(default) | to_line('G') }}
+
+{{ data.edve['GuidanceLineByDesig']['GL K'] | join_segments | simplify(default) | to_line('K') }}
+
+{{ data.edve['GuidanceLineByDesig']['GL M'] | join_segments | simplify(default) | to_line('M') }}
+
+{{ data.edve['GuidanceLineByDesig']['GL TURNAROUND'] | join_segments | simplify(default) | to_line('TURNAROUND') }}

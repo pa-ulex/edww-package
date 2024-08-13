@@ -1,0 +1,61 @@
+MAP:Restrictions
+AIRPORT:EDHL
+FOLDER:Restrictions
+STYLE:Solid:2
+FONTSIZE:=:12
+{% set default = 0.000005 %}
+
+COLOR:restriction-15
+TEXT:N053.48.25.845:E010.42.24.996:WINGSPAN max. 15 m
+{{ data.edhl['GuidanceLineByDesig']['TL Z2 04'] | join_segments | simplify(default) | to_line('Z2') }}
+{{ data.edhl['GuidanceLineByDesig']['TL Z2 05'] | join_segments | simplify(default) | to_line('Z2') }}
+{{ data.edhl['GuidanceLineByDesig']['TL Z2 06'] | join_segments | simplify(default) | to_line('Z2') }}
+{{ data.edhl['GuidanceLineByDesig']['TL Z2 07'] | join_segments | simplify(default) | to_line('Z2') }}
+{{ data.edhl['GuidanceLineByDesig']['TL Z2 08'] | join_segments | simplify(default) | to_line('Z2') }}
+{{ data.edhl['GuidanceLineByDesig']['TL Z2 09'] | join_segments | simplify(default) | to_line('Z2') }}
+
+COLOR:restriction-36
+TEXT:N053.48.20.336:E010.42.08.719:WINGSPAN max. 29 m
+{{ data.edhl['GuidanceLineByDesig']['TL Z2 03'] | join_segments | simplify(default) | to_line('Z2') }}
+
+COLOR:restriction-52
+TEXT:N053.48.20.792:E010.42.24.837:MTOW max. 2t
+LINE:N053.48.22.160:E010.42.17.395:N053.48.20.507:E010.42.14.387
+LINE:N053.48.20.507:E010.42.14.387:N053.48.17.943:E010.42.18.219
+LINE:N053.48.17.943:E010.42.18.219:N053.48.18.931:E010.42.23.539
+LINE:N053.48.18.931:E010.42.23.539:N053.48.22.160:E010.42.17.395
+
+
+/////TWY Warning///
+MAP:Warnings
+AIRPORT:EDHL
+FOLDER:Restrictions
+ACTIVE:1
+// Z1 29
+COORDTYPE:TWYTYPE:NONE
+RESTRICTION:MAXWINGSPAN:29
+COORD:N053.48.17.007:E010.42.16.050
+COORD:N053.48.16.679:E010.42.15.098
+COORD:N053.48.18.855:E010.42.12.362
+COORD:N053.48.19.584:E010.42.11.794
+COORD:N053.48.20.241:E010.42.12.078
+COORD:N053.48.21.092:E010.42.12.808
+COORD:N053.48.21.481:E010.42.13.639
+COORD:N053.48.21.055:E010.42.14.449
+COORD:N053.48.20.654:E010.42.13.922
+COORD:N053.48.20.289:E010.42.13.578
+COORD:N053.48.19.888:E010.42.13.294
+COORD:N053.48.19.487:E010.42.13.233
+COORD:N053.48.19.025:E010.42.13.517
+COORD:N053.48.17.700:E010.42.15.138
+
+
+// Z2 15
+COORDTYPE:TWYTYPE:NONE
+RESTRICTION:MAXWINGSPAN:15
+COORD:N053.48.21.626:E010.42.14.267
+COORD:N053.48.21.335:E010.42.14.652
+COORD:N053.48.25.796:E010.42.21.887
+COORD:N053.48.25.857:E010.42.20.590
+COORD:N053.48.24.179:E010.42.17.955
+COORD:N053.48.21.894:E010.42.14.388

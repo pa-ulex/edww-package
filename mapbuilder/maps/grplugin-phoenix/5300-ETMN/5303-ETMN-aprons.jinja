@@ -1,8 +1,0 @@
-MAP:Apron Movement Areas
-AIRPORT:ETMN
-FOLDER:Airport Layout
-ACTIVE:1
-
-{% for name, geom in data.etmn_kml['Aprons'].items() %}
-    {{- geom | to_poly(name, 'apron') }}
-{% endfor %}

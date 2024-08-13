@@ -1,0 +1,8 @@
+MAP:Taxiway Movement Areas
+AIRPORT:EDDH
+FOLDER:Airport Layout
+ACTIVE:1
+COLOR:taxiway
+{% for name, geom in data.eddh['TaxiwayElement'].items() %}
+    {{- geom | to_poly(name, 'taxiway') }}
+{% endfor %}

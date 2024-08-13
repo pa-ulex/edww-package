@@ -15,12 +15,14 @@ jobs:
           key: sources
       - name: Run mapbuilder
         uses: vatger-nav/mapbuilder@main
-        with:
-          # defaults
-          target-path: '.'
-          source-path: 'mapbuilder'
       - name: Store cached sources
         uses: actions/cache/save@v4
         with:
           path: .cache
           key: sources
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "[AUTO] mapbuilder ${{ github.sha }}"
+          commit_user_name: mapbuilder
+          commit_user_email: mapbuilder@vatger.de
+          file_pattern: '*.txt'

@@ -1,0 +1,17 @@
+MAP:De-Icing
+AIRPORT:EDHL
+FOLDER:Ice/Snow
+COLOR:deicing
+{% set default = 0.000005 %}
+
+{{ data.edhl['GuidanceLineByDesig']['DE ICE 01'] | join_segments | simplify(default) | to_line('DE-ICING') }}
+{{ data.edhl['GuidanceLineByDesig']['DE ICE 01A'] | join_segments | simplify(default) | to_line('DE-ICING') }}
+{{ data.edhl['GuidanceLineByDesig']['DE ICE 02'] | join_segments | simplify(default) | to_line('DE-ICING') }}
+{{ data.edhl['GuidanceLineByDesig']['DE ICE 03'] | join_segments | simplify(default) | to_line('DE-ICING') }}
+{{ data.edhl['GuidanceLineByDesig']['DE ICE 04'] | join_segments | simplify(default) | to_line('DE-ICING') }}
+{{ data.edhl['GuidanceLineByDesig']['DE ICE 05'] | join_segments | simplify(default) | to_line('DE-ICING') }}
+{{ data.edhl['GuidanceLineByDesig']['DE ICE 06'] | join_segments | simplify(default) | to_line('DE-ICING') }}
+{{ data.edhl['GuidanceLineByDesig']['DE ICE 07'] | join_segments | simplify(default) | to_line('DE-ICING') }}
+{{ data.edhl['GuidanceLineByDesig']['TL Z1 TANGENTE 1'] | join_segments | simplify(default) | to_line('DE-ICING') }}
+{{ data.edhl['GuidanceLineByDesig']['TL Z1 TANGENTE 2'] | join_segments | simplify(default) | to_line('DE-ICING') }}
+{{ data.edhl['GuidanceLineByDesig']['TL Z1 TANGENTE 3'] | join_segments | simplify(default) | to_line('DE-ICING') }}

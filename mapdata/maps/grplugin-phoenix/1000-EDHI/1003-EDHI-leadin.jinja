@@ -1,0 +1,41 @@
+MAP:Leadin Lines
+AIRPORT:EDHI
+FOLDER:Airport Layout
+ACTIVE:1
+COLOR:leadin
+STYLE:solid
+
+//APRON 1
+{% for stand in ['101', '105', '120', '121', '122', 'STAND 101', 'STAND 102', 'STAND 103', 'STAND 104', 'STAND 105', 'STAND 106', 'STAND 107', 'STAND 108', 'STAND 109', 'STAND 110', 'STAND 120', 'STAND 121', 'STAND 122'] %}
+    {{- data.edhi['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
+{% endfor %}
+
+//APRON 1 LANES
+{% for stand in ['STAND L2 102', 'STAND L2 103', 'STAND L2 104', 'STAND L2 105', 'STAND L2 106', 'STAND L2 107', 'STAND L2 108', 'STAND L2 109'] %}
+    {{- data.edhi['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
+{% endfor %}
+
+//APRON 2
+{% for stand in ['201', '201L', '201R', '202', '202L', '202R', '204', '205L', '215', '216L', '216N', '216R', '217L', '217N', '217R', '218L', '218N', '218R', '219L', '219N', '219R', '220', '220L', '220R', '247L', '247R', '248L', '248R'] %}
+    {{- data.edhi['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
+{% endfor %}
+
+//APRON 2 STAND
+{% for stand in ['STAND 203', 'STAND 204',  'STAND 204L', 'STAND 204R', 'STAND 205', 'STAND 205L', 'STAND 205R', 'STAND 216L', 'STAND 216R', 'STAND 217L', 'STAND 217R', 'STAND 218L', 'STAND 218R', 'STAND 219L', 'STAND 219R', 'STAND 219N', 'STAND 220', 'STAND 247', 'STAND 248'] %}
+    {{- data.edhi['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
+{% endfor %}
+
+//APRON 3
+{% for stand in ['302', '303'] %}
+    {{- data.edhi['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
+{% endfor %}
+
+//APRON 3 STAND
+{% for stand in ['STAND 301', 'STAND 302', 'STAND 303', 'STAND 304'] %}
+    {{- data.edhi['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
+{% endfor %}
+
+//OTHER
+{% for stand in ['APRON 250', 'APRON 255', 'APRON 382'] %}
+    {{- data.edhi['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
+{% endfor %}
