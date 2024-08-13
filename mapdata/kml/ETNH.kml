@@ -4069,6 +4069,528 @@
 				</Polygon>
 			</Placemark>
 		</Folder>
+		<Folder>
+			<name>VerticalStructures</name>
+			<open>1</open>
+			<Placemark>
+				<name>Building NW</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.512079133903395,54.31264605255807,0 9.512319624541298,54.31262481055335,0 9.512337463123931,54.31271379169286,0 9.512200028525768,54.31272693095044,0 9.512202162841053,54.3127525490007,0 9.512092875185367,54.3127564294434,0 9.512079133903395,54.31264605255807,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building NW</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.512782409884545,54.31245067935063,0 9.513089979204398,54.31243136838316,0 9.513104454951639,54.31248112542568,0 9.513187060268866,54.31247496674012,0 9.513217522695907,54.31261497862265,0 9.51316614188708,54.31261848720287,0 9.513174858420715,54.31267477580028,0 9.512898949386914,54.31269338631871,0 9.512891983802065,54.31263094357003,0 9.512796908143439,54.31263819184053,0 9.512782409884545,54.31245067935063,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building NW</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.512265950492193,54.31347095303683,0 9.513253977587453,54.31318714872392,0 9.513470658741472,54.31327396645576,0 9.512478064836742,54.31355614819948,0 9.512265950492193,54.31347095303683,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building NW</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.512688033654255,54.31374698925492,0 9.512758311069442,54.31381010352261,0 9.512537078779395,54.313876534672,0 9.512477087932425,54.3138055110547,0 9.512688033654255,54.31374698925492,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building NW</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.513035068780091,54.31353011913016,0 9.513096794552764,54.31363401373225,0 9.512785349451956,54.31372217704754,0 9.512714313586406,54.31361931976701,0 9.513035068780091,54.31353011913016,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building NW</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.513341730765736,54.31356868881902,0 9.51348388566351,54.31360001332949,0 9.513442475974712,54.31366169508168,0 9.513299889946127,54.31363257933085,0 9.513341730765736,54.31356868881902,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building NW</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.513554838558649,54.31365186468371,0 9.513717598450732,54.31368444319554,0 9.513672574012695,54.31376048728551,0 9.513509230104415,54.31373004372768,0 9.513554838558649,54.31365186468371,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building NW</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.51434405704833,54.31345837860852,0 9.51453853176616,54.31349594389357,0 9.514503318020299,54.31356295291636,0 9.514430495540594,54.31354811506993,0 9.51441849097815,54.31356539909075,0 9.514296797497916,54.31354047101812,0 9.51434405704833,54.31345837860852,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building NW</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.515921178949105,54.31178542668781,0 9.51608446061771,54.3118185443104,0 9.515996094230783,54.31196624327516,0 9.515910310677082,54.31194753170249,0 9.515971378613271,54.31184573183506,0 9.515893103745922,54.31182973143876,0 9.515921178949105,54.31178542668781,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building NW</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.51753298600353,54.3122405030217,0 9.517687773712581,54.31219397830179,0 9.517874526883588,54.31236211359898,0 9.518247512781395,54.31220567085033,0 9.518379348218362,54.31231358585267,0 9.518022000584438,54.31246266802818,0 9.518068224120157,54.31250539418062,0 9.517896275032809,54.31257422328133,0 9.51753298600353,54.3122405030217,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building NW</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.521880160543532,54.3141030961008,0 9.522682335949732,54.31429497497444,0 9.52258635278104,54.31442816981076,0 9.521789066390152,54.31423557795462,0 9.521880160543532,54.3141030961008,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building Ramp 4</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.524219757831416,54.31391992387969,0 9.524536342617163,54.31395013045777,0 9.524419875851011,54.31431565047451,0 9.524095974771093,54.31427962498961,0 9.524219757831416,54.31391992387969,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hangar Ramp 4</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.52550228751641,54.31395662375852,0 9.527251705608219,54.31415119820333,0 9.527246295444442,54.31418200088873,0 9.527152799224476,54.31417052824311,0 9.527015844055631,54.31450614413301,0 9.525491346339985,54.31433737422338,0 9.525618146481971,54.31400372125353,0 9.525493818836313,54.31398850958819,0 9.52550228751641,54.31395662375852,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building Ramp 4</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.527190081645527,54.3142455217482,0 9.527349548809381,54.31426377858342,0 9.52730104350181,54.31441503870643,0 9.527139213803448,54.31439635952958,0 9.527190081645527,54.3142455217482,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Office GFD</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.524913397837549,54.31472188134276,0 9.525234183094506,54.31476629814394,0 9.525123378438277,54.31506883150072,0 9.524801067398418,54.31503360904827,0 9.524816881673988,54.3149845341645,0 9.525038492673358,54.31500819466007,0 9.525110078637676,54.3148112104997,0 9.524985803900595,54.31479101502325,0 9.524970330915142,54.31484437903022,0 9.524873425539477,54.31483321822066,0 9.524913397837549,54.31472188134276,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building GFD</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.525498014067376,54.31570236667477,0 9.525131820633598,54.31566062450847,0 9.525240052801847,54.31530417854062,0 9.525622696519537,54.31534736048937,0 9.525498014067376,54.31570236667477,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hangar GFD</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.525285941163137,54.31480835484138,0 9.525787048045846,54.31486273976739,0 9.525669602574997,54.31524868131434,0 9.525721983642701,54.31525555219868,0 9.525705075741641,54.31531771558961,0 9.525151544650438,54.31525614175396,0 9.525285941163137,54.31480835484138,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hangar GFD</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.526316278850366,54.31484635133505,0 9.527029003865973,54.31491916065576,0 9.526969690757028,54.31508947397918,0 9.526254944699469,54.31501417688571,0 9.526316278850366,54.31484635133505,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building Central</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.53609699675501,54.31420430794173,0 9.536540917539423,54.31424956998192,0 9.536494343653034,54.31435891836913,0 9.536058981603023,54.3143138865527,0 9.53609699675501,54.31420430794173,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building Central</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.536616096154415,54.31426599851952,0 9.537116304434932,54.31431633932933,0 9.537075364223671,54.31443109191435,0 9.536574560333753,54.31437296293451,0 9.536616096154415,54.31426599851952,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>TWR</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.53730512043129,54.3145950694617,0 9.537454930093446,54.31461255546138,0 9.537478659754742,54.31454832733692,0 9.537908012228375,54.31459561534194,0 9.537916289358597,54.31456810815438,0 9.538021042952016,54.31457759309036,0 9.538001007916286,54.31463343651021,0 9.537896465022644,54.31462400302022,0 9.537875854209329,54.31468566343479,0 9.538362303509029,54.3147429305105,0 9.538308481643904,54.31486704546192,0 9.537249834887646,54.31474787982614,0 9.53730512043129,54.3145950694617,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building Central</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.537237516641683,54.31497752758744,0 9.537496454091345,54.31500705449794,0 9.537439204939007,54.31517537421353,0 9.537183257669168,54.31514426585251,0 9.537237516641683,54.31497752758744,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building Central</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.53763882082275,54.3169557023392,0 9.53845976113324,54.31704381646426,0 9.538439246861019,54.31710331752823,0 9.537618490193388,54.31701506103932,0 9.53763882082275,54.3169557023392,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building Central</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.538122930933648,54.31681909695214,0 9.538518802329552,54.3168599314318,0 9.538482457167133,54.31697110796397,0 9.538095307913736,54.31693172045241,0 9.538122930933648,54.31681909695214,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building NE</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.546279688893552,54.3170083071703,0 9.546683261441732,54.31704921099124,0 9.546637336475063,54.3171601649947,0 9.546246257691585,54.31711898881259,0 9.546279688893552,54.3170083071703,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building NE</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.54697432125942,54.31695857209964,0 9.547180220074438,54.31633566243664,0 9.547520969262544,54.31637057048322,0 9.547310317441617,54.31699403808432,0 9.54697432125942,54.31695857209964,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building Ramp 3</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.547351657661224,54.31713727613073,0 9.547441431689936,54.31685638120509,0 9.547907562113135,54.31690519731502,0 9.547806468427734,54.31719059743868,0 9.547351657661224,54.31713727613073,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hangar Ramp 3</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.548369123189076,54.31676459717283,0 9.550513308379795,54.31700862906421,0 9.550503110614583,54.31704245932328,0 9.55047583379574,54.31704110363283,0 9.550308582707421,54.31753689123713,0 9.548151857384228,54.31730104925561,0 9.548289412735059,54.31687762315778,0 9.548355885484643,54.31681332031471,0 9.548369123189076,54.31676459717283,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building Ramp 3</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.551137882853556,54.31754019666631,0 9.551517899887116,54.31758106277501,0 9.551484559780041,54.31766816956397,0 9.551108748703342,54.31762545742054,0 9.551137882853556,54.31754019666631,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building Ramp 2</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.551700722709937,54.31758558877472,0 9.552042204880937,54.31762130025373,0 9.552009938496234,54.31772744390202,0 9.551660475738522,54.31768910250619,0 9.551700722709937,54.31758558877472,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building Ramp 2</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.552441861676876,54.31748582882577,0 9.552917033380659,54.31753250624625,0 9.552857633776723,54.31771332985479,0 9.552384064250869,54.31766467143382,0 9.552441861676876,54.31748582882577,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hangar Ramp 2</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.553063715033144,54.31750925534761,0 9.553212371801258,54.31738154086916,0 9.553223804973667,54.31734519706058,0 9.554973552093042,54.31754015258304,0 9.554953321559314,54.31757873701798,0 9.554859835216247,54.31757169844127,0 9.554664393114464,54.31799632747173,0 9.552967327426607,54.31780917922188,0 9.553063715033144,54.31750925534761,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building Ramp 2</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.555567224290085,54.31766979724468,0 9.555985250935743,54.31771625688128,0 9.555891543286723,54.31804633450626,0 9.555971007876652,54.31805585591848,0 9.555936367962554,54.31817270428721,0 9.555427643433392,54.31812531007942,0 9.555567224290085,54.31766979724468,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hangar Ramp 2</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.556886082474488,54.31768030241561,0 9.557449236632674,54.31775856469343,0 9.557293308970591,54.3183106329557,0 9.556700239952056,54.31823833772193,0 9.556886082474488,54.31768030241561,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building Ramp 2</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.558055642012045,54.31872290442347,0 9.558199265466993,54.31866710054791,0 9.558300415005359,54.31877193656366,0 9.558154611852288,54.31882193988928,0 9.558055642012045,54.31872290442347,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building Ramp 2</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.559415984471801,54.31737168489575,0 9.559435607521547,54.31752233375158,0 9.558158223815196,54.31813922734501,0 9.558133066146548,54.31798978795896,0 9.559415984471801,54.31737168489575,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Building NE</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								9.55687187453794,54.31618614435333,0 9.557003949318112,54.3162983862903,0 9.556703720107599,54.31641997707214,0 9.55694071198668,54.31662788610991,0 9.5572320817733,54.31651281074962,0 9.557334389435441,54.31659658670473,0 9.556979602034723,54.31674773193386,0 9.557112779973,54.3168554963164,0 9.556904986583724,54.3169416669207,0 9.556642536835652,54.31673119537062,0 9.556736069434937,54.31669113340551,0 9.55651996763846,54.3164929002924,0 9.556438462110012,54.31652753158669,0 9.556309925077954,54.31640707787714,0 9.55687187453794,54.31618614435333,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
 	</Folder>
 </Document>
 </kml>
