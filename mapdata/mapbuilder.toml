@@ -40,6 +40,11 @@ type = "kml"
 source = "kml/ETNH.kml"
 root = "ETNH"
 
+[data.etnt_kml]
+type = "kml"
+source = "kml/ETNT.kml"
+root = "ETNT"
+
 [data.etnw_kml]
 type = "kml"
 source = "kml/ETNW.kml"
