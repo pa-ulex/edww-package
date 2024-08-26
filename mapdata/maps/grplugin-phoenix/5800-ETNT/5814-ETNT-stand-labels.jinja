@@ -1,0 +1,13 @@
+MAP:Stands
+AIRPORT:ETNT
+FOLDER:Labels
+COLOR:labels-stand
+FONTSIZE:=:10
+ACTIVE:1
+
+ZOOM:500
+{% for name, geom in data.etnt_kml['StandLabels'].items() %}
+    {{- geom | to_text(name) }}
+{% endfor %}
+
+SYMBOL:Helipoint:53.54814687100581:7.656201872244317:H:1:1
