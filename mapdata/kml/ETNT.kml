@@ -5158,23 +5158,6 @@
 					<coordinates>7.668484394159918,53.54977543480983,0</coordinates>
 				</Point>
 			</Placemark>
-			<Placemark>
-				<name>Helipoint</name>
-				<LookAt>
-					<longitude>7.656460898455137</longitude>
-					<latitude>53.54827522552075</latitude>
-					<altitude>0</altitude>
-					<heading>-9.559932503372154</heading>
-					<tilt>0</tilt>
-					<range>166.5254230171718</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin3</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>7.656201872244317,53.54814687100581,0</coordinates>
-				</Point>
-			</Placemark>
 		</Folder>
 		<Folder>
 			<name>Holdingpoints</name>
