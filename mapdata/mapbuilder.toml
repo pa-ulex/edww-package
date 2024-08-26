@@ -123,25 +123,25 @@ aliases = [ "bright" ]
 
 [runways.EDDB.25R]
 thr = [ 52.377431, 13.526097 ]
-bearing = 245
+bearing = 248.84
 fap = [ 52.448706, 13.829058 ] # UBURU
 loc = [ 52.365689, 13.476564 ]
 
 [runways.EDDB.25L]
 thr = [ 52.358425, 13.523161 ] 
-bearing = 245
+bearing = 248.83
 fap = [ 52.411089, 13.746475 ] # XANIM
 loc = [ 52.343619, 13.460783 ]
 
 [runways.EDDB.07L]
 thr = [ 52.367689, 13.485025 ]
-bearing = 65
+bearing = 68.8
 fap = [ 52.295367, 13.182458 ] # ODIDO
 loc = [ 52.379442, 13.534594 ]
 
 [runways.EDDB.07R]
 thr = [ 52.345433, 13.468428 ]
-bearing = 65
+bearing = 68.79
 fap = [ 52.292308, 13.246033 ] # TEBGO
 loc = [ 52.360244, 13.530831 ]
 
