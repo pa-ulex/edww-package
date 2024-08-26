@@ -156,3 +156,15 @@ thr = [ 52.592524, 10.035464 ]
 bearing = 260.74
 fap = [ 52.607866, 10.191127 ] # AMLIM
 loc = [ ]
+
+[runways.ETHS.09]
+thr = [ 52.918936, 10.165726 ]
+bearing = 87.71
+fap = [ ]
+loc = [ ]
+
+[runways.ETHS.27]
+thr = [ 52.919807, 10.201971 ]
+bearing = 267.74
+fap = [ ]
+loc = [ ]
