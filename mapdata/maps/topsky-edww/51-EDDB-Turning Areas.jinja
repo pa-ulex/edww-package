@@ -24,7 +24,7 @@ LINE:N052.18.43.138:E013.01.37.775:N052.14.19.077:E012.43.20.455
 LINE:N052.12.56.638:E013.09.05.756:N052.08.46.396:E012.51.23.231
 //NTZ
 {{ fix(runways['EDDB']['07R']['thr']).move_to(dist, ortho_brg_07r).line_move_to(rwy_dist, ortho_brg_07r)
-    .line_move_to_fix(fix(runways['EDDB']['07L']['thr']).move_to(15, brg_07l).move_to(-dist, ortho_brg_07l))
+    .line_move_to_fix(fix(runways['EDDB']['07L']['thr']).move_to(15, brg_07l).move_to(dist, ortho_brg_07l))
     .line_move_to_fix(fix(runways['EDDB']['07R']['thr']).move_to(15, brg_07r).move_to(dist, ortho_brg_07r))
     .line_move_to_fix(fix(runways['EDDB']['07R']['thr']).move_to(dist, ortho_brg_07r))}}
 
@@ -43,6 +43,6 @@ LINE:N052.31.34.613:E013.55.32.558:N052.35.44.413:E014.13.12.708
 LINE:N052.24.13.769:E013.56.21.710:N052.28.34.022:E014.14.51.695
 //NTZ
 {{ fix(runways['EDDB']['25R']['thr']).move_to(dist, ortho_brg_25r).line_move_to(rwy_dist, ortho_brg_25r)
-    .line_move_to_fix(fix(runways['EDDB']['25L']['thr']).move_to(15, brg_25l).move_to(-dist, ortho_brg_25l))
+    .line_move_to_fix(fix(runways['EDDB']['25L']['thr']).move_to(15, brg_25l).move_to(dist, ortho_brg_25l))
     .line_move_to_fix(fix(runways['EDDB']['25R']['thr']).move_to(15, brg_25r).move_to(dist, ortho_brg_25r))
     .line_move_to_fix(fix(runways['EDDB']['25R']['thr']).move_to(dist, ortho_brg_25r))}}
