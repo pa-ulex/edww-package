@@ -12,6 +12,14 @@ LINE:N053.27.53.000:E007.20.35.000:N053.22.09.000:E007.23.32.000
 LINE:N053.22.09.000:E007.23.32.000:N053.19.03.000:E007.06.44.000
 LINE:N053.19.03.000:E007.06.44.000:N053.24.46.000:E007.03.45.000
 
+{{ ecl_dashes(runways['EDWE']['07'], 10) }}
+{{ marker_ticks(runways['EDWE']['07'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDWE']['07'], [5, 15], -0.5, 1) }}
+
+{{ ecl_dashes(runways['EDWE']['25'], 10) }}
+{{ marker_ticks(runways['EDWE']['25'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDWE']['25'], [5, 15], -0.5, 1) }}
+
 MAP:EDWE 07 FIX
 FOLDER:FIXES
 COLOR:Active_Map_Type_2
