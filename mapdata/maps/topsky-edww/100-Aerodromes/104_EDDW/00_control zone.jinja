@@ -1,0 +1,22 @@
+MAP:EDDW CTR
+LAYER:-1
+FOLDER:D(CTR)
+COLOR:Active_Map_Type_2
+ACTIVE:ID:WC:*:*:FRI,EIDE,ALR,EIDW
+ACTIVE:ID:EIDW:*:*:FRI,EIDE,ALR
+ACTIVE:ID:ALR:*:*:FRI,EIDE
+ACTIVE:ID:EIDE:*:*:FRI
+ACTIVE:ID:FRI,DWAT:*:*:*
+LINE:N053.06.04.000:E008.58.30.000:N052.58.08.000:E008.58.56.000
+LINE:N052.58.08.000:E008.58.56.000:N052.57.57.000:E008.47.30.000
+LINE:N052.57.57.000:E008.47.30.000:N052.59.39.000:E008.35.60.000
+LINE:N052.59.39.000:E008.35.60.000:N053.05.40.000:E008.35.37.000
+LINE:N053.05.40.000:E008.35.37.000:N053.06.04.000:E008.58.30.000
+
+{{ ecl_dashes(runways['EDDW']['09'], 14) }}
+{{ marker_ticks(runways['EDDW']['09'], [6, 10], 0.5, 0.5) }}
+{{ loc_tick(runways['EDDW']['09'], -0.5, 1) }}
+
+{{ ecl_dashes(runways['EDDW']['27'], 14) }}
+{{ marker_ticks(runways['EDDW']['27'], [6, 10], 0.5, 0.5) }}
+{{ loc_tick(runways['EDDW']['27'], -0.5, 1) }}
