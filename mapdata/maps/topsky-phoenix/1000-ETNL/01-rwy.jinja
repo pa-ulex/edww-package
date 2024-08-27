@@ -1,0 +1,27 @@
+MAP:RWYS
+FOLDER:ETNL
+COLOR:rwy
+ASRDATA:TWR
+ACTIVE:1
+STYLE:Solid:1
+//09-27
+LINE:N053.55.10.560:E012.15.37.018:N053.54.59.641:E012.17.53.858
+//EDBN
+LINE:N053.36.06.789:E013.17.19.510:N053.36.09.219:E013.19.24.121
+//EDBH
+LINE:N054.20.17.588:E012.42.03.171:N054.20.17.289:E012.43.06.819
+
+MAP:CTRLINES
+FOLDER:ETNL
+COLOR:Airspace
+ASRDATA:TWR
+ACTIVE:1
+{{ ecl_dashes(runways['ETNL']['09'], 12) }}
+{{ marker_ticks(runways['ETNL']['09'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETNL']['09'], [5], -0.5, 1) }}
+{{ loc_tick(runways['ETNL']['09'], -0.5, 1) }}
+
+{{ ecl_dashes(runways['ETNL']['27'], 12) }}
+{{ marker_ticks(runways['ETNL']['27'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETNL']['27'], [5], -0.5, 1) }}
+{{ loc_tick(runways['ETNL']['27'], -0.5, 1) }}

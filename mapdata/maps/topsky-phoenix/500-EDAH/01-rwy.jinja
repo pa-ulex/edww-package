@@ -1,0 +1,21 @@
+MAP:RWYS
+FOLDER:EDAH
+COLOR:rwy
+ASRDATA:TWR
+ACTIVE:1
+STYLE:Solid:1
+//10-28
+LINE:N053.52.53.871:E014.08.04.210:N053.52.33.931:E014.10.05.800
+
+MAP:CTRLINES
+FOLDER:EDAH
+COLOR:Airspace
+ASRDATA:TWR
+ACTIVE:1
+{{ ecl_dashes(runways['EDAH']['10'], 12) }}
+{{ marker_ticks(runways['EDAH']['10'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDAH']['10'], [5], -0.5, 1) }}
+
+{{ ecl_dashes(runways['EDAH']['28'], 12) }}
+{{ marker_ticks(runways['EDAH']['28'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDAH']['28'], [5], -0.5, 1) }}

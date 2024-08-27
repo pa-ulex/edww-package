@@ -1,0 +1,36 @@
+MAP:RWYS
+FOLDER:ETNH/ETNS
+COLOR:rwy
+ASRDATA:TWR
+ACTIVE:1
+STYLE:Solid:1
+//07-25 ETNS
+LINE:N054.27.16.981:E009.29.50.370:N054.27.38.620:E009.32.01.770
+//05-23 ETNS
+LINE:N054.27.07.099:E009.30.08.859:N054.28.00.209:E009.31.48.979
+//08-26 ETNH
+LINE:N054.18.36.680:E009.31.10.999:N054.18.51.159:E009.33.23.659
+//EDHK
+LINE:N054.22.44.140:E010.08.14.391:N054.22.48.561:E010.09.11.278
+
+MAP:CTRLINES
+FOLDER:ETNH/ETNS
+COLOR:Airspace
+ASRDATA:TWR
+ACTIVE:1
+{{ ecl_dashes(runways['ETNH']['08'], 12) }}
+{{ marker_ticks(runways['ETNH']['08'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETNH']['08'], [5], -0.5, 1) }}
+
+{{ ecl_dashes(runways['ETNH']['26'], 12) }}
+{{ marker_ticks(runways['ETNH']['26'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETNH']['26'], [5], -0.5, 1) }}
+{{ loc_tick(runways['ETNH']['26'], -0.5, 1) }}
+
+{{ ecl_dashes(runways['ETNS']['05'], 12) }}
+{{ marker_ticks(runways['ETNS']['05'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETNS']['05'], [5], -0.5, 1) }}
+
+{{ ecl_dashes(runways['ETNS']['23'], 12) }}
+{{ marker_ticks(runways['ETNS']['23'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETNS']['23'], [5], -0.5, 1) }}
