@@ -1,0 +1,24 @@
+MAP:RWYS
+FOLDER:EDXW
+COLOR:rwy
+ASRDATA:TWR
+ACTIVE:1
+STYLE:Solid:1
+//14-32
+LINE:N054.55.09.649:E008.19.58.378:N054.54.13.859:E008.21.07.538
+//06-24
+LINE:N054.54.33.901:E008.19.45.019:N054.55.01.621:E008.21.07.178
+
+MAP:CTRLINES
+FOLDER:EDXW
+COLOR:Airspace
+ASRDATA:TWR
+ACTIVE:1
+{{ ecl_dashes(runways['EDXW']['14'], 12) }}
+{{ marker_ticks(runways['EDXW']['14'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDXW']['14'], [5], -0.5, 1) }}
+
+{{ ecl_dashes(runways['EDXW']['32'], 12) }}
+{{ marker_ticks(runways['EDXW']['32'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDXW']['32'], [5], -0.5, 1) }}
+{{ loc_tick(runways['EDXW']['32'], -0.5, 1) }}

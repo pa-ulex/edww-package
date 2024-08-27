@@ -1,0 +1,21 @@
+MAP:EDVE CTR
+LAYER:-1
+FOLDER:D(CTR)
+COLOR:Active_Map_Type_2
+ACTIVE:ID:WC:*:*:HAN,HRZ,DST,EIDW
+ACTIVE:ID:EIDW:*:*:HAN,HRZ,DST
+ACTIVE:ID:DST:*:*:HAN,HRZ
+ACTIVE:ID:HRZ:*:*:HAN
+ACTIVE:ID:HAN,DVAT:*:*:*
+LINE:N052.22.40.000:E010.41.10.000:N052.16.40.000:E010.41.60.000
+LINE:N052.16.40.000:E010.41.60.000:N052.15.45.000:E010.24.05.000
+LINE:N052.15.45.000:E010.24.05.000:N052.21.45.000:E010.23.15.000
+LINE:N052.21.45.000:E010.23.15.000:N052.22.40.000:E010.41.10.000
+
+{{ ecl_dashes(runways['EDVE']['08'], 10) }}
+{{ marker_ticks(runways['EDVE']['08'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDVE']['08'], [5], -0.5, 1) }}
+
+{{ ecl_dashes(runways['EDVE']['26'], 10) }}
+{{ marker_ticks(runways['EDVE']['26'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDVE']['26'], [5], -0.5, 1) }}

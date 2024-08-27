@@ -1,0 +1,24 @@
+MAP:ETMN CTR
+LAYER:-1
+FOLDER:D(CTR)
+COLOR:Active_Map_Type_2
+ACTIVE:ID:MNR:*:*:*
+ACTIVE:ID:NTR:*:MNR:*
+ACTIVE:ID:EIDE:*:MNT:*
+ACTIVE:ID:ALR:*:MNT:EIDE
+ACTIVE:ID:EIDW:*:MNT:EIDE,ALR
+ACTIVE:ID:WC:*:MNT:EIDE,ALR,EIDW
+LINE:N053.44.19.000:E008.50.27.000:N053.42.00.000:E008.30.40.000
+LINE:N053.42.00.000:E008.30.40.000:N053.47.55.000:E008.28.43.000
+LINE:N053.47.55.000:E008.28.43.000:N053.50.11.000:E008.48.32.000
+LINE:N053.50.11.000:E008.48.32.000:N053.44.19.000:E008.50.27.000
+
+{{ ecl_dashes(runways['ETMN']['08'], 12) }}
+{{ marker_ticks(runways['ETMN']['08'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETMN']['08'], [5], -0.5, 1) }}
+{{ loc_tick(runways['ETMN']['08'], -0.5, 1) }}
+
+{{ ecl_dashes(runways['ETMN']['26'], 12) }}
+{{ marker_ticks(runways['ETMN']['26'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETMN']['26'], [5], -0.5, 1) }}
+{{ loc_tick(runways['ETMN']['26'], -0.5, 1) }}

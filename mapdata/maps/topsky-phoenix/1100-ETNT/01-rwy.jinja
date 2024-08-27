@@ -1,0 +1,27 @@
+MAP:RWYS
+FOLDER:ETNT
+COLOR:rwy
+ASRDATA:TWR
+ACTIVE:1
+STYLE:Solid:1
+//08-26
+LINE:N053.32.44.170:E007.38.57.868:N053.33.00.788:E007.41.07.418
+//EDWE
+LINE:N053.23.23.729:E007.13.12.550:N053.23.33.298:E007.14.04.228
+//EDWI
+LINE:N053.30.20.419:E008.02.59.600:N053.30.02.350:E008.03.13.589
+LINE:N053.29.53.041:E008.02.58.131:N053.30.22.460:E008.03.18.068
+
+MAP:CTRLINES
+FOLDER:ETNT
+COLOR:Airspace
+ASRDATA:TWR
+ACTIVE:1
+{{ ecl_dashes(runways['ETNT']['08'], 12) }}
+{{ marker_ticks(runways['ETNT']['08'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETNT']['08'], [5], -0.5, 1) }}
+
+{{ ecl_dashes(runways['ETNT']['26'], 12) }}
+{{ marker_ticks(runways['ETNT']['26'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETNT']['26'], [5], -0.5, 1) }}
+{{ loc_tick(runways['ETNT']['26'], -0.5, 1) }}

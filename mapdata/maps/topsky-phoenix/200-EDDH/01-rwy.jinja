@@ -1,0 +1,42 @@
+MAP:RWYS
+FOLDER:EDDH
+COLOR:rwy
+ASRDATA:TWR
+ACTIVE:1
+STYLE:Solid:3
+//15-33
+LINE:N053.39.15.879:E009.58.30.759:N053.37.43.251:E009.59.50.809
+//05-23
+LINE:N053.37.11.848:E009.58.01.801:N053.38.09.639:E009.59.58.761
+//05-23 EDHI
+LINE:N053.31.42.859:E009.49.16.431:N053.32.20.219:E009.50.35.649
+//07-25 EDHL
+LINE:N053.48.08.758:E010.42.15.188:N053.48.27.968:E010.43.55.041
+STYLE:Solid:1
+//EDHO
+LINE:N053.41.24.121:E009.43.03.754:N053.42.35.317:E009.45.48.653
+//EDHE
+LINE:N053.38.49.835:E009.40.30.727:N053.38.48.641:E009.43.51.245
+//EDHS
+LINE:N053.33.57.979:E009.28.18.189:N053.33.23.081:E009.31.28.134
+
+MAP:CTRLINES
+FOLDER:EDDH
+COLOR:Airspace
+ASRDATA:TWR
+ACTIVE:1
+{{ ecl_dashes(runways['EDDH']['05'], 25) }}
+{{ marker_ticks(runways['EDDH']['05'], [10, 20], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDDH']['05'], [5, 15], -0.5, 1) }}
+
+{{ ecl_dashes(runways['EDDH']['15'], 25) }}
+{{ marker_ticks(runways['EDDH']['15'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDDH']['15'], [5, 15, 20], -0.5, 1) }}
+
+{{ ecl_dashes(runways['EDDH']['23'], 25) }}
+{{ marker_ticks(runways['EDDH']['23'], [10, 20], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDDH']['23'], [5, 15], -0.5, 1) }}
+
+{{ ecl_dashes(runways['EDDH']['33'], 25) }}
+{{ marker_ticks(runways['EDDH']['33'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDDH']['33'], [5, 15, 20], -0.5, 1) }}

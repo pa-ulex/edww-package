@@ -1,0 +1,23 @@
+MAP:RWYS
+FOLDER:EDVK
+COLOR:rwy
+ASRDATA:TWR
+ACTIVE:1
+STYLE:Solid:1
+//09-27
+LINE:N051.25.18.328:E009.22.27.310:N051.25.11.359:E009.24.36.219
+
+MAP:CTRLINES
+FOLDER:EDVK
+COLOR:Airspace
+ASRDATA:TWR
+ACTIVE:1
+{{ ecl_dashes(runways['EDVK']['09'], 12) }}
+{{ marker_ticks(runways['EDVK']['09'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDVK']['09'], [5], -0.5, 1) }}
+{{ loc_tick(runways['EDVK']['09'], -0.5, 1) }}
+
+{{ ecl_dashes(runways['EDVK']['27'], 12) }}
+{{ marker_ticks(runways['EDVK']['27'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDVK']['27'], [5], -0.5, 1) }}
+{{ loc_tick(runways['EDVK']['27'], -0.5, 1) }}

@@ -1,0 +1,24 @@
+MAP:RWYS
+FOLDER:ETSH
+COLOR:rwy
+ASRDATA:TWR
+ACTIVE:1
+STYLE:Solid:1
+//09-27
+LINE:N051.46.06.628:E013.09.00.360:N051.46.02.020:E013.11.06.309
+//EDBM
+LINE:N052.04.24.790:E011.37.15.689:N052.04.25.679:E011.38.01.521
+
+MAP:CTRLINES
+FOLDER:ETSH
+COLOR:Airspace
+ASRDATA:TWR
+ACTIVE:1
+{{ ecl_dashes(runways['ETSH']['09'], 12) }}
+{{ marker_ticks(runways['ETSH']['09'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETSH']['09'], [5], -0.5, 1) }}
+
+{{ ecl_dashes(runways['ETSH']['27'], 12) }}
+{{ marker_ticks(runways['ETSH']['27'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETSH']['27'], [5], -0.5, 1) }}
+{{ loc_tick(runways['ETSH']['27'], -0.5, 1) }}
