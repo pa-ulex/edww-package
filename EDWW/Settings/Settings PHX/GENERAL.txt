@@ -34,7 +34,7 @@ m_AllowAssumedACTagDown:0
 m_InhibitAutoPushOnHandoff:0
 m_RandomSquawks:1
 m_VFRSquawks:7000
-m_WhoIsOnlineURL:http://vatsim.metacraft.com/vatsim-data.txt
+m_WhoIsOnlineURL:https://cluster.data.vatsim.net/vatsim-data.txt
 m_AutoLoadMetarForActiveAirports:1
 m_LockShowRouteWhenAccepting:0
 m_VoiceAtisBuilderUrl:http://uniatis.net/atis.php?arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&apptype=ILS&info=$atiscode&metar=$metar($atisairport)
