@@ -1,48 +1,48 @@
-{%- set brg_07l = brg(runways['EDDB']['07L']['bearing']).invert() -%}
-{%- set brg_07r = brg(runways['EDDB']['07R']['bearing']).invert() -%}
-{%- set brg_25l = brg(runways['EDDB']['25L']['bearing']).invert() -%}
-{%- set brg_25r = brg(runways['EDDB']['25R']['bearing']).invert() -%}
-{%- set ortho_brg_07l = brg_07l + 90 -%}
-{%- set ortho_brg_07r = brg_07r + 90 -%}
-{%- set ortho_brg_25l = brg_25l + 90 -%}
-{%- set ortho_brg_25r = brg_25r + 90 -%}
+{%- set brg_06l = brg(runways['EDDB']['06L']['bearing']).invert() -%}
+{%- set brg_06r = brg(runways['EDDB']['06R']['bearing']).invert() -%}
+{%- set brg_24l = brg(runways['EDDB']['24L']['bearing']).invert() -%}
+{%- set brg_24r = brg(runways['EDDB']['24R']['bearing']).invert() -%}
+{%- set ortho_brg_06l = brg_06l + 90 -%}
+{%- set ortho_brg_06r = brg_06r + 90 -%}
+{%- set ortho_brg_24l = brg_24l + 90 -%}
+{%- set ortho_brg_24r = brg_24r + 90 -%}
 {%- set dist = 0.161987 %}
 {%- set rwy_dist = 0.701 %}
 
-MAP:EDDB IPA TURNING AREA 07
+MAP:EDDB IPA TURNING AREA 06
 FOLDER:AREAS
 COLOR:Active_Map_Type_2
-//3000ft 07R
+//3000ft 06R
 LINE:N052.15.46.242:E013.07.19.829:N052.12.56.638:E013.09.05.756
-//4000ft 07R
+//4000ft 06R
 LINE:N052.14.40.168:E013.02.47.181:N052.11.52.104:E013.04.33.378
-//5000ft 07L
+//5000ft 06L
 LINE:N052.15.55.114:E013.03.22.155:N052.18.43.138:E013.01.37.775
 //3 NM line north
 LINE:N052.18.43.138:E013.01.37.775:N052.14.19.077:E012.43.20.455
 //3 NM line south
 LINE:N052.12.56.638:E013.09.05.756:N052.08.46.396:E012.51.23.231
 //NTZ
-{{ fix(runways['EDDB']['07R']['thr']).move_to(dist, ortho_brg_07r).line_move_to(rwy_dist, ortho_brg_07r)
-    .line_move_to_fix(fix(runways['EDDB']['07L']['thr']).move_to(20, brg_07l).move_to(-dist, ortho_brg_07l))
-    .line_move_to_fix(fix(runways['EDDB']['07R']['thr']).move_to(20, brg_07r).move_to(dist, ortho_brg_07r))
-    .line_move_to_fix(fix(runways['EDDB']['07R']['thr']).move_to(dist, ortho_brg_07r))}}
+{{ fix(runways['EDDB']['06R']['thr']).move_to(dist, ortho_brg_06r).line_move_to(rwy_dist, ortho_brg_06r)
+    .line_move_to_fix(fix(runways['EDDB']['06L']['thr']).move_to(20, brg_06l).move_to(-dist, ortho_brg_06l))
+    .line_move_to_fix(fix(runways['EDDB']['06R']['thr']).move_to(20, brg_06r).move_to(dist, ortho_brg_06r))
+    .line_move_to_fix(fix(runways['EDDB']['06R']['thr']).move_to(dist, ortho_brg_06r))}}
 
-MAP:EDDB IPA TURNING AREA 25
+MAP:EDDB IPA TURNING AREA 24
 FOLDER:AREAS
 COLOR:Active_Map_Type_2
-//3000ft 25L
+//3000ft 24L
 LINE:N052.27.01.274:E013.54.37.629:N052.24.13.769:E013.56.21.710
-//4000ft 25L
+//4000ft 24L
 LINE:N052.28.05.556:E013.59.09.348:N052.25.16.617:E014.00.53.330
-//5000ft 25R
+//5000ft 24R
 LINE:N052.28.44.630:E013.57.15.983:N052.31.34.613:E013.55.32.558
 //3 NM line north
 LINE:N052.31.34.613:E013.55.32.558:N052.35.44.413:E014.13.12.708
 //3 NM line south
 LINE:N052.24.13.769:E013.56.21.710:N052.28.34.022:E014.14.51.695
 //NTZ
-{{ fix(runways['EDDB']['25R']['thr']).move_to(dist, ortho_brg_25r).line_move_to(rwy_dist, ortho_brg_25r)
-    .line_move_to_fix(fix(runways['EDDB']['25L']['thr']).move_to(20, brg_25l).move_to(-dist, ortho_brg_25l))
-    .line_move_to_fix(fix(runways['EDDB']['25R']['thr']).move_to(20, brg_25r).move_to(dist, ortho_brg_25r))
-    .line_move_to_fix(fix(runways['EDDB']['25R']['thr']).move_to(dist, ortho_brg_25r))}}
+{{ fix(runways['EDDB']['24R']['thr']).move_to(dist, ortho_brg_24r).line_move_to(rwy_dist, ortho_brg_24r)
+    .line_move_to_fix(fix(runways['EDDB']['24L']['thr']).move_to(20, brg_24l).move_to(-dist, ortho_brg_24l))
+    .line_move_to_fix(fix(runways['EDDB']['24R']['thr']).move_to(20, brg_24r).move_to(dist, ortho_brg_24r))
+    .line_move_to_fix(fix(runways['EDDB']['24R']['thr']).move_to(dist, ortho_brg_24r))}}
