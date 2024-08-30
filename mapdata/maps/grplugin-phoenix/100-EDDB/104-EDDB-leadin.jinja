@@ -58,10 +58,10 @@ STYLE:solid
     {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 
-// Apron 3a
-{% for stand in ['GL_APR_62', 'GL_APR_63', 'GL_APR_64', 'GL_APR_65'] %}
-    {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
-{% endfor %}
+// Apron 3a (WIP)
+//{% for stand in ['GL_APR_62', 'GL_APR_63', 'GL_APR_64', 'GL_APR_65'] %}
+//    {{- data.eddb['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
+//{% endfor %}
 
 // Apron 3b
 {% for stand in ['GL_APR_70', 'GL_APR_71', 'GL_APR_72', 'GL_APR_73', 'GL_APR_74'] %}
