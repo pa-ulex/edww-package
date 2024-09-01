@@ -1,0 +1,15 @@
+MAP:Taxiway Designators
+AIRPORT:EDVK
+FOLDER:Labels
+ACTIVE:1
+ZOOM:400
+FONTSIZE:=:10
+
+{% for name, geom in data.edvk_kml['TWYLabels'].items() %}
+    {{- geom | to_text_buffer(name, 'taxiway', True) }}
+{% endfor %}
+
+COLOR:labels-twy
+{% for name, geom in data.edvk_kml['TWYLabels'].items() %}
+    {{- geom | to_text(name) }}
+{% endfor %}
