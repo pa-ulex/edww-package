@@ -5,3 +5,4 @@ ACTIVE:1
 
 {% for name, geom in data.edvk_kml['Taxiways'].items() %}
     {{- geom | to_poly(name, 'taxiway') }}
+{% endfor %}
