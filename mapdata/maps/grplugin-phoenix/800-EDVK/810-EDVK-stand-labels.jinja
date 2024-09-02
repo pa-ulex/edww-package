@@ -1,0 +1,14 @@
+MAP:Stands
+AIRPORT:EDVK
+FOLDER:Labels
+COLOR:labels-stand
+FONTSIZE:=:10
+ACTIVE:1
+
+ZOOM:500
+{% for name, geom in data.edvk_kml['StandLabels'].items() %}
+    {{- geom | to_text(name) }}
+{% endfor %}
+
+SYMBOL:Helipoint:51.41907083078841:9.393647392763073:H:1:1
+SYMBOL:Helipoint:51.4071868685773:9.379343472487896:H:1:1
