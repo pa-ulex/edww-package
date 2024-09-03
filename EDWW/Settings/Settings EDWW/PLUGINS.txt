@@ -24,7 +24,6 @@ TopSky plugin:ACList/Holding List /m_Column_3:-:2:0:10027:0:0:1:EUROCAT 2000 E p
 TopSky plugin:ACList/Holding List /m_Column_4:CFL:4:0:10002:12:39:1:EUROCAT 2000 E plugin:EUROCAT 2000 E plugin:EUROCAT 2000 E plugin
 TopSky plugin:ACList/Holding List /m_Column_5:HPT:6:0:10024:65:0:1:EUROCAT 2000 E plugin:EUROCAT 2000 E plugin:
 TopSky plugin:ACList/Holding List /m_Column_6:ETO:4:0:10036:0:0:1:EUROCAT 2000 E plugin::
-Arrival Manager:AMAN:EDDH;1800;1|
 TopSky plugin:ACList/HOLDING LIST/m_Visible:0
 TopSky plugin:ACList/HOLDING LIST/m_X:457
 TopSky plugin:ACList/HOLDING LIST/m_Y:57
@@ -162,13 +161,6 @@ TopSky plugin:ACList/Uncontrolled List 1/m_Column_2:RMKs:10:1:19:29:0:1:::
 TopSky plugin:ACList/Sector List/m_Column_7:COP:6:0:28:10:99:1:::TopSky plugin
 TopSky plugin:ACList/HOLDING LIST/m_Column_6:ETO:4:0:10036:0:0:1:TopSky plugin::
 TopSky plugin:ACList/Sector List/m_Column_8:SI:5:0:10014:20:42:1:TopSky plugin::TopSky plugin
-RG Bremen:ACList/NORDO List/m_Visible:0
-RG Bremen:ACList/NORDO List/m_X:20
-RG Bremen:ACList/NORDO List/m_Y:20
-RG Bremen:ACList/NORDO List/m_LineNumber:1
-RG Bremen:ACList/NORDO List/m_Resizable:1
-RG Bremen:ACList/NORDO List/m_OrderingColumn:1
-RG Bremen:ACList/NORDO List/m_Column_0:Callsign:8:0:9:16:0:1:::
 VCH:vch_ctl_t:1
 VCH:vch_ctl:20.000000
 VCH:vch_blink:0

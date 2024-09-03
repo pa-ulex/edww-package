@@ -234,9 +234,6 @@ TopSky plugin:ACList/Traffic Management List 2/m_Column_13:RWY:4:1:10010:19:19:1
 TopSky plugin:ACList/Traffic Management List 2/m_Column_14:ADES:5:1:10008:1001:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/Traffic Management List 2/m_Column_15:SI:4:1:10014:20:0:1:TopSky plugin::
 TopSky plugin:ACList/Traffic Management List 2/m_Column_16: :1:0:10057:0:0:1:TopSky plugin::
-EsCenterLines:color_red:200
-EsCenterLines:color_green:200
-EsCenterLines:color_blue:200
 VCH:vch_ctl_t:1
 CCAMS:ACList/Mode S EHS/m_Visible:0
 CCAMS:ACList/Mode S EHS/m_X:20
