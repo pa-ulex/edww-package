@@ -1,0 +1,12 @@
+MAP:Taxiway Designators
+AIRPORT:EDAH
+FOLDER:Labels
+ACTIVE:1
+ZOOM:400
+FONTSIZE:=:10
+
+
+COLOR:labels-twy
+{% for name, geom in data.edah_kml['TaxiwayLabels'].items() %}
+    {{- geom | to_text(name) }}
+{% endfor %}
