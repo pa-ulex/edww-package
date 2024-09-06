@@ -1980,7 +1980,7 @@
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>C</name>
+				<name>C#2</name>
 				<LookAt>
 					<longitude>14.16126527742925</longitude>
 					<latitude>53.87556258657956</latitude>
@@ -2014,7 +2014,7 @@
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>D</name>
+				<name>D#2</name>
 				<LookAt>
 					<longitude>14.16624212902485</longitude>
 					<latitude>53.87773223638501</latitude>
@@ -2154,7 +2154,7 @@
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>Parking area</name>
+				<name>Parking area#2</name>
 				<LookAt>
 					<longitude>14.16127798204011</longitude>
 					<latitude>53.87621144377787</latitude>
