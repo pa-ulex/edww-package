@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      #- name: Restore cached sources
-      #  uses: actions/cache/restore@v4
-      #  with:
-      #    path: .cache
-      #    key: sources
+      - name: Restore cached sources
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: sources
       - name: Run mapbuilder
         uses: vatger-nav/mapbuilder@main
       - name: Store cached sources
