@@ -3,32 +3,32 @@
 [data.eddb]
 type = "aixm"
 #source = "aixm:dfs:0:EDDB AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDB_AerodromeMapping_2024-08-08_2024-09-05_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDB_AerodromeMapping_2024-09-05_2024-09-05_snapshot.zip"
 
 [data.eddh]
 type = "aixm"
 #source = "aixm:dfs:0:EDDH AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDH_AerodromeMapping_2024-08-08_2024-09-05_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDH_AerodromeMapping_2024-09-05_2024-09-05_snapshot.zip"
 
 [data.eddv]
 type = "aixm"
 #source = "aixm:dfs:0:EDDV AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDV_AerodromeMapping_2024-08-08_2024-09-05_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDV_AerodromeMapping_2024-09-05_2024-09-05_snapshot.zip"
 
 [data.edhi]
 type = "aixm"
 #source = "aixm:dfs:0:EDHI AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDHI_AerodromeMapping_2024-08-08_2024-09-05_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDHI_AerodromeMapping_2024-09-05_2024-09-05_snapshot.zip"
 
 [data.edhl]
 type = "aixm"
 #source = "aixm:dfs:0:EDHL AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDHL_AerodromeMapping_2024-08-08_2024-09-05_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDHL_AerodromeMapping_2024-09-05_2024-09-05_snapshot.zip"
 
 [data.edve]
 type = "aixm"
 #source = "aixm:dfs:0:EDVE AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDVE_AerodromeMapping_2024-08-08_2024-09-05_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDVE_AerodromeMapping_2024-09-05_2024-09-05_snapshot.zip"
 
 [data.etmn_kml]
 type = "kml"
@@ -54,6 +54,11 @@ root = "ETNW"
 type = "kml"
 source = "kml/EDVK.kml"
 root = "EDVK"
+
+[data.edxw_kml]
+type = "kml"
+source = "kml/EDXW.kml"
+root = "EDXW"
 
 #[data.rivers]
 #type = "kml"
