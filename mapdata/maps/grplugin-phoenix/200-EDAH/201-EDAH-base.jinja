@@ -1,8 +1,0 @@
-MAP:Base
-AIRPORT:EDAH
-FOLDER:Airport Layout
-ACTIVE:1
-
-{% for name, geom in data.edah_kml['Base'].items() %}
-    {{- geom | to_poly(name, 'base') }}
-{% endfor %}
