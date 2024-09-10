@@ -1,0 +1,11 @@
+MAP:Holding Points
+AIRPORT:EDAH
+FOLDER:Holding Points
+ACTIVE:1
+COLOR:holdingpoint
+STYLE:Solid:2
+{% set default = 0.000005 %}
+
+{% for name, geom in data.edah_kml['Holdingpoints'].items() %}
+    {{- geom | simplify(default) | to_line(name) }}
+{% endfor %}

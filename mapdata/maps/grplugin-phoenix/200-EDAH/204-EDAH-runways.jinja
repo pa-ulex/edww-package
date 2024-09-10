@@ -1,0 +1,12 @@
+MAP:Runway
+AIRPORT:EDAH
+FOLDER:Airport Layout
+ACTIVE:1
+
+{% for name, geom in data.edah_kml['Runways'].items() %}
+    {{- geom | to_poly(name, 'runway') }}
+{% endfor %}
+
+{% for name, geom in data.edah_kml['GrassRunway'].items() %}
+    {{- geom | to_poly(name, 'grass') }}
+{% endfor %}
