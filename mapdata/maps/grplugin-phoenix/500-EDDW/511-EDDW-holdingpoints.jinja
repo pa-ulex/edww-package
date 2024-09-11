@@ -3,7 +3,7 @@ AIRPORT:EDDW
 FOLDER:Holding Points
 ACTIVE:LVP:EDDW:0
 COLOR:holdingpoint
-STYLE:Solid:4
+STYLE:Solid:2
 {% set default = 0.000005 %}
 {% for name, geom in data.eddw_kml['HP CATI'].items() %}
     {% if geom[0].__class__.__name__ == 'LinearRing' %}
