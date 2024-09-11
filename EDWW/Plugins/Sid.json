@@ -415,134 +415,134 @@
          ],
          "ARSAP": [
             {
-                "suffix": "1A",
+                "suffix": "2A",
                 "direction": "ANY"
             },
             {
-                "suffix": "2B",
+                "suffix": "3B",
                 "direction": "ANY"
             },
             {
-                "suffix": "1M",
+                "suffix": "2M",
                 "direction": "ANY"
             },
             {
-                "suffix": "2N",
+                "suffix": "3N",
                 "direction": "ANY"
             },
             {
-                "suffix": "1Q",
+                "suffix": "2Q",
                 "direction": "ANY"
             },
             {
-                "suffix": "1Z",
+                "suffix": "2Z",
                 "direction": "ANY"
             }
          ],
          "GERGA": [
             {
-                "suffix": "1A",
+                "suffix": "2A",
                 "direction": "ANY"
             },
             {
-                "suffix": "2B",
+                "suffix": "3B",
                 "direction": "ANY"
             },
             {
-                "suffix": "1M",
+                "suffix": "2M",
                 "engine": "J",
                 "direction": "ANY"
             },
             {
-                "suffix": "2N",
+                "suffix": "3N",
                 "direction": "ANY"
             },
             {
-                "suffix": "1Q",
+                "suffix": "2Q",
                 "direction": "ANY"
             },
             {
-                "suffix": "1Z",
+                "suffix": "2Z",
                 "direction": "ANY"
             }
          ],
          "LUROS": [
             {
-                "suffix": "1A",
+                "suffix": "2A",
                 "direction": "ANY"
             },
             {
-                "suffix": "2B",
+                "suffix": "3B",
                 "direction": "ANY"
             },
             {
-                "suffix": "1M",
+                "suffix": "2M",
                 "direction": "ANY"
             },
             {
-                "suffix": "2N",
+                "suffix": "3N",
                 "direction": "ANY"
             },
             {
-                "suffix": "1Q",
+                "suffix": "2Q",
                 "direction": "ANY"
             },
             {
-                "suffix": "1Z",
+                "suffix": "2Z",
                 "direction": "ANY"
             }
          ],
          "SUKIP": [
             {
-                "suffix": "1A",
+                "suffix": "2A",
                 "direction": "ANY"
             },
             {
-                "suffix": "2B",
+                "suffix": "3B",
                 "direction": "ANY"
             },
             {
-                "suffix": "2K",
+                "suffix": "3K",
                 "direction": "ANY"
             },
             {
-                "suffix": "2N",
+                "suffix": "3N",
                 "direction": "ANY"
             },
             {
-                "suffix": "1Q",
+                "suffix": "2Q",
                 "min_fl": 120,
                 "direction": "ANY"
             },
             {
-                "suffix": "2Z",
+                "suffix": "3Z",
                 "direction": "ANY"
             }
          ],
          "LOGDO": [
             {
-                "suffix": "1A",
+                "suffix": "2A",
                 "direction": "ANY"
             },
             {
-                "suffix": "2B",
+                "suffix": "3B",
                 "direction": "ANY"
             },
             {
-                "suffix": "2K",
+                "suffix": "3K",
                 "direction": "ANY"
             },
             {
-                "suffix": "2N",
+                "suffix": "3N",
                 "direction": "ANY"
             },
             {
-                "suffix": "1Q",
+                "suffix": "2Q",
                 "min_fl": 120,
                 "direction": "ANY"
             },
             {
-                "suffix": "2Z",
+                "suffix": "3Z",
                 "direction": "ANY"
             }
          ]
