@@ -729,71 +729,66 @@
 				</LineString>
 			</Placemark>
 		</Folder>
-		<Placemark>
+		<Folder>
 			<name>TaxilaneArrows</name>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>F1</name>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							8.800502961349405,53.04881416338679,0 8.80052718561398,53.04883115900932,0 8.800492730576696,53.04882254730664,0 8.800502961349405,53.04881416338679,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>F1</name>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							8.800399220184747,53.04885623753631,0 8.800425265241499,53.04884469225394,0 8.800412752217721,53.04886276848977,0 8.800399220184747,53.04885623753631,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>F1</name>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							8.800311573361748,53.04886011767202,0 8.800301319195992,53.04884150712284,0 8.80032610707584,53.04885449361378,0 8.800311573361748,53.04886011767202,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>F1</name>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							8.800235434200992,53.04881661743707,0 8.800205339130315,53.04882314058442,0 8.800227112108557,53.04880746624578,0 8.800235434200992,53.04881661743707,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
+			<open>1</open>
+			<Placemark>
+				<name>F1</name>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								8.800502961349405,53.04881416338679,0 8.80052718561398,53.04883115900932,0 8.800492730576696,53.04882254730664,0 8.800502961349405,53.04881416338679,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>F1</name>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								8.800399220184747,53.04885623753631,0 8.800425265241499,53.04884469225394,0 8.800412752217721,53.04886276848977,0 8.800399220184747,53.04885623753631,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>F1</name>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								8.800311573361748,53.04886011767202,0 8.800301319195992,53.04884150712284,0 8.80032610707584,53.04885449361378,0 8.800311573361748,53.04886011767202,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>F1</name>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								8.800235434200992,53.04881661743707,0 8.800205339130315,53.04882314058442,0 8.800227112108557,53.04880746624578,0 8.800235434200992,53.04881661743707,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
 	</Folder>
 </Document>
 </kml>
