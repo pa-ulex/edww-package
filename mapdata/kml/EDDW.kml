@@ -4428,6 +4428,104 @@
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
+			<Placemark>
+				<name>Hangar D</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								8.777206687890068,53.05261603947732,0 8.778304098957207,53.05323279643694,0 8.777742149937032,53.05359024354189,0 8.776596839635673,53.05297373397156,0 8.777206687890068,53.05261603947732,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hangar I</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								8.779478058707999,53.0525441044774,0 8.780033074804601,53.05284548988188,0 8.779513529862772,53.05318283255146,0 8.778967153878376,53.05287238006347,0 8.779478058707999,53.0525441044774,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Aircargo</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								8.779992690252179,53.05312504766329,0 8.780239009578874,53.05327256299722,0 8.780500607766086,53.0530962452841,0 8.780672517557448,53.05318830801402,0 8.780425570550985,53.05337000105377,0 8.780546966546401,53.05343531844731,0 8.780671105970562,53.05334682301647,0 8.78120263876426,53.05364989545985,0 8.780986160499927,53.05378039879513,0 8.780714900800863,53.05362778184469,0 8.780146544114649,53.05399639680092,0 8.780226784989173,53.05406897380875,0 8.779970012338431,53.0542354363761,0 8.779848287671125,53.05416605292896,0 8.77999210756602,53.05407063776857,0 8.779412831172467,53.05375703210712,0 8.779229585639939,53.05387871402083,0 8.778916091228988,53.05372800386383,0 8.779992690252179,53.05312504766329,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hangar H</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								8.781420219080285,53.05313792967983,0 8.782069848379679,53.05304299720495,0 8.782173782937479,53.05331228504753,0 8.781517991312136,53.05341286096958,0 8.781420219080285,53.05313792967983,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hangar E / Terminal 2</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								8.782452035490877,53.05356625068566,0 8.78227374989641,53.05317540835668,0 8.783245490425474,53.05307462847786,0 8.783130851466886,53.0527635542014,0 8.783904795725428,53.05269419607384,0 8.783964451679845,53.05287201196645,0 8.784034990159702,53.05285908686566,0 8.784235212545452,53.05334814951595,0 8.782452035490877,53.05356625068566,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Terminal 1</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								8.783993664866275,53.05267037859221,0 8.785363357256941,53.05220176137688,0 8.785520098247069,53.05213258873486,0 8.785658221372506,53.05204732142204,0 8.786460400676269,53.05155775619628,0 8.786406516429423,53.05149123983709,0 8.786581958245998,53.0513849699576,0 8.786809123200145,53.05150789738416,0 8.786764937354723,53.05156978749918,0 8.787359312957818,53.0518909085219,0 8.786390163628351,53.05251853913367,0 8.786261497319703,53.05258992462007,0 8.78608504534715,53.05268585827218,0 8.785933636179866,53.05274017627465,0 8.784475687190149,53.05325081895533,0 8.783993664866275,53.05267037859221,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hangar A</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								8.787501884465158,53.05185021358272,0 8.787030976968902,53.05160647163175,0 8.788128921020178,53.05084573565247,0 8.788595299233686,53.0510918597577,0 8.787501884465158,53.05185021358272,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
 		</Folder>
 	</Folder>
 </Document>
