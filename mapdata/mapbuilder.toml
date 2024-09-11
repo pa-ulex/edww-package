@@ -35,6 +35,21 @@ type = "kml"
 source = "kml/EDAH.kml"
 root = "EDAH"
 
+[data.eddw_kml]
+type = "kml"
+source = "kml/EDDW.kml"
+root = "EDDW"
+
+[data.edvk_kml]
+type = "kml"
+source = "kml/EDVK.kml"
+root = "EDVK"
+
+[data.edxw_kml]
+type = "kml"
+source = "kml/EDXW.kml"
+root = "EDXW"
+
 [data.etmn_kml]
 type = "kml"
 source = "kml/ETMN.kml"
@@ -54,16 +69,6 @@ root = "ETNT"
 type = "kml"
 source = "kml/ETNW.kml"
 root = "ETNW"
-
-[data.edvk_kml]
-type = "kml"
-source = "kml/EDVK.kml"
-root = "EDVK"
-
-[data.edxw_kml]
-type = "kml"
-source = "kml/EDXW.kml"
-root = "EDXW"
 
 #[data.rivers]
 #type = "kml"
