@@ -3308,57 +3308,6 @@
 			<name>TWYLabels</name>
 			<open>1</open>
 			<Placemark>
-				<name>K</name>
-				<LookAt>
-					<longitude>9.073124705013621</longitude>
-					<latitude>52.27850929901781</latitude>
-					<altitude>0</altitude>
-					<heading>-8.601679513823779</heading>
-					<tilt>0</tilt>
-					<range>606.7749944041663</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>9.070779838577741,52.27768031222273,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>H</name>
-				<LookAt>
-					<longitude>9.090518671458581</longitude>
-					<latitude>52.28072260316753</latitude>
-					<altitude>0</altitude>
-					<heading>-8.587920821460392</heading>
-					<tilt>0</tilt>
-					<range>606.7749944052621</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>9.089414454098073,52.28019325443365,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>G</name>
-				<LookAt>
-					<longitude>9.090518671458581</longitude>
-					<latitude>52.28072260316753</latitude>
-					<altitude>0</altitude>
-					<heading>-8.587920821460392</heading>
-					<tilt>0</tilt>
-					<range>606.7749944052621</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>9.094042621828191,52.28065500279298,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
 				<name>F</name>
 				<LookAt>
 					<longitude>9.094204388765776</longitude>
@@ -3373,57 +3322,6 @@
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>9.094961738731337,52.28071938411075,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>L</name>
-				<LookAt>
-					<longitude>9.094204388765776</longitude>
-					<latitude>52.28127502861763</latitude>
-					<altitude>0</altitude>
-					<heading>-8.585005344795889</heading>
-					<tilt>0</tilt>
-					<range>606.7749944007662</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>9.091954961971505,52.28147633648915,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>L</name>
-				<LookAt>
-					<longitude>9.089301433546016</longitude>
-					<latitude>52.28125403069404</latitude>
-					<altitude>0</altitude>
-					<heading>-8.588883694166777</heading>
-					<tilt>0</tilt>
-					<range>606.7749944038836</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>9.086958720729516,52.2808221623767,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>L#1</name>
-				<LookAt>
-					<longitude>9.078976466277096</longitude>
-					<latitude>52.28155868713873</latitude>
-					<altitude>0</altitude>
-					<heading>-8.597051011282508</heading>
-					<tilt>0</tilt>
-					<range>606.77499440081</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>9.077322500855054,52.28159600333208,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
@@ -3790,18 +3688,18 @@
 			<Placemark>
 				<name>LANE A</name>
 				<LookAt>
-					<longitude>9.086195809373947</longitude>
-					<latitude>52.28031360529686</latitude>
+					<longitude>9.090089983603846</longitude>
+					<latitude>52.28096368513443</latitude>
 					<altitude>0</altitude>
-					<heading>-11.11764646542902</heading>
-					<tilt>0</tilt>
-					<range>858.8442942184915</range>
+					<heading>-11.11439316809516</heading>
+					<tilt>13.98432766844506</tilt>
+					<range>1011.016621113908</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>9.088022833677535,52.28029107358874,0</coordinates>
+					<coordinates>9.088028724343868,52.28035074050444,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
