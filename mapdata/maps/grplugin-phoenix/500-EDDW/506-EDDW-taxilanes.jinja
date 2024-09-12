@@ -1,0 +1,16 @@
+MAP:Taxi Lanes
+AIRPORT:EDDW
+FOLDER:Airport Layout
+ACTIVE:1
+STYLE:solid
+{% set default = 0.000005 %}
+
+COLOR:taxilane-yellow
+{% for name, geom in data.eddw_kml['Taxilanes'].items() %}
+    {{- geom | simplify(default) | to_line(name) }}
+{% endfor %}
+
+
+{% for name, geom in data.eddw_kml['TaxilaneArrows'].items() %}
+    {{- geom | to_poly(name, 'taxilane-yellow') }}
+{% endfor %}
