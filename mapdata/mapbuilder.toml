@@ -65,6 +65,11 @@ type = "kml"
 source = "kml/EDXW.kml"
 root = "EDXW"
 
+[data.ethb_kml]
+type = "kml"
+source = "kml/ETHB.kml"
+root = "ETHB"
+
 #[data.rivers]
 #type = "kml"
 #source = "kml/Rivers.kml"
