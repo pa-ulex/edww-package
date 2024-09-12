@@ -70,6 +70,11 @@ type = "kml"
 source = "kml/ETNW.kml"
 root = "ETNW"
 
+[data.ethb_kml]
+type = "kml"
+source = "kml/ETHB.kml"
+root = "ETHB"
+
 #[data.rivers]
 #type = "kml"
 #source = "kml/Rivers.kml"
@@ -595,3 +600,5 @@ thr = [ 51.767227, 13.185086 ]
 bearing = 273.39
 fap = [ ]
 loc = [ 51.768773, 13.142866 ]
+
+
