@@ -1,0 +1,8 @@
+MAP:Runway Markings
+AIRPORT:EDDW
+FOLDER:Airport Layout
+ACTIVE:1
+
+{% for name, geom in data.eddw_kml['RunwayMarkings'].items() %}
+    {{- geom | to_poly(name, 'runway-marking') }}
+{% endfor %}
