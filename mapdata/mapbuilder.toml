@@ -50,6 +50,16 @@ type = "kml"
 source = "kml/EDXW.kml"
 root = "EDXW"
 
+[data.ethb_kml]
+type = "kml"
+source = "kml/ETHB.kml"
+root = "ETHB"
+
+[data.ethc_kml]
+type = "kml"
+source = "kml/ETHC.kml"
+root = "ETHC"
+
 [data.etmn_kml]
 type = "kml"
 source = "kml/ETMN.kml"
@@ -69,11 +79,6 @@ root = "ETNT"
 type = "kml"
 source = "kml/ETNW.kml"
 root = "ETNW"
-
-[data.ethb_kml]
-type = "kml"
-source = "kml/ETHB.kml"
-root = "ETHB"
 
 #[data.rivers]
 #type = "kml"
