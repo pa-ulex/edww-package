@@ -149,7 +149,6 @@ List_Departure_Items=30
 [EDDB]
 Airport_Elevation=156
 Airport_Radius=3
-GroundLabel_Filter_NoState=0
 System_GroundMode_AltFilter_AAL=900
 
 [EDDH]
@@ -189,14 +188,11 @@ Airport_Radius=1
 [EDAH]
 Airport_Elevation=94
 Airport_Radius=3
-GroundLabel_Filter_NoState=0
 
 [ETNL]
 Airport_Elevation=140
 Airport_Radius=3
-GroundLabel_Filter_NoState=0
 
 [ETSH]
 Airport_Elevation=265
 Airport_Radius=3
-GroundLabel_Filter_NoState=0
