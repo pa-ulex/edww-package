@@ -112,6 +112,10 @@ source = "common/topo_lake.txt"
 type = "raw"
 source = "common/topo_coast.txt"
 
+[data.airspace_levels]
+type = "raw"
+source = "common/airspace_levels.txt"
+
 [profiles]
 
 [profiles.EDWW]

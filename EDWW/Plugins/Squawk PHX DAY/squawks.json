@@ -260,7 +260,7 @@
       {
          "range": {
             "start": "7004",
-            "end": "7026"
+            "end": "7067"
          },
          "message":"TWR",
          "color":"#B4965F"
@@ -272,53 +272,62 @@
       },
       {
          "code":"7377",
-         "message":"CHX31",
+         "message":"SAR",
+         "color":"#B4965F"
+      },
+      {
+         "code":"4473",
+         "message":"CHX4",
+         "color":"#B4965F"
+      },
+      {
+         "code":"4474",
+         "message":"BALL",
+         "color":"#B4965F"
+      },
+      {
+         "code":"4475",
+         "message":"UAS",
+         "color":"#B4965F"
+      },
+      {
+         "code":"4670",
+         "message":"LIB",
+         "color":"#B4965F"
+      },
+      {
+         "code":"4672",
+         "message":"VDH",
+         "color":"#B4965F"
+      },
+      {
+         "code":"4673",
+         "message":"SSF",
+         "color":"#B4965F"
+      },
+      {
+         "code":"4674",
+         "message":"SV",
+         "color":"#B4965F"
+      },
+      {
+         "code":"4675",
+         "message":"EDHI",
+         "color":"#B4965F"
+      },
+      {
+         "code":"4677",
+         "message":"HL",
+         "color":"#B4965F"
+      },
+      {
+         "code":"7003",
+         "message":"HELI",
          "color":"#B4965F"
       },
       {
          "range": {
-            "start": "7030",
-            "end": "7067"
-         },
-         "message":"TWR",
-         "color":"#B4965F"
-      },
-      {
-         "range": {
-            "start": "7074",
-            "end": "7076"
-         },
-         "message":"TWR",
-         "color":"#B4965F"
-      },
-      {
-         "code":"7740",
-         "message":"FDH",
-         "color":"#B4965F"
-      },
-      {
-         "code":"7741",
-         "message":"FDB",
-         "color":"#B4965F"
-      },
-      {
-         "code":"7742",
-         "message":"FDL",
-         "color":"#B4965F"
-      },
-      {
-         "code":"7743",
-         "message":"FDV",
-         "color":"#B4965F"
-      },
-      {
-         "code":"7744",
-         "message":"FDC",
-         "color":"#B4965F"
-      },
-      {
-         "range": {
-            "start": "7745",
+            "start": "7740",
             "end": "7747"
          },
          "message":"FIS",
