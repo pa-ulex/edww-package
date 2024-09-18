@@ -46,7 +46,6 @@ COLOR:taxilane-yellow
 {{ data.eddb['GuidanceLineByDesig']['GL_APRON_3B'] | join_segments | simplify(default) | to_line('N3') }}
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_K'] | join_segments | simplify(default) | to_line('K') }}
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_H'] | join_segments | simplify(default) | to_line('H') }}
-{{ data.eddb['GuidanceLineByDesig']['GL_TWY_N1'] | join_segments | simplify(default) | to_line('N1') }}
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_K3'] | join_segments | simplify(default) | to_line('K3') }}
 
 // Maintenance
@@ -56,7 +55,7 @@ COLOR:taxilane-yellow
 {{ data.eddb['GuidanceLineByDesig']['GL_APR_LH2'] | join_segments | simplify(default) | to_line('LHT') }}
 {{ data.eddb['GuidanceLineByDesig']['GL_APR_ABT'] | join_segments | simplify(default) | to_line('ABT') }}
 
-// Taxiways North of 07L/25R
+// Taxiways North of 06L/24R
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_G'] | join_segments | simplify(default) | to_line('G') }}
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_K1'] | join_segments | simplify(default) | to_line('K1') }}
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_K2'] | join_segments | simplify(default) | to_line('K2') }}
@@ -64,7 +63,7 @@ COLOR:taxilane-yellow
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_J'] | join_segments | simplify(default) | to_line('K5') }}
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_K6'] | join_segments | simplify(default) | to_line('K6') }}
 
-// Taxiways South of 07L/25R
+// Taxiways South of 06L/24R
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_C'] | join_segments | simplify(default) | to_line('C') }}
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_D'] | join_segments | simplify(default) | to_line('D') }}
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_L1'] | join_segments | simplify(default) | to_line('L1') }}
@@ -80,7 +79,7 @@ COLOR:taxilane-yellow
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_T'] | join_segments | simplify(default) | to_line('T') }}
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_Y1'] | join_segments | simplify(default) | to_line('Y1') }}
 
-// Taxiways North of 07R/25L
+// Taxiways North of 06R/24L
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_A'] | join_segments | simplify(default) | to_line('A') }}
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_B'] | join_segments | simplify(default) | to_line('B') }}
 {{ data.eddb['GuidanceLineByDesig']['GL_TWY_M'] | join_segments | simplify(default) | to_line('M') }}
@@ -178,6 +177,21 @@ LINE:52.3854053209094:13.5226801225628:52.3853762848696:13.5226209415593
 LINE:52.3853762848696:13.5226209415593:52.3853380019873:13.52256770614
 LINE:52.3853380019873:13.52256770614:52.3852970978324:13.5225308035748
 LINE:52.3852970978324:13.5225308035748:52.3852517393396:13.5225073349723
+
+// N1  (due to Construction)
+LINE:52.3855360501646:13.5180374861534:52.3869884654792:13.5241414945444
+LINE:52.3869884654792:13.5241414945444:52.3870256762076:13.5242022603457
+LINE:52.3870256762076:13.5242022603457:52.3870791660078:13.5242456287789
+LINE:52.3870791660078:13.5242456287789:52.3871517756576:13.5242715451766
+LINE:52.3871517756576:13.5242715451766:52.3872073235558:13.5242670706207
+LINE:52.3872073235558:13.5242670706207:52.387880817022:13.523845956016
+
+LINE:52.387880817022:13.523845956016:52.387907709332:13.5238165864653
+LINE:52.387907709332:13.5238165864653:52.3879389908504:13.5237630722085
+LINE:52.3879389908504:13.5237630722085:52.387986998141:13.5236335506162
+LINE:52.387986998141:13.5236335506162:52.3879982579167:13.5235244832413
+LINE:52.3879982579167:13.5235244832413:52.3879810048138:13.5233881662417
+
 LINE:52.3852517393396:13.5225073349723:52.3852045370518:13.52249758762
 LINE:52.3852045370518:13.52249758762:52.3851527106946:13.5225048248078
 LINE:52.3851527106946:13.5225048248078:52.3851026899178:13.5225281432565

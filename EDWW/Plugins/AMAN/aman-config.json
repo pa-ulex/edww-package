@@ -1,19 +1,19 @@
 {
     "openAutomatically": false,
     "timelines": {
-        "EDDB 25": {
+        "EDDB 24": {
             "targetFixes": [ "DB433", "DB471" ],
             "viaFixes": [ "OGBER", "KETAP", "KLF", "ATGUP", "NUKRO" ],
             "tagLayout": "myLayout",
             "destinationAirports": [ "EDDB" ]
         },
-        "EDDB 07": {
+        "EDDB 06": {
             "targetFixes": [ "DB533", "DB572" ],
             "viaFixes": [ "OGBER", "KETAP", "KLF", "ATGUP", "NUKRO" ],
             "tagLayout": "myLayout",
             "destinationAirports": [ "EDDB" ]
         },
-        "EDDB 07 DCT": {
+        "EDDB 06 DCT": {
             "targetFixes": [ "DB542", "DB552" ],
             "viaFixes": [ "OGBER", "KETAP", "KLF", "ATGUP", "NUKRO" ],
             "tagLayout": "myLayout",

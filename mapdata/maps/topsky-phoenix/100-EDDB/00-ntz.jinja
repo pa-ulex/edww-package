@@ -1,23 +1,23 @@
-{%- set brg_07l = brg(runways['EDDB']['07L']['bearing']).invert() -%}
-{%- set brg_07r = brg(runways['EDDB']['07R']['bearing']).invert() -%}
-{%- set brg_25l = brg(runways['EDDB']['25L']['bearing']).invert() -%}
-{%- set brg_25r = brg(runways['EDDB']['25R']['bearing']).invert() -%}
-{%- set ortho_brg_07l = brg_07l + 90 -%}
-{%- set ortho_brg_07r = brg_07r + 90 -%}
-{%- set ortho_brg_25l = brg_25l + 90 -%}
-{%- set ortho_brg_25r = brg_25r + 90 -%}
+{%- set brg_06l = brg(runways['EDDB']['06L']['bearing']).invert() -%}
+{%- set brg_06r = brg(runways['EDDB']['06R']['bearing']).invert() -%}
+{%- set brg_24l = brg(runways['EDDB']['24L']['bearing']).invert() -%}
+{%- set brg_24r = brg(runways['EDDB']['24R']['bearing']).invert() -%}
+{%- set ortho_brg_06l = brg_06l + 90 -%}
+{%- set ortho_brg_06r = brg_06r + 90 -%}
+{%- set ortho_brg_24l = brg_24l + 90 -%}
+{%- set ortho_brg_24r = brg_24r + 90 -%}
 {%- set dist = 0.161987 %}
 {%- set rwy_dist = 0.701 %}
 
 MAP:EDDB NTZ
 FOLDER:EDDB
 COLOR:Active_Map_Type_12
-{{ fix(runways['EDDB']['07R']['thr']).move_to(dist, ortho_brg_07r).line_move_to(rwy_dist, ortho_brg_07r)
-    .line_move_to_fix(fix(runways['EDDB']['07L']['thr']).move_to(20, brg_07l).move_to(-dist, ortho_brg_07l))
-    .line_move_to_fix(fix(runways['EDDB']['07R']['thr']).move_to(20, brg_07r).move_to(dist, ortho_brg_07r))
-    .line_move_to_fix(fix(runways['EDDB']['07R']['thr']).move_to(dist, ortho_brg_07r))}}
+{{ fix(runways['EDDB']['06R']['thr']).move_to(dist, ortho_brg_06r).line_move_to(rwy_dist, ortho_brg_06r)
+    .line_move_to_fix(fix(runways['EDDB']['06L']['thr']).move_to(20, brg_06l).move_to(-dist, ortho_brg_06l))
+    .line_move_to_fix(fix(runways['EDDB']['06R']['thr']).move_to(20, brg_06r).move_to(dist, ortho_brg_06r))
+    .line_move_to_fix(fix(runways['EDDB']['06R']['thr']).move_to(dist, ortho_brg_06r))}}
 
-{{ fix(runways['EDDB']['25R']['thr']).move_to(dist, ortho_brg_25r).line_move_to(rwy_dist, ortho_brg_25r)
-    .line_move_to_fix(fix(runways['EDDB']['25L']['thr']).move_to(20, brg_25l).move_to(-dist, ortho_brg_25l))
-    .line_move_to_fix(fix(runways['EDDB']['25R']['thr']).move_to(20, brg_25r).move_to(dist, ortho_brg_25r))
-    .line_move_to_fix(fix(runways['EDDB']['25R']['thr']).move_to(dist, ortho_brg_25r))}}
+{{ fix(runways['EDDB']['24R']['thr']).move_to(dist, ortho_brg_24r).line_move_to(rwy_dist, ortho_brg_24r)
+    .line_move_to_fix(fix(runways['EDDB']['24L']['thr']).move_to(20, brg_24l).move_to(-dist, ortho_brg_24l))
+    .line_move_to_fix(fix(runways['EDDB']['24R']['thr']).move_to(20, brg_24r).move_to(dist, ortho_brg_24r))
+    .line_move_to_fix(fix(runways['EDDB']['24R']['thr']).move_to(dist, ortho_brg_24r))}}
