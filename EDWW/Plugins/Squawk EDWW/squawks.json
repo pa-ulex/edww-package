@@ -170,8 +170,76 @@
       },
       {
          "code":"7377",
-         "message":"CHX31",
+         "message":"SAR",
          "color":"#367f0b"
+      },
+      {
+         "code":"4473",
+         "message":"CHX4",
+         "color":"#367f0b"
+      },
+      {
+         "code":"4474",
+         "message":"BALL",
+         "color":"#367f0b"
+      },
+      {
+         "code":"4475",
+         "message":"UAS",
+         "color":"#367f0b"
+      },
+      {
+         "code":"4670",
+         "message":"LIB",
+         "color":"#367f0b"
+      },
+      {
+         "code":"4672",
+         "message":"VDH",
+         "color":"#367f0b"
+      },
+      {
+         "code":"4673",
+         "message":"SSF",
+         "color":"#367f0b"
+      },
+      {
+         "code":"4674",
+         "message":"SV",
+         "color":"#367f0b"
+      },
+      {
+         "code":"4675",
+         "message":"EDHI",
+         "color":"#367f0b"
+      },
+      {
+         "code":"4677",
+         "message":"HL",
+         "color":"#367f0b"
+      },
+      {
+         "code":"7001",
+         "message":"VOUT",
+         "color":"#367f0b"
+      },
+      {
+         "code":"7002",
+         "message":"VIN",
+         "color":"#367f0b"
+      },
+      {
+         "code":"7003",
+         "message":"HELI",
+         "color":"#367f0b"
+      },
+      {
+         "range": {
+            "start": "7004",
+            "end": "7067"
+         },
+         "message":"TWR",
+         "color":"#00dc00"
       },
       {
          "code":"0037",

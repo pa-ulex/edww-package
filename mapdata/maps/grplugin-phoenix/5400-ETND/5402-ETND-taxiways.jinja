@@ -1,0 +1,8 @@
+MAP:Taxiway Movement Areas
+AIRPORT:ETND
+FOLDER:Airport Layout
+ACTIVE:1
+
+{% for name, geom in data.etnd_kml['Taxiways'].items() %}
+    {{- geom | to_poly(name, 'taxiway') }}
+{% endfor %}

@@ -1,0 +1,12 @@
+MAP:Taxiway Movement Areas
+AIRPORT:ETHC
+FOLDER:Airport Layout
+ACTIVE:1
+
+{% for name, geom in data.ethc_kml['Taxiways Grass'].items() %}
+    {{- geom | to_poly(name, 'grass') }}
+{% endfor %}
+
+{% for name, geom in data.ethc_kml['Taxiways'].items() %}
+    {{- geom | to_poly(name, 'taxiway') }}
+{% endfor %}

@@ -1,0 +1,17 @@
+MAP:Apron Movement Areas
+AIRPORT:EDAH
+FOLDER:Airport Layout
+ACTIVE:1
+COLOR:apron
+
+{% for name, geom in data.edah_kml['Aprons'].items() %}
+    {{- geom | to_poly(name, 'apron') }}
+{% endfor %}
+
+{% for name, geom in data.edah_kml['ApronCutouts'].items() %}
+    {{- geom | to_poly(name, 'base') }}
+{% endfor %}
+
+{% for name, geom in data.edah_kml['GrassParking'].items() %}
+    {{- geom | to_poly(name, 'grass') }}
+{% endfor %}
