@@ -1,7 +1,7 @@
 {
     "EDDB": {
         "elevation": 156,
-        "runways": "07L,07R,25L,25R",
+        "runways": "06L,06R,24L,24R",
         "transAlt": 5000,
         "maxInitialClimb": 8000,
 		"appSI": "FLG,BOR,MAR,MRZ,WC",
@@ -10,7 +10,7 @@
             "ARSAP": {
                 "1": {
 					"designator": "B",
-                    "rwy": "07L",
+                    "rwy": "06L",
                     "initial": 5000,
                     "climbvia": false,
                     "prio": 1,
@@ -19,7 +19,7 @@
                 },
 				"2": {
 					"designator": "B",
-                    "rwy": "07L",
+                    "rwy": "06L",
                     "initial": 5000,
                     "climbvia": false,
                     "prio": 3,
@@ -28,7 +28,7 @@
                 },
                 "3": {
 					"designator": "Q",
-                    "rwy": "07R",
+                    "rwy": "06R",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 1,
@@ -36,7 +36,7 @@
                 },
 				"4": {
 					"designator": "Q",
-                    "rwy": "07R",
+                    "rwy": "06R",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 2,
@@ -44,14 +44,14 @@
                 },
 				"5": {
 					"designator": "Z",
-                    "rwy": "07R",
+                    "rwy": "06R",
                     "initial": 4000,
                     "climbvia": false,
                     "prio": 99
                 },
 				"6": {
 					"designator": "N",
-                    "rwy": "25L",
+                    "rwy": "24L",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 1,
@@ -59,7 +59,7 @@
                 },
 				"7": {
 					"designator": "N",
-                    "rwy": "25L",
+                    "rwy": "24L",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 2,
@@ -67,7 +67,7 @@
                 },
 				"8": {
 					"designator": "A",
-                    "rwy": "25R",
+                    "rwy": "24R",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 1,
@@ -76,7 +76,7 @@
                 },
 				"9": {
 					"designator": "A",
-                    "rwy": "25R",
+                    "rwy": "24R",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 3,
@@ -85,7 +85,7 @@
                 },
 				"10": {
 					"designator": "M",
-                    "rwy": "25R",
+                    "rwy": "24R",
                     "initial": 4000,
                     "climbvia": false,
                     "prio": 99,
@@ -96,7 +96,7 @@
 			"GERGA": {
                 "1": {
 					"designator": "B",
-                    "rwy": "07L",
+                    "rwy": "06L",
                     "initial": 5000,
                     "climbvia": false,
                     "prio": 1,
@@ -105,7 +105,7 @@
                 },
 				"2": {
 					"designator": "B",
-                    "rwy": "07L",
+                    "rwy": "06L",
                     "initial": 5000,
                     "climbvia": false,
                     "prio": 2,
@@ -114,7 +114,7 @@
                 },
                 "3": {
 					"designator": "Q",
-                    "rwy": "07R",
+                    "rwy": "06R",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 1,
@@ -122,7 +122,7 @@
                 },
 				"4": {
 					"designator": "Q",
-                    "rwy": "07R",
+                    "rwy": "06R",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 3,
@@ -130,14 +130,14 @@
                 },
 				"5": {
 					"designator": "Z",
-                    "rwy": "07R",
+                    "rwy": "06R",
                     "initial": 4000,
                     "climbvia": false,
                     "prio": 99
                 },
 				"6": {
 					"designator": "N",
-                    "rwy": "25L",
+                    "rwy": "24L",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 1,
@@ -145,7 +145,7 @@
                 },
 				"7": {
 					"designator": "N",
-                    "rwy": "25L",
+                    "rwy": "24L",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 3,
@@ -153,7 +153,7 @@
                 },
 				"8": {
 					"designator": "A",
-                    "rwy": "25R",
+                    "rwy": "24R",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 1,
@@ -162,7 +162,7 @@
                 },
 				"9": {
 					"designator": "A",
-                    "rwy": "25R",
+                    "rwy": "24R",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 2,
@@ -171,7 +171,7 @@
                 },
 				"10": {
 					"designator": "M",
-                    "rwy": "25R",
+                    "rwy": "24R",
                     "initial": 4000,
                     "climbvia": false,
                     "prio": 99,
@@ -181,7 +181,7 @@
 			"LUROS": {
                 "1": {
 					"designator": "B",
-                    "rwy": "07L",
+                    "rwy": "06L",
                     "initial": 5000,
                     "climbvia": false,
                     "prio": 1,
@@ -190,7 +190,7 @@
                 },
 				"2": {
 					"designator": "B",
-                    "rwy": "07L",
+                    "rwy": "06L",
                     "initial": 5000,
                     "climbvia": false,
                     "prio": 3,
@@ -199,7 +199,7 @@
                 },
                 "3": {
 					"designator": "Q",
-                    "rwy": "07R",
+                    "rwy": "06R",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 1,
@@ -207,7 +207,7 @@
                 },
 				"4": {
 					"designator": "Q",
-                    "rwy": "07R",
+                    "rwy": "06R",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 2,
@@ -215,7 +215,7 @@
                 },
 				"5": {
 					"designator": "Z",
-                    "rwy": "07R",
+                    "rwy": "06R",
                     "initial": 4000,
                     "climbvia": false,
                     "prio": 99,
@@ -223,7 +223,7 @@
                 },
 				"6": {
 					"designator": "N",
-                    "rwy": "25L",
+                    "rwy": "24L",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 1,
@@ -231,7 +231,7 @@
                 },
 				"7": {
 					"designator": "N",
-                    "rwy": "25L",
+                    "rwy": "24L",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 2,
@@ -239,7 +239,7 @@
                 },
 				"8": {
 					"designator": "A",
-                    "rwy": "25R",
+                    "rwy": "24R",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 1,
@@ -248,7 +248,7 @@
                 },
 				"9": {
 					"designator": "A",
-                    "rwy": "25R",
+                    "rwy": "24R",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 3,
@@ -257,7 +257,7 @@
                 },
 				"10": {
 					"designator": "M",
-                    "rwy": "25R",
+                    "rwy": "24R",
                     "initial": 4000,
                     "climbvia": false,
                     "prio": 99,
@@ -267,7 +267,7 @@
 			"SUKIP": {
                 "1": {
 					"designator": "B",
-                    "rwy": "07L",
+                    "rwy": "06L",
                     "initial": 5000,
                     "climbvia": false,
                     "prio": 1,
@@ -276,7 +276,7 @@
                 },
 				"2": {
 					"designator": "B",
-                    "rwy": "07L",
+                    "rwy": "06L",
                     "initial": 5000,
                     "climbvia": false,
                     "prio": 2,
@@ -285,7 +285,7 @@
                 },
 				"3": {
 					"designator": "K",
-                    "rwy": "07L",
+                    "rwy": "06L",
                     "initial": 5000,
                     "climbvia": false,
                     "prio": 99,
@@ -294,7 +294,7 @@
                 },
                 "4": {
 					"designator": "Q",
-                    "rwy": "07R",
+                    "rwy": "06R",
                     "initial": 8000,
                     "climbvia": true,
                     "prio": 1,
@@ -302,7 +302,7 @@
                 },
 				"5": {
 					"designator": "Q",
-                    "rwy": "07R",
+                    "rwy": "06R",
                     "initial": 8000,
                     "climbvia": true,
                     "prio": 3,
@@ -310,7 +310,7 @@
                 },
 				"6": {
 					"designator": "Z",
-                    "rwy": "07R",
+                    "rwy": "06R",
                     "initial": 8000,
                     "climbvia": false,
                     "prio": 99,
@@ -318,7 +318,7 @@
                 },
 				"7":  {
 					"designator": "N",
-                    "rwy": "25L",
+                    "rwy": "24L",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 1,
@@ -326,7 +326,7 @@
                 },
 				"8": {
 					"designator": "N",
-                    "rwy": "25L",
+                    "rwy": "24L",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 3,
@@ -334,7 +334,7 @@
                 },
 				"9": {
 					"designator": "A",
-                    "rwy": "25R",
+                    "rwy": "24R",
                     "initial": 5000,
                     "climbvia": false,
                     "prio": 1,
@@ -343,7 +343,7 @@
                 },
 				"10": {
 					"designator": "A",
-                    "rwy": "25R",
+                    "rwy": "24R",
                     "initial": 5000,
                     "climbvia": false,
                     "prio": 2,
@@ -354,7 +354,7 @@
 			"LOGDO": {
                 "1":{
 					"designator":"B",
-                    "rwy": "07L",
+                    "rwy": "06L",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 1,
@@ -363,7 +363,7 @@
                 },
 				"2":{
 					"designator":"B",
-                    "rwy": "07L",
+                    "rwy": "06L",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 3,
@@ -372,7 +372,7 @@
                 },
 				"3":{
 					"designator":"K",
-                    "rwy": "07L",
+                    "rwy": "06L",
                     "initial": 5000,
                     "climbvia": false,
                     "prio": 99,
@@ -381,7 +381,7 @@
                 },
                 "4":{
 					"designator":"Q",
-                    "rwy": "07R",
+                    "rwy": "06R",
                     "initial": 8000,
                     "climbvia": true,
                     "prio": 1,
@@ -389,7 +389,7 @@
                 },
 				"5":{
 					"designator":"Q",
-                    "rwy": "07R",
+                    "rwy": "06R",
                     "initial": 8000,
                     "climbvia": true,
                     "prio": 2,
@@ -397,7 +397,7 @@
                 },
 				"6":{
 					"designator":"Z",
-                    "rwy": "07R",
+                    "rwy": "06R",
                     "initial": 8000,
                     "climbvia": false,
                     "prio": 99,
@@ -405,7 +405,7 @@
                 },
 				"7":{
 					"designator":"N",
-                    "rwy": "25L",
+                    "rwy": "24L",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 1,
@@ -413,7 +413,7 @@
                 },
 				"8":{
 					"designator":"N",
-                    "rwy": "25L",
+                    "rwy": "24L",
                     "initial": 5000,
                     "climbvia": true,
                     "prio": 2,
@@ -421,7 +421,7 @@
                 },
 				"9":{
 					"designator":"A",
-                    "rwy": "25R",
+                    "rwy": "24R",
                     "initial": 5000,
                     "climbvia": false,
                     "prio": 1,
@@ -430,7 +430,7 @@
                 },
 				"10":{
 					"designator":"A",
-                    "rwy": "25R",
+                    "rwy": "24R",
                     "initial": 5000,
                     "climbvia": false,
                     "prio": 3,
@@ -441,7 +441,7 @@
 			"ROKMU": {
                 "1":{
 					"designator":"P",
-                    "rwy": "25L",
+                    "rwy": "24L",
                     "initial": 4000,
                     "climbvia": false,
 					"equip": {"NON-RNAV": true},
