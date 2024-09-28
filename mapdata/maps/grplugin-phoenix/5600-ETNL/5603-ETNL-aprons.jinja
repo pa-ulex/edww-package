@@ -1,0 +1,13 @@
+MAP:Apron Movement Areas
+AIRPORT:ETNL
+FOLDER:Airport Layout
+ACTIVE:1
+
+{% for name, geom in data.etnl_kml['Aprons'].items() %}
+    {{- geom | to_poly(name, 'apron') }}
+{% endfor %}
+
+
+{% for name, geom in data.etnl_kml['ApronCutouts'].items() %}
+    {{- geom | to_poly(name, 'base') }}
+{% endfor %}
