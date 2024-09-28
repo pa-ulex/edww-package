@@ -9,6 +9,16 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
 			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
 		</Pair>
 	</StyleMap>
@@ -45,7 +55,7 @@
 	<StyleMap id="m_ylw-pushpin2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1</styleUrl>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -182,7 +192,16 @@
 			<styleUrl>#sh_ylw-pushpin4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin1">
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin2">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -194,7 +213,7 @@
 			<color>ff0000ff</color>
 		</LineStyle>
 	</Style>
-	<Style id="s_ylw-pushpin">
+	<Style id="s_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -278,18 +297,6 @@
 			<color>26ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<PolyStyle>
-			<color>1affffff</color>
-		</PolyStyle>
-	</Style>
 	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -301,6 +308,27 @@
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>1affffff</color>
+		</PolyStyle>
 	</Style>
 	<Style id="s_ylw-pushpin_hl0">
 		<IconStyle>
@@ -637,7 +665,6 @@
 		<open>1</open>
 		<Folder>
 			<name>Runways</name>
-			<open>1</open>
 			<Placemark>
 				<name>RWY 09/27</name>
 				<styleUrl>#m_ylw-pushpin1</styleUrl>
@@ -655,7 +682,6 @@
 		</Folder>
 		<Folder>
 			<name>RESA</name>
-			<open>1</open>
 			<Placemark>
 				<name>RESA 09</name>
 				<styleUrl>#m_ylw-pushpin1</styleUrl>
@@ -687,7 +713,6 @@
 		</Folder>
 		<Folder>
 			<name>Taxiways</name>
-			<open>1</open>
 			<Placemark>
 				<name>A</name>
 				<styleUrl>#m_ylw-pushpin1</styleUrl>
@@ -803,7 +828,6 @@
 		</Folder>
 		<Folder>
 			<name>Aprons</name>
-			<open>1</open>
 			<Placemark>
 				<name>NW MIL</name>
 				<styleUrl>#m_ylw-pushpin1</styleUrl>
@@ -989,7 +1013,6 @@
 		</Folder>
 		<Folder>
 			<name>ApronCutouts</name>
-			<open>1</open>
 			<Placemark>
 				<name>Ramp B</name>
 				<styleUrl>#m_ylw-pushpin1</styleUrl>
@@ -1049,7 +1072,6 @@
 		</Folder>
 		<Folder>
 			<name>Taxilanes</name>
-			<open>1</open>
 			<Placemark>
 				<name>A</name>
 				<styleUrl>#m_ylw-pushpin7</styleUrl>
@@ -1513,7 +1535,6 @@
 		</Folder>
 		<Folder>
 			<name>Stands</name>
-			<open>1</open>
 			<Placemark>
 				<name>Civil 4A</name>
 				<styleUrl>#msn_ylw-pushpin13</styleUrl>
@@ -2597,7 +2618,6 @@
 		</Folder>
 		<Folder>
 			<name>RunwayMarkings</name>
-			<open>1</open>
 			<Placemark>
 				<name>Edge</name>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
@@ -4015,7 +4035,6 @@
 		</Folder>
 		<Folder>
 			<name>RunwayArrestorGear</name>
-			<open>1</open>
 			<Placemark>
 				<name>RAG 09</name>
 				<styleUrl>#msn_ylw-pushpin16</styleUrl>
@@ -4075,7 +4094,6 @@
 		</Folder>
 		<Folder>
 			<name>Holdingpoints</name>
-			<open>1</open>
 			<Placemark>
 				<name>A</name>
 				<styleUrl>#m_ylw-pushpin2</styleUrl>
@@ -4159,10 +4177,9 @@
 		</Folder>
 		<Folder>
 			<name>VerticalStructures</name>
-			<open>1</open>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4176,7 +4193,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4190,7 +4207,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4204,7 +4221,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4218,7 +4235,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4232,7 +4249,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4246,7 +4263,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4260,7 +4277,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4274,7 +4291,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4288,7 +4305,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4302,7 +4319,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4316,7 +4333,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4330,7 +4347,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4344,7 +4361,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4358,7 +4375,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4372,7 +4389,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4386,7 +4403,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4400,7 +4417,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4414,7 +4431,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4428,7 +4445,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4442,7 +4459,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4456,7 +4473,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4470,7 +4487,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4484,7 +4501,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4498,7 +4515,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4512,7 +4529,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4526,7 +4543,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4540,7 +4557,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4554,7 +4571,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4568,7 +4585,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4582,7 +4599,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4596,7 +4613,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4610,7 +4627,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4624,7 +4641,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4638,7 +4655,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4652,7 +4669,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Feuerwehr</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4666,7 +4683,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4680,7 +4697,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4694,7 +4711,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4708,7 +4725,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4722,7 +4739,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4736,7 +4753,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4750,7 +4767,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4764,7 +4781,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4778,7 +4795,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4792,7 +4809,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4806,7 +4823,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4820,7 +4837,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4834,7 +4851,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4848,7 +4865,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4862,7 +4879,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL NE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4876,7 +4893,7 @@
 			</Placemark>
 			<Placemark>
 				<name>SW</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4890,7 +4907,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Civil C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4904,7 +4921,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Civil C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4918,7 +4935,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Civil C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4932,7 +4949,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Civil C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4946,7 +4963,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Civil C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4960,7 +4977,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Civil C</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4974,7 +4991,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Terminal</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -4988,7 +5005,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Civil GAT</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -5002,7 +5019,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Civil GAT</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -5016,7 +5033,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Civil GAT</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -5030,7 +5047,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL SE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -5044,7 +5061,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL SE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -5058,7 +5075,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL SE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -5072,7 +5089,7 @@
 			</Placemark>
 			<Placemark>
 				<name>MIL SE</name>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -5084,6 +5101,289 @@
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
+		</Folder>
+		<Folder>
+			<name>TaxiwayLabels</name>
+			<open>1</open>
+			<Placemark>
+				<name>A</name>
+				<LookAt>
+					<longitude>12.29839465243031</longitude>
+					<latitude>53.91812237671515</latitude>
+					<altitude>0</altitude>
+					<heading>10.17866200203027</heading>
+					<tilt>6.990408165801193</tilt>
+					<range>125.0586003468878</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.29795048299166,53.91829928089031,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A#2</name>
+				<LookAt>
+					<longitude>12.29811968157011</longitude>
+					<latitude>53.92136496032381</latitude>
+					<altitude>0</altitude>
+					<heading>-4.462686807284048</heading>
+					<tilt>0</tilt>
+					<range>145.6976362520694</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.29779161386254,53.9208886091324,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A#3</name>
+				<LookAt>
+					<longitude>12.2977742556005</longitude>
+					<latitude>53.91567072401106</latitude>
+					<altitude>0</altitude>
+					<heading>-4.462976792856536</heading>
+					<tilt>18.0020517381464</tilt>
+					<range>138.7359656059544</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.29767215625082,53.91540630984594,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>B</name>
+				<LookAt>
+					<longitude>12.29251178387643</longitude>
+					<latitude>53.91890887369922</latitude>
+					<altitude>0</altitude>
+					<heading>1.389347033636008</heading>
+					<tilt>0</tilt>
+					<range>160.4727396287429</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.29199222247798,53.91876140163463,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>B#2</name>
+				<LookAt>
+					<longitude>12.27204325517862</longitude>
+					<latitude>53.91772459485315</latitude>
+					<altitude>0</altitude>
+					<heading>1.372805174984302</heading>
+					<tilt>0</tilt>
+					<range>157.4730173535207</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.27186033219648,53.91767971154933,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C</name>
+				<LookAt>
+					<longitude>12.26247860548014</longitude>
+					<latitude>53.92131292755435</latitude>
+					<altitude>0</altitude>
+					<heading>1.36507529720585</heading>
+					<tilt>0</tilt>
+					<range>155.3028953494277</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.26195621550145,53.92135039724797,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C#2</name>
+				<LookAt>
+					<longitude>12.2608279282544</longitude>
+					<latitude>53.91881820153416</latitude>
+					<altitude>0</altitude>
+					<heading>1.363741217565458</heading>
+					<tilt>0</tilt>
+					<range>154.4516020861341</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.26032872225922,53.91854536156399,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>M</name>
+				<LookAt>
+					<longitude>12.26491532381175</longitude>
+					<latitude>53.92258457138481</latitude>
+					<altitude>0</altitude>
+					<heading>1.367127406651896</heading>
+					<tilt>7.277237135660556</tilt>
+					<range>181.3203344095309</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.26415980502838,53.9223405710562,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>M#2</name>
+				<LookAt>
+					<longitude>12.2746284725703</longitude>
+					<latitude>53.92182489196654</latitude>
+					<altitude>0</altitude>
+					<heading>1.374977698471449</heading>
+					<tilt>7.277238806073036</tilt>
+					<range>182.7883720625696</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.27448900716997,53.92156727118052,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>M#3</name>
+				<LookAt>
+					<longitude>12.29031993493115</longitude>
+					<latitude>53.92037867827585</latitude>
+					<altitude>0</altitude>
+					<heading>-0.3353430891153328</heading>
+					<tilt>0</tilt>
+					<range>105.0877042254968</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.29025445677417,53.92025536704364,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>M#4</name>
+				<LookAt>
+					<longitude>12.29505639344433</longitude>
+					<latitude>53.91943141267095</latitude>
+					<altitude>0</altitude>
+					<heading>-0.3315115827997991</heading>
+					<tilt>19.58267672283121</tilt>
+					<range>154.5969867834574</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.29494632837994,53.91931689898912,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Z</name>
+				<LookAt>
+					<longitude>12.26268454399511</longitude>
+					<latitude>53.91753802062337</latitude>
+					<altitude>0</altitude>
+					<heading>-1.217866465875003</heading>
+					<tilt>0</tilt>
+					<range>116.9690017382299</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.26223179218546,53.91732072014631,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Z#2</name>
+				<LookAt>
+					<longitude>12.28308485104213</longitude>
+					<latitude>53.91591948879712</latitude>
+					<altitude>0</altitude>
+					<heading>-1.20137978529136</heading>
+					<tilt>0</tilt>
+					<range>221.8142730792396</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.28279630626613,53.91567813404353,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Z#3</name>
+				<LookAt>
+					<longitude>12.29518112508364</longitude>
+					<latitude>53.9148598504414</latitude>
+					<altitude>0</altitude>
+					<heading>-1.191604228493009</heading>
+					<tilt>0</tilt>
+					<range>229.3369740633338</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.2947715401155,53.9147144400628,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>StandLabels</name>
+			<open>1</open>
+			<Placemark>
+				<name>Helipoint S</name>
+				<LookAt>
+					<longitude>12.2902937500765</longitude>
+					<latitude>53.91476127792171</latitude>
+					<altitude>0</altitude>
+					<heading>-1.195277948404836</heading>
+					<tilt>14.64546090785045</tilt>
+					<range>442.6096268167606</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.2915409895757,53.91491826337633,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Helipoint N</name>
+				<LookAt>
+					<longitude>12.2726174972189</longitude>
+					<latitude>53.92123573100888</latitude>
+					<altitude>0</altitude>
+					<heading>6.19731130504544</heading>
+					<tilt>0</tilt>
+					<range>416.9373042311913</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>12.27253305513082,53.92076410084866,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>BuildingLabels</name>
 		</Folder>
 	</Folder>
 </Document>
