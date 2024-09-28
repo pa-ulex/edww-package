@@ -10,4 +10,17 @@ ZOOM:500
     {{- geom | to_text(name) }}
 {% endfor %}
 
-SYMBOL:Helipoint:54.31333272735232:9.534254599283905:H:1:1
+SYMBOL:Helipoint:53.91491826337633:12.2915409895757:H:1:1
+SYMBOL:Helipoint:53.92076410084866:12.27253305513082:H:1:1
+
+
+MAP:Buildings
+AIRPORT:ETNL
+FOLDER:Labels
+COLOR:labels-stand
+FONTSIZE:=:10
+
+ZOOM:500
+{% for name, geom in data.etnl_kml['BuildingLabels'].items() %}
+    {{- geom | to_text(name) }}
+{% endfor %}
