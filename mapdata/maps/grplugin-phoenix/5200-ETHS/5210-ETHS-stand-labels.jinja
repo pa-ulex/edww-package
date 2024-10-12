@@ -8,3 +8,4 @@ ACTIVE:1
 ZOOM:500
 {% for name, geom in data.eths_kml['StandLabels'].items() %}
     {{- geom | to_text(name) }}
+{% endfor %}
