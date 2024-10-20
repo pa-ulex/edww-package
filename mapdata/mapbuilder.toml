@@ -85,6 +85,11 @@ type = "kml"
 source = "kml/ETNL.kml"
 root = "ETNL"
 
+[data.etns_kml]
+type = "kml"
+source = "kml/ETNS.kml"
+root = "ETNT"
+
 [data.etnt_kml]
 type = "kml"
 source = "kml/ETNT.kml"
