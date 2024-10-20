@@ -90,6 +90,11 @@ type = "kml"
 source = "kml/ETNW.kml"
 root = "ETNW"
 
+[data.etsh_kml]
+type = "kml"
+source = "kml/ETSH.kml"
+root = "ETSH"
+
 #[data.rivers]
 #type = "kml"
 #source = "kml/Rivers.kml"
