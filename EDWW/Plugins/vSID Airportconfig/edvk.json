@@ -9,114 +9,98 @@
         "sids": {
             "ELNAT": {
                 "1": {
-					"designator": "E",
+					"designator": "M",
                     "rwy": "09",
                     "initial": 5000,
-                    "climbvia": true,
+                    "climbvia": false,
                     "prio": 1
                 },
                 "2": {
-					"designator": "W",
+					"designator": "N",
                     "rwy": "27",
                     "initial": 5000,
-                    "climbvia": true,
+                    "climbvia": false,
                     "prio": 1
                 }
 			},
 			"EMBAD": {
                 "1": {
-					"designator": "E",
+					"designator": "M",
                     "rwy": "09",
                     "initial": 5000,
-                    "climbvia": true,
+                    "climbvia": false,
                     "prio": 1
                 },
                 "2": {
-					"designator": "W",
+					"designator": "N",
                     "rwy": "27",
                     "initial": 5000,
-                    "climbvia": true,
+                    "climbvia": false,
                     "prio": 1
                 }
 			},
 			"XAROL": {
                "1": {
-					"designator": "E",
+					"designator": "M",
                     "rwy": "09",
                     "initial": 5000,
-                    "climbvia": true,
+                    "climbvia": false,
                     "prio": 1
                 },
                 "2": {
-					"designator": "W",
+					"designator": "N",
                     "rwy": "27",
                     "initial": 5000,
-                    "climbvia": true,
+                    "climbvia": false,
                     "prio": 1
                 }
 			},
 			"LUXUX": {
                 "1": {
-					"designator": "E",
+					"designator": "M",
                     "rwy": "09",
                     "initial": 5000,
-                    "climbvia": true,
+                    "climbvia": false,
                     "prio": 1
                 },
                 "2": {
-					"designator": "W",
+					"designator": "N",
                     "rwy": "27",
                     "initial": 5000,
-                    "climbvia": true,
+                    "climbvia": false,
                     "prio": 1
                 }
 			},
 			"WERRA": {
                 "1": {
-					"designator": "E",
+					"designator": "M",
                     "rwy": "09",
                     "initial": 5000,
-                    "climbvia": true,
+                    "climbvia": false,
                     "prio": 1
                 },
                 "2": {
-					"designator": "W",
+					"designator": "N",
                     "rwy": "27",
                     "initial": 5000,
-                    "climbvia": true,
+                    "climbvia": false,
                     "prio": 1
                 }
 			},
 			"WRB": {
                 "1": {
-					"designator": "E",
+					"designator": "M",
                     "rwy": "09",
-                    "initial": 5000,
-                    "climbvia": true,
+                    "initial": 4000,
+                    "climbvia": false,
                     "prio": 1
                 },
                 "2": {
-					"designator": "W",
+					"designator": "N",
                     "rwy": "27",
-                    "initial": 5000,
-                    "climbvia": true,
+                    "initial": 4000,
+                    "climbvia": false,
                     "prio": 1
-                },
-                "3": {
-					"designator": "C",
-                    "rwy": "09",
-                    "initial": 4000,
-                    "climbvia": true,
-					"equip": {"NON-RNAV": true},
-                    "prio": 2
-                },
-                "4": {
-					"designator": "K",
-                    "rwy": "27",
-                    "initial": 4000,
-                    "climbvia": true,
-					"equip": {"NON-RNAV": true},
-                    "prio": 2
                 }
 			}
         }
