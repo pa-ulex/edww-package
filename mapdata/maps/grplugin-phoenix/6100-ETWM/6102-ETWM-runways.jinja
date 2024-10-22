@@ -1,8 +1,0 @@
-MAP:Runway
-AIRPORT:ETWM
-FOLDER:Airport Layout
-ACTIVE:1
-
-{% for name, geom in data.etwm_kml['GrassRunway'].items() %}
-    {{- geom | to_poly(name, 'grass') }}
-{% endfor %}
