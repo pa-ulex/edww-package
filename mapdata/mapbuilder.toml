@@ -60,11 +60,6 @@ type = "kml"
 source = "kml/ETHC.kml"
 root = "ETHC"
 
-[data.eths_kml]
-type = "kml"
-source = "kml/ETHS.kml"
-root = "ETHS"
-
 [data.etmn_kml]
 type = "kml"
 source = "kml/ETMN.kml"
@@ -85,11 +80,6 @@ type = "kml"
 source = "kml/ETNL.kml"
 root = "ETNL"
 
-[data.etns_kml]
-type = "kml"
-source = "kml/ETNS.kml"
-root = "ETNS"
-
 [data.etnt_kml]
 type = "kml"
 source = "kml/ETNT.kml"
@@ -99,11 +89,6 @@ root = "ETNT"
 type = "kml"
 source = "kml/ETNW.kml"
 root = "ETNW"
-
-[data.etsh_kml]
-type = "kml"
-source = "kml/ETSH.kml"
-root = "ETSH"
 
 #[data.rivers]
 #type = "kml"
