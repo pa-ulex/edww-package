@@ -107,10 +107,22 @@ PROFILE:EDDW_APP:150:5
 ATIS2:Callsign BREMEN RADAR
 ATIS3:Friesland Sector - Briefing vats.im/EDWW
 ATIS4:Submit your feedback at feedback.vatger.de
-PROFILE:EDDW_F_APP:150:5
-ATIS2:Callsign BREMEN DIRECTOR
-ATIS3:REPORT ONLY CALLSIGN - Briefing vats.im/EDWW
-ATIS4:Submit your feedback at feedback.vatger.de
+PROFILE:ETHB_APP:150:5
+ATIS2:Callsign BUCKEBURG RADAR
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:
+PROFILE:ETHC_APP:150:5
+ATIS2:Callsign CELLE RADAR
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:COVERING ETHC,ETHS
+PROFILE:ETHS_APP:150:5
+ATIS2:Callsign FASSBERG RADAR
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:
+PROFILE:ETMN_APP:150:5
+ATIS2:Callsign NORDHOLZ RADAR
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:
 PROFILE:ETNH_APP:150:5
 ATIS2:Callsign HOHN RADAR
 ATIS3:Submit your feedback at feedback.vatger.de
@@ -135,6 +147,14 @@ PROFILE:ETNS_P_APP:150:5
 ATIS2:Callsign SCHLESWIG PRESICION
 ATIS3:For PAR Approach only! No readback of instructions required!
 ATIS4:Submit your feedback at feedback.vatger.de
+PROFILE:ETNT_APP:150:5
+ATIS2:Callsign WITTMUND RADAR
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:COVERING ETNT,ETMN
+PROFILE:ETNW_APP:150:5
+ATIS2:Callsign WUNSTORF RADAR
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:COVERING ETNW,ETHB
 PROFILE:ETSH_APP:150:5
 ATIS2:Callsign HOLZDORF RADAR
 ATIS3:Submit your feedback at feedback.vatger.de

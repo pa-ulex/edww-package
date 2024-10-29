@@ -297,6 +297,8 @@ Shortcut_Map_Xfr_Key=1,0x4E ; N
 Shortcut_Map_Target=1,SECTOR INFO\FIXES LABEL
 Shortcut_Map_Xfr_Key=2,0x44 ; D
 Shortcut_Map_Target=2,SECTOR INFO\TACTICAL DIRECTS
+Shortcut_Map_Xfr_Key=3,0x42
+Shortcut_Map_Target=3,GENERAL\LOWER SECTORS
 
 STCA_AlertSound=0
 STCA_Sep_Lat_SepLevel=24500

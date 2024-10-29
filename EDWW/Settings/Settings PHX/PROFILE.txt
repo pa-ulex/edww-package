@@ -75,10 +75,6 @@ PROFILE:EDDW_GND:20:3
 ATIS2:Callsign BREMEN GROUND
 ATIS3:Airport Briefing vats.im/edww
 ATIS4:Submit your feedback at feedback.vatger.de
-PROFILE:EDDW_DEL:20:2
-ATIS2:Callsign BREMEN DELIVERY
-ATIS3:Airport Briefing vats.im/edww
-ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDAH_TWR:50:4
 ATIS2:HERINGSDORF TOWER
 ATIS3:Submit your feedback at feedback.vatger.de
@@ -111,6 +107,22 @@ PROFILE:EDVK_GND:20:3
 ATIS2:Callsign KASSEL GROUND
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:
+PROFILE:ETHB_TWR:50:4
+ATIS2:BUCKEBURG TOWER
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:
+PROFILE:ETHC_TWR:50:4
+ATIS2:CELLE TOWER
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:
+PROFILE:ETHS_TWR:50:4
+ATIS2:FASSBERG TOWER
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:
+PROFILE:ETMN_TWR:50:4
+ATIS2:NORDHOLZ TOWER
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:
 PROFILE:ETNH_TWR:50:4
 ATIS2:HOHN TOWER
 ATIS3:Submit your feedback at feedback.vatger.de
@@ -123,7 +135,7 @@ PROFILE:ETNL_A_GND:20:3
 ATIS2:LAAGE APRON
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:
-PROFILE:ETNH_TWR:50:4
+PROFILE:ETNS_TWR:50:4
 ATIS2:SCHLESWIG TOWER
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:
@@ -131,7 +143,7 @@ PROFILE:ETNT_TWR:50:4
 ATIS2:WITTMUND TOWER
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:
-PROFILE:ETNH_TWR:50:4
+PROFILE:ETNW_TWR:50:4
 ATIS2:WUNSTORF TOWER
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:
