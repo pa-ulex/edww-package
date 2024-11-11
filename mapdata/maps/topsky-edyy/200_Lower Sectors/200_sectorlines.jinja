@@ -1,0 +1,19 @@
+{%- set EDMM = data['sectors']['lines']['EDMM'] -%}
+{%- set EDGG = data['sectors']['lines']['EDGG'] -%}
+{%- set EDWW = data['sectors']['lines']['EDWW'] -%}
+{%- set EHAA = data['sectors']['lines']['EHAA'] -%}
+{%- set EKDK = data['sectors']['lines']['EKDK'] -%}
+{%- set EPWW = data['sectors']['lines']['EPWW'] -%}
+{%- set ESAA = data['sectors']['lines']['ESAA'] -%}
+{%- set EBBU = data['sectors']['lines']['EBBU'] -%}
+MAP:LOWER SECTORS
+FOLDER:GENERAL
+COLOR:Active_Map_Type_4
+LAYER:-1
+ACTIVE:1
+{{ render_sectorlines(
+		EDWW['EDWWEIDE']['000-245'],
+		EDWW['EDWWEIDW']['000-245'],
+		EDWW['EDWWFRI1']['000-245'],
+		sector_sub(EDWW['EDWWALR1']['105-245'], EDWW['EDWWALR2']['195-245']),
+) }}
