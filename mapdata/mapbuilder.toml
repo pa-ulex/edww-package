@@ -1,7 +1,6 @@
 [data]
 
 [data.eddb]
-[data.eddb]
 type = "aixm"
 #source = "aixm:dfs:0:EDDB AerodromeMapping"
 source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDB_AerodromeMapping_2024-10-31_2024-11-28_revision.zip"
