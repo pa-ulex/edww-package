@@ -1,0 +1,95 @@
+{%- set EDMM = data['sectors']['lines']['EDMM'] -%}
+{%- set EDGG = data['sectors']['lines']['EDGG'] -%}
+{%- set EDWW = data['sectors']['lines']['EDWW'] -%}
+{%- set EHAA = data['sectors']['lines']['EHAA'] -%}
+{%- set EKDK = data['sectors']['lines']['EKDK'] -%}
+{%- set EPWW = data['sectors']['lines']['EPWW'] -%}
+{%- set ESAA = data['sectors']['lines']['ESAA'] -%}
+{%- set EBBU = data['sectors']['lines']['EBBU'] -%}
+{%- set EGPX = data['sectors']['lines']['EGPX'] -%}
+MAP:LOWER SECTORS
+FOLDER:SECTORS
+COLOR:Active_Map_Type_2
+ACTIVE:1
+LAYER:-1
+STYLE:Solid
+ASRDATA:LOWER
+{{ render_sectorlines(
+		EDWW['EDWWBOR1']['000-285'],
+		EDWW['EDWWBOR2']['000-055'],
+		EDWW['EDWWBOR3']['165-285'],
+		sector_sub(EDWW['EDWWEIDE']['000-245'], EDWW['EDWWEIDW']['000-245']),
+		sector_sub(EDWW['EDWWEIDW']['000-245'], EDWW['EDWWEIDE']['000-245']),
+		EDWW['EDWWFLG1']['165-285'],
+		EDWW['EDWWFLG2']['135-285'],
+		EDWW['EDWWFLG3']['165-285'],
+		EDWW['EDWWHEI1']['105-245'],
+		EDWW['EDWWMAR1']['000-285'],
+		EDWW['EDWWMAR2']['135-285'],
+		EDWW['EDWWMAR3']['000-245'],
+		EDWW['EDWWMAR4']['105-245'],
+		EDWW['EDWWMAR5']['105-285'],
+		EDWW['EDWWMRZ1']['000-285'],
+		EDWW['EDWWMRZ2']['000-245'],
+		EDWW['EDWWMRZ4']['000-105'],
+		EDWW['EDWWMRZ5']['000-105'],
+		EDWW['EDWWMRZ6']['000-105'],
+		EDWW['EDWWFRI1']['000-245'],
+		EDWW['EDWWHAN']['000-105'],
+		EDWW['EDWWEMS1']['000-245'],
+		EDGG['HEF1']['000-245'],
+		EDGG['HEF2']['000-195'],
+		EDGG['HEF3']['000-065'],
+		EDGG['HEF4']['000-215'],
+		EDGG['HEF7']['105-195'],
+		EDGG['HEF8']['105-245'],
+		EDGG['GED5']['215-245'],
+		EDGG['HEF6']['235-245'],
+		EDGG['GIN1']['000-245'],
+		EDGG['GIN2']['195-245'],
+		EDGG['GIN3']['205-245'],
+		EDGG['GIN6']['105-205'],
+		EDGG['GIN9']['000-065'],
+		EDGG['HMM1']['000-245'],
+		EDGG['HMM2']['000-205'],
+		EDGG['HMM3']['075-245'],
+		EDGG['HMM4']['000-105'],
+		EDGG['HMM5']['000-065'],
+		EDGG['PADL1']['000-135'],
+		EDGG['PADL5']['000-075'],
+		EDGG['PADH2']['115-245'],
+		EDMM['EDMMBBG']['245-295'],
+		EDMM['EDMMHOF']['245-315'],
+		EDMM['EDMMHAL']['195-245'],
+		EDMM['EDMMHAL']['245-285'],
+		EDMM['EDMMGER']['195-245'],
+		EDMM['EDMMGER']['245-285'],
+		EDMM['EDMMMEI']['245-285'],
+		EDMM['EDMMTRN']['000-145'],
+		EPWW['EPWWB']['285-295'],
+		EPWW['EPWWD']['245-295'],
+		EPWW['EPWWT']['285-295'],
+		EPWW['EPSC_EDAH']['025-095'],
+		EPWW['EPSC_TMA']['017-045'],
+		EPWW['EPSC_TMA']['045-055'],
+		EPWW['EPSC_TMA']['055-095'],
+		EPWW['EPSC_TMA']['095-135'],
+		ESAA['EKRN TMA']['045-095'],
+		ESAA['ESMM L-1']['095-245'],
+		ESAA['ESMM 8-1']['245-365'],
+		ESAA['ESMM 8-2']['245-365'],
+		ESAA['ESMM 8-3']['285-365'],
+		EKDK['EKDK_B']['105-285'],
+		EKDK['EKDK_B-3']['245-285'],
+		EKDK['EKDK_I']['105-285'],
+		EKDK['EKDK_I-2']['245-285'],
+		EKDK['EKDK_D-2']['245-285'],
+		EKDK['EKDK_N-S2']['245-365'],
+		EKDK['EKDK_N']['085-365'],
+		EKDK['EKDK_N_COIF']['035-085'],
+		EHAA['EHAA CTA E1']['095-245'],
+		EHAA['EHGG TMA']['015-065'],
+		EHAA['EHMC CTA N1']['055-245'],
+		EHAA['EHMC TMA A1']['015-245'],
+		EHAA['EHMC TMA C']['015-245'],
+) }}
