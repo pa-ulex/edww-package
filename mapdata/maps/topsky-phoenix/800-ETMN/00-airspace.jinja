@@ -1,0 +1,10 @@
+{%- set EDWW = data['sectors']['lines']['EDWW'] -%}
+MAP:CTR(HX) ETMN 
+FOLDER:ETMN
+COLOR:Airspace
+STYLE:Solid:1
+ACTIVE:1
+ASRDATA:TWR
+{{ render_sectorlines(
+		EDWW['ETMN TWR']['000-026']
+) }}
