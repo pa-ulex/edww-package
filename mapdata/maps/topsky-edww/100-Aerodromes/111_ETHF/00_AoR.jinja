@@ -1,0 +1,10 @@
+{%- set EDGG = data['sectors']['lines']['EDGG'] -%}
+MAP:ETHF AoR
+FOLDER:SECTORS
+COLOR:Active_Map_Type_2
+LAYER:3
+STYLE:MILBorder
+ACTIVE:ID:*:*:HFR:*
+{{ render_sectorlines(
+		EDGG['ETHF_APP']['000-065'],
+) }}

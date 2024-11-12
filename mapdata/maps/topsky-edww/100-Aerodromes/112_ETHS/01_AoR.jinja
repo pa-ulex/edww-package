@@ -1,0 +1,12 @@
+{%- set EDWW = data['sectors']['lines']['EDWW'] -%}
+MAP:ETHS AoR
+FOLDER:SECTORS
+COLOR:Active_Map_Type_2
+ACTIVE:ID:HCR,HSR:*:*:*
+ACTIVE:ID:*:*:HBR:*
+ACTIVE:ID:*:*:HSR:*
+LAYER:3
+STYLE:MILBorder
+{{ render_sectorlines(
+		EDWW['ETHS RDR']['000-055'],
+) }}

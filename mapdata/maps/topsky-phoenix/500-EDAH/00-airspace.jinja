@@ -1,0 +1,10 @@
+{%- set EDWW = data['sectors']['lines']['EDWW'] -%}
+MAP:AIRSPC D(CTR)
+FOLDER:EDAH
+COLOR:Airspace
+STYLE:Solid:1
+ACTIVE:1
+ASRDATA:TWR
+{{ render_sectorlines(
+		EDWW['EDAH']['000-025']
+) }}

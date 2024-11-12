@@ -1,0 +1,11 @@
+{%- set EDWW = data['sectors']['lines']['EDWW'] -%}
+MAP:ETNL AoR
+FOLDER:SECTORS
+COLOR:Active_Map_Type_2
+ACTIVE:ID:NLP,NLR:*:*:*
+ACTIVE:ID:*:*:NLR:*
+ACTIVE:ID:*:*:NLP:*
+LAYER:3
+{{ render_sectorlines(
+		EDWW['ETNLRDR']['000-045'],
+) }}
