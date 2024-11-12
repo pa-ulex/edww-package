@@ -151,6 +151,7 @@ source = "misc/sectors_dev.txt"
 maps = [
     { map = "topsky-edww", target = "EDWW/Plugins/TOPSKY EDWW/TopSkyMaps.txt" },
 	{ map = "topsky-cpdlc", target = "EDWW/Plugins/TOPSKY EDWW/TopSkyCPDLC.txt" },
+	{ map = "topsky-airspace", target = "EDWW/Plugins/TOPSKY EDWW/TopSkyAirspace.txt" },
 ]
 dir = "EDWW/Plugins/TOPSKY EDWW/"
 
@@ -158,6 +159,7 @@ dir = "EDWW/Plugins/TOPSKY EDWW/"
 maps = [
     { map = "topsky-edyy", target = "EDWW/Plugins/TOPSKY EDYY/TopSkyMaps.txt" },
 	{ map = "topsky-cpdlc", target = "EDWW/Plugins/TOPSKY EDYY/TopSkyCPDLC.txt" },
+	{ map = "topsky-airspace", target = "EDWW/Plugins/TOPSKY EDYY/TopSkyAirspace.txt" },
 ]
 dir = "EDWW/Plugins/TOPSKY EDYY/"
 
@@ -165,6 +167,7 @@ dir = "EDWW/Plugins/TOPSKY EDYY/"
 maps = [
     { map = "topsky-eduu", target = "EDWW/Plugins/TOPSKY EDUU/TopSkyMaps.txt" },
 	{ map = "topsky-cpdlc", target = "EDWW/Plugins/TOPSKY EDUU/TopSkyCPDLC.txt" },
+	{ map = "topsky-airspace", target = "EDWW/Plugins/TOPSKY EDYY/TopSkyAirspace.txt" },
 ]
 dir = "EDWW/Plugins/TOPSKY EDUU/"
 
@@ -176,6 +179,7 @@ maps = [
     { map = "topsky-phoenix", target = "EDWW/Plugins/TOPSKY PHX NIGHT/TopSkyMaps.txt" },
     { map = "topsky-phoenix-settings", target = "EDWW/Plugins/TOPSKY PHX NIGHT/TopSkySettings.txt" },
 	{ map = "topsky-cpdlc", target = "EDWW/Plugins/TOPSKY PHX NIGHT/TopSkyCPDLC.txt" },
+	{ map = "topsky-airspace", target = "EDWW/Plugins/TOPSKY PHX NIGHT/TopSkyAirspace.txt" },
 ]
 dir = "EDWW/Plugins/"
 aliases = [ "dark" ]
@@ -188,6 +192,7 @@ maps = [
     { map = "topsky-phoenix", target = "EDWW/Plugins/TOPSKY PHX DAY/TopSkyMaps.txt" },
     { map = "topsky-phoenix-settings", target = "EDWW/Plugins/TOPSKY PHX DAY/TopSkySettings.txt" },
 	{ map = "topsky-cpdlc", target = "EDWW/Plugins/TOPSKY PHX DAY/TopSkyCPDLC.txt" },
+	{ map = "topsky-airspace", target = "EDWW/Plugins/TOPSKY PHX DAY/TopSkyAirspace.txt" },
 ]
 dir = "EDWW/Plugins/"
 aliases = [ "bright" ]
