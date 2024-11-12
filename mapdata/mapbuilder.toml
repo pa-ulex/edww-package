@@ -150,18 +150,21 @@ source = "misc/sectors_dev.txt"
 [profiles.EDWW]
 maps = [
     { map = "topsky-edww", target = "EDWW/Plugins/TOPSKY EDWW/TopSkyMaps.txt" },
+	{ map = "topsky-cpdlc", target = "EDWW/Plugins/TOPSKY EDWW/TopSkyCPDLC.txt" },
 ]
 dir = "EDWW/Plugins/TOPSKY EDWW/"
 
 [profiles.EDYY]
 maps = [
     { map = "topsky-edyy", target = "EDWW/Plugins/TOPSKY EDYY/TopSkyMaps.txt" },
+	{ map = "topsky-cpdlc", target = "EDWW/Plugins/TOPSKY EDYY/TopSkyCPDLC.txt" },
 ]
 dir = "EDWW/Plugins/TOPSKY EDYY/"
 
 [profiles.EDUU]
 maps = [
     { map = "topsky-eduu", target = "EDWW/Plugins/TOPSKY EDUU/TopSkyMaps.txt" },
+	{ map = "topsky-cpdlc", target = "EDWW/Plugins/TOPSKY EDUU/TopSkyCPDLC.txt" },
 ]
 dir = "EDWW/Plugins/TOPSKY EDUU/"
 
@@ -172,6 +175,7 @@ maps = [
     { map = "grplugin-settings", target = "EDWW/Plugins/Ground Radar Plugin DARK/GRpluginSettings.txt" },
     { map = "topsky-phoenix", target = "EDWW/Plugins/TOPSKY PHX NIGHT/TopSkyMaps.txt" },
     { map = "topsky-phoenix-settings", target = "EDWW/Plugins/TOPSKY PHX NIGHT/TopSkySettings.txt" },
+	{ map = "topsky-cpdlc", target = "EDWW/Plugins/TOPSKY PHX NIGHT/TopSkyCPDLC.txt" },
 ]
 dir = "EDWW/Plugins/"
 aliases = [ "dark" ]
@@ -183,6 +187,7 @@ maps = [
     { map = "grplugin-settings", target = "EDWW/Plugins/Ground Radar Plugin BRIGHT/GRpluginSettings.txt" },
     { map = "topsky-phoenix", target = "EDWW/Plugins/TOPSKY PHX DAY/TopSkyMaps.txt" },
     { map = "topsky-phoenix-settings", target = "EDWW/Plugins/TOPSKY PHX DAY/TopSkySettings.txt" },
+	{ map = "topsky-cpdlc", target = "EDWW/Plugins/TOPSKY PHX DAY/TopSkyCPDLC.txt" },
 ]
 dir = "EDWW/Plugins/"
 aliases = [ "bright" ]
