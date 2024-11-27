@@ -8,7 +8,6 @@ m_OrderingColumn:4
 m_HeaderOnly:0
 m_Column:TIMER:5:1:544:0:0:0:VCH:::0:0.0
 m_Column:REQ:5:1:540:548:0:1:VCH:VCH::0:0.0
-m_Column:FPC:3:1:1:101:100:0:VFPC:VFPC:VFPC:0:0.0
 m_Column:CALLSIGN:10:0:9:6:100:1::TopSky plugin:TopSky plugin:0:3.8
 m_Column:C:2:1:10046:27:0:1:TopSky plugin:::8:3.8
 m_Column:TOBT:5:1:4:114:121:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0

@@ -150,20 +150,32 @@ source = "misc/sectors_dev.txt"
 [profiles.EDWW]
 maps = [
     { map = "topsky-edww", target = "EDWW/Plugins/TOPSKY EDWW/TopSkyMaps.txt" },
+	{ map = "topsky-cpdlc", target = "EDWW/Plugins/TOPSKY EDWW/TopSkyCPDLC.txt" },
+	{ map = "topsky-airspace", target = "EDWW/Plugins/TOPSKY EDWW/TopSkyAirspace.txt" },
+	{ map = "topsky-areas-edww-phx", target = "EDWW/Plugins/TOPSKY EDWW/TopSkyAreas.txt" },
 ]
 dir = "EDWW/Plugins/TOPSKY EDWW/"
+aliases = [ "edww" ]
 
 [profiles.EDYY]
 maps = [
     { map = "topsky-edyy", target = "EDWW/Plugins/TOPSKY EDYY/TopSkyMaps.txt" },
+	{ map = "topsky-cpdlc", target = "EDWW/Plugins/TOPSKY EDYY/TopSkyCPDLC.txt" },
+	{ map = "topsky-airspace", target = "EDWW/Plugins/TOPSKY EDYY/TopSkyAirspace.txt" },
+	{ map = "topsky-areas-eduu-edyy", target = "EDWW/Plugins/TOPSKY EDYY/TopSkyAreas.txt" },
 ]
 dir = "EDWW/Plugins/TOPSKY EDYY/"
+aliases = [ "edyy" ]
 
 [profiles.EDUU]
 maps = [
     { map = "topsky-eduu", target = "EDWW/Plugins/TOPSKY EDUU/TopSkyMaps.txt" },
+	{ map = "topsky-cpdlc", target = "EDWW/Plugins/TOPSKY EDUU/TopSkyCPDLC.txt" },
+	{ map = "topsky-airspace", target = "EDWW/Plugins/TOPSKY EDUU/TopSkyAirspace.txt" },
+	{ map = "topsky-areas-eduu-edyy", target = "EDWW/Plugins/TOPSKY EDUU/TopSkyAreas.txt" },
 ]
 dir = "EDWW/Plugins/TOPSKY EDUU/"
+aliases = [ "eduu" ]
 
 [profiles.TWR_NIGHT]
 maps = [
@@ -172,6 +184,9 @@ maps = [
     { map = "grplugin-settings", target = "EDWW/Plugins/Ground Radar Plugin DARK/GRpluginSettings.txt" },
     { map = "topsky-phoenix", target = "EDWW/Plugins/TOPSKY PHX NIGHT/TopSkyMaps.txt" },
     { map = "topsky-phoenix-settings", target = "EDWW/Plugins/TOPSKY PHX NIGHT/TopSkySettings.txt" },
+	{ map = "topsky-cpdlc", target = "EDWW/Plugins/TOPSKY PHX NIGHT/TopSkyCPDLC.txt" },
+	{ map = "topsky-airspace", target = "EDWW/Plugins/TOPSKY PHX NIGHT/TopSkyAirspace.txt" },
+	{ map = "topsky-areas-edww-phx", target = "EDWW/Plugins/TOPSKY PHX NIGHT/TopSkyAreas.txt" },
 ]
 dir = "EDWW/Plugins/"
 aliases = [ "dark" ]
@@ -183,6 +198,9 @@ maps = [
     { map = "grplugin-settings", target = "EDWW/Plugins/Ground Radar Plugin BRIGHT/GRpluginSettings.txt" },
     { map = "topsky-phoenix", target = "EDWW/Plugins/TOPSKY PHX DAY/TopSkyMaps.txt" },
     { map = "topsky-phoenix-settings", target = "EDWW/Plugins/TOPSKY PHX DAY/TopSkySettings.txt" },
+	{ map = "topsky-cpdlc", target = "EDWW/Plugins/TOPSKY PHX DAY/TopSkyCPDLC.txt" },
+	{ map = "topsky-airspace", target = "EDWW/Plugins/TOPSKY PHX DAY/TopSkyAirspace.txt" },
+	{ map = "topsky-areas-edww-phx", target = "EDWW/Plugins/TOPSKY PHX DAY/TopSkyAreas.txt" },
 ]
 dir = "EDWW/Plugins/"
 aliases = [ "bright" ]
