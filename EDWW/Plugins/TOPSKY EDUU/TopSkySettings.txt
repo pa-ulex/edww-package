@@ -6,6 +6,8 @@ HTTP_Areas_Remote_URL=https://raw.githubusercontent.com/VATGER-Nav/EDWW-Area-Act
 Setup_COOPANS=1
 RwyAppLines_Auto=0
 
+Areas_Remote_Activation=1
+
 Airspace_ASSR_Type=2
 Airspace_ASSR_AutoAssign_Type=0
 Airspace_ModeS_Code_VFR=7000

@@ -27,6 +27,7 @@ APW_Buffer_Vert_L_IFR=799
 APW_Buffer_Vert_L_IFR=799
 
 Areas_NOTAM_Activation=1
+Areas_Remote_Activation=1
 Areas_Altitude_Filtering=1
 
 //Standard colors, all other defined below
