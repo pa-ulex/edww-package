@@ -302,7 +302,7 @@ Vector_MinSep_FontSize=12
 Vector_MinSep_Label_Time=1
 Vector_QDM_MaxNumber=99
 
-Window_ASM=1,500,500
+Window_ASM=1,500,500,675,400
 Window_ASM_Chars_Name=9
 Window_ASM_Chars_MapText=25
 Window_CARD=1,1525,788
