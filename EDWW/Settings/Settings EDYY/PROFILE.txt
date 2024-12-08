@@ -40,7 +40,7 @@ ATIS2:Callsign MAASTRICHT RADAR - CPDLC on EDYM
 ATIS3:Muenster Low Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDYY_MH_CTR:300:6
-ATIS2:Callsign MAASTRICHT RADAR - CPDLC on EDMH
+ATIS2:Callsign MAASTRICHT RADAR - CPDLC on EDNH
 ATIS3:Muenster High Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
 PROFILE:EDYY_RL_CTR:300:6
