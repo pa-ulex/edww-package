@@ -3,32 +3,32 @@
 [data.eddb]
 type = "aixm"
 #source = "aixm:dfs:0:EDDB AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDB_AerodromeMapping_2024-11-28_2024-12-26_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDB_AerodromeMapping_2024-12-26_2025-01-23_revision.zip"
 
 [data.eddh]
 type = "aixm"
 #source = "aixm:dfs:0:EDDH AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDH_AerodromeMapping_2024-11-28_2024-12-26_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDH_AerodromeMapping_2024-12-26_2025-01-23_revision.zip"
 
 [data.eddv]
 type = "aixm"
 #source = "aixm:dfs:0:EDDV AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDV_AerodromeMapping_2024-11-28_2024-12-26_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDDV_AerodromeMapping_2024-12-26_2025-01-23_revision.zip"
 
 [data.edhi]
 type = "aixm"
 #source = "aixm:dfs:0:EDHI AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDHI_AerodromeMapping_2024-11-28_2024-12-26_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDHI_AerodromeMapping_2024-12-26_2025-01-23_revision.zip"
 
 [data.edhl]
 type = "aixm"
 #source = "aixm:dfs:0:EDHL AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDHL_AerodromeMapping_2024-11-28_2024-12-26_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDHL_AerodromeMapping_2024-12-26_2025-01-23_revision.zip"
 
 [data.edve]
 type = "aixm"
 #source = "aixm:dfs:0:EDVE AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDVE_AerodromeMapping_2024-11-28_2024-12-26_revision.zip"
+source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=1&content=aerodrome_mapping/EDVE_AerodromeMapping_2024-12-26_2025-01-23_revision.zip"
 
 [data.edah_kml]
 type = "kml"
@@ -241,6 +241,18 @@ loc = [ ]
 thr = [ 52.204997, 13.167096 ]
 bearing = 255.79
 fap = [ 52.221543, 13.273610 ] # TRIBY
+loc = [ ]
+
+[runways.EDBC.07]
+thr = [ 51.853473, 11.400293 ]
+bearing = 77.39
+fap = [ 51.826277, 11.205347 ] # REFXU
+loc = [ ]
+
+[runways.EDBC.25]
+thr = [ 51.858375, 11.435704 ]
+bearing = 257.41
+fap = [ 51.88505, 11.629902 ] # ASQUM
 loc = [ ]
 
 [runways.EDBH.09]
