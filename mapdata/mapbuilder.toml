@@ -513,13 +513,13 @@ bearing = 324.46
 fap = [ 54.779657, 8.505385 ] # SYLTA
 loc = [ 54.920844, 8.331027 ]
 
-[runways.ETHB.08]
+[runways.ETHB.07]
 thr = [ 52.276972, 9.071408 ]
 bearing = 77.58
 fap = [ 52.245832, 8.842666 ] # TAKAX
 loc = [ ]
 
-[runways.ETHB.26]
+[runways.ETHB.25]
 thr = [ 52.280196, 9.095297 ]
 bearing = 257.60
 fap = [ 52.299666, 9.24 ] # XALOR
