@@ -2029,6 +2029,20 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+				<name>TDZ</name>
+				<styleUrl>#m_ylw-pushpin7</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								8.78339463434103,53.04690912946602,0 8.78373225740078,53.04691525799487,0 8.78373323179702,53.04688882910170,0 8.78339350278410,53.04688134007254,0 8.78339463434103,53.04690912946602,0
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
 				<name>CL</name>
 				<styleUrl>#m_ylw-pushpin7</styleUrl>
 				<Polygon>

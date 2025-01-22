@@ -45,3 +45,4 @@ COLORDEF:restriction-36:244:143:177
 COLORDEF:restriction-52:178:223:219
 COLORDEF:restriction-65:186:104:200
 COLORDEF:restriction-76:198:0:205
+COLORDEF:restriction-b:208:157:36
