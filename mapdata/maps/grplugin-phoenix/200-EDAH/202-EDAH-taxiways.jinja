@@ -4,5 +4,5 @@ FOLDER:Airport Layout
 ACTIVE:1
 
 {% for name, geom in data.edah_kml['Taxiways'].items() %}
-    {{- geom | to_poly(name, 'taxiway', coordpoly = False) }}
+    {{- geom | to_poly(name, 'taxiway') }}
 {% endfor %}
