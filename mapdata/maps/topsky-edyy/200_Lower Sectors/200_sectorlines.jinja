@@ -19,7 +19,10 @@ ACTIVE:1
 		sector_sub(EDWW['EDWWEID2']['105-245'], EDWW['EDWWEID1']['000-245']),
 		sector_sub(EDWW['EDWWEMS1']['000-245'], EDWW['EDWWEMS2']['105-245']),
 		sector_sub(EDWW['EDWWEMS2']['105-245'], EDWW['EDWWEMS1']['000-245']),
-		
+		sector_and(EDWW['EDWWHRZ2']['105-285'], EDGG['EDWWHMM1']['000-245']),
+		sector_and(EDWW['EDWWHRZ1']['000-245'], EDGG['EDWWBOR1']['000-285']),
+		sector_and(EDWW['EDWWHRZ2']['105-245'], EDGG['EDWWBOR1']['000-285']),
+		sector_and(EDWW['EDWWHRZ3']['055-245'], EDGG['EDWWBOR1']['000-285']),
 		sector_and(EDWW['EDWWMRZ1']['000-285'], EDWW['EDWWMAR1']['000-285']),
 		sector_and(EDWW['EDWWMRZ1']['000-285'], EDWW['EDWWMAR5']['105-285']),
 		sector_and(EDWW['EDWWMRZ2']['000-245'], EDWW['EDWWMAR4']['105-245']),
