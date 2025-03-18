@@ -314,6 +314,7 @@ Menu_MaxListItems=12
 
 Window_CPDLC_Setting=1,1,250
 Window_CPDLC_Current=1,570,45
+Window_DCL_StartUp_Default=0
 Window_SM_LeaveHoldTime=3
 Window_QNHTL=0
 Window_MsgIn=0
