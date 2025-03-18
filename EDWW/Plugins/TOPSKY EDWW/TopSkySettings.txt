@@ -288,6 +288,7 @@ Window_CARD_View_Risk=0
 Window_CARD_View_PotPred=0
 Window_CPDLC_Current=1,1350,48
 Window_CPDLC_Setting=1,1,248
+Window_DCL_StartUp_Default=0
 Window_SM_LeaveHoldTime=2
 Window_SepList=100,200
 Window_MsgIn=1,980,48
@@ -346,12 +347,6 @@ RDF_Mode=1
 Track_PredictionLine=1
 Shortcut_Map_Xfr_Key=7,0x44 ; D
 Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS EAST
-
-[EDWW_D]
-Shortcut_Map_Xfr_Key=7,0x44 ; D
-Shortcut_Map_Target=7,AIRSPACE INFO\TACTICAL DIRECTS SOUTH
-CPDLC_MinLevel=245
-RDF_Mode=1
 
 [EDWW_E]
 Shortcut_Map_Xfr_Key=7,0x44 ; D
