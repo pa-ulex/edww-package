@@ -188,7 +188,7 @@ Shortcut_Map_Xfr_Key=3,0x56
 Shortcut_Map_Target=3,ALL\VRP
 Shortcut_Map_Xfr_Combo=4,0x12
 Shortcut_Map_Xfr_Key=4,0x4D
-Shortcut_Map_Target=4,MVA\WINTER_MVA
+Shortcut_Map_Target=4,MVA\SUMMER_MVA
 Shortcut_Map_Xfr_Key=5,0x41 ; A
 Shortcut_Map_Target=5,AIRSPACE\AIRSPACE LEVELS
 
@@ -196,6 +196,7 @@ Menu_MaxListItems=12
 
 Window_CPDLC_Setting=1,1,250
 Window_CPDLC_Current=1,570,45
+Window_DCL_StartUp_Default=0
 Window_SM_LeaveHoldTime=3
 Window_QNHTL=0
 Window_MsgIn=0
