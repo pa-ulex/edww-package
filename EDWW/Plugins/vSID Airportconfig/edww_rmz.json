@@ -394,6 +394,7 @@
                     "1": {
                         "rwy": "07",
                         "initial": 3000,
+			"wingType": "H",
                         "prio": 1
                     }
                 },
@@ -401,6 +402,7 @@
                     "1": {
                         "rwy": "25",
                         "initial": 3000,
+			"wingType": "H",
                         "prio": 1
                     }
                 }
