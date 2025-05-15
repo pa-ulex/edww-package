@@ -145,9 +145,9 @@ source = "common/airspace_levels.txt"
 type = "sectors"
 source = "misc/sectors_dev.txt"
 
-[data.obstacles]
+[data.topo_obstacles]
 type = "raw"
-source = "common/obstacles.txt"
+source = "common/topo_obstacles.txt"
 
 [profiles]
 
