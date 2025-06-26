@@ -21,5 +21,5 @@
 	<ftpUser user="" />
 	<ftpPassword password="" />
 	<Server mode="false" />
-	<Su_Wait mode="flase" />
+	<Su_Wait mode="false" />
 </CDM>
