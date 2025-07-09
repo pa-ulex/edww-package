@@ -20,6 +20,11 @@ Color_WBackground3=70,70,70
 Color_WForeground=250,250,250
 Color_Text_Notes=255,255,255
 
+Color_WForeground=255,255,255
+Color_WForeground3=255,255,255
+Color_WBackground4=24,24,24
+Color_TSW_Background=24,24,24
+
 System_State_OnFreq=WT
 System_State_DeIce=IC
 System_State_Push=PB

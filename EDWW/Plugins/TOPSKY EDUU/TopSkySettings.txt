@@ -333,6 +333,7 @@ System_UseTSAborderHighlightColor=1
 TextNotes_Font=EuroScope
 
 Track_PredictionLine=0
+Track_PredictionLine_Max=15
 
 Vector_AHDG_Font=EuroScope
 Vector_AHDG_FontSize=10

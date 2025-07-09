@@ -7,79 +7,73 @@
 		"appSI": "MRZ,MAR,BOR,WC",
         "sids": {
             "initial": 4000,
-            "NL12": {
-                "1": {
+            "GASBO": {
+		"climbvia": true,
+                "E": {
                     "1": {
-                        "wpt": "GASBO",
+                        "rwy": "09",
+			"climbvia": true,
+                        "prio": 1
+                    }
+                },
+                "W": {
+                    "2": {
                         "rwy": "27",
                         "prio": 1
-                    }
+                  }
                 }
-			},
-			"NL14": {
-                "1": {
+            },
+            "TAGOB": {
+		"climbvia": true,
+                "E": {
                     "1": {
-                        "wpt": "TAGOB",
+                        "rwy": "09",
+			"climbvia": true,
+                        "prio": 1
+                    }
+                },
+                "W": {
+                    "2": {
                         "rwy": "27",
                         "prio": 1
-                    }
+                  }
                 }
-			},
-			"NL16": {
-                "1": {
+            },
+            "TIMIB": {
+		"climbvia": true,
+                "E": {
                     "1": {
-                        "wpt": "LEGSA",
+                        "rwy": "09",
+			"climbvia": true,
+                        "prio": 1
+                    }
+                },
+                "W": {
+                    "2": {
                         "rwy": "27",
                         "prio": 1
-                    }
+                  }
                 }
-			},
-			"NL32": {
-                "1": {
-                    "1": {
-                        "wpt": "GASBO",
-                        "rwy": "09",
-                        "prio": 1
-                    }
-                }
-			},
-			"NL34": {
-                "1": {
-                    "1": {
-                        "wpt": "TAGOB",
-                        "rwy": "09",
-                        "prio": 1
-                    }
-                }
-			},
-			"NL36": {
-                "1": {
-                    "1": {
-                        "wpt": "LEGSA",
-                        "rwy": "09",
-                        "prio": 1
-                    }
-                }
-			},
-			"NL109": {
+            },
+            "NL109": {
                 "1": {
                     "1": {
                         "wpt": "XXX",
                         "rwy": "09",
                         "prio": 2
-                    }
+                  }
                 }
-			},
-			"NL127": {
+            },
+            "NL127": {
                 "1": {
                     "1": {
                         "wpt": "XXX",
                         "rwy": "27",
                         "prio": 2
-                    }
+                  }
                 }
-			},
-			"NL227": {
+            },
+            "NL227": {
                 "1": {
                     "1": {
                         "wpt": "XXX",
