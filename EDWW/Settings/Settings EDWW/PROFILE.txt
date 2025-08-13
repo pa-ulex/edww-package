@@ -147,4 +147,16 @@ PROFILE:ETSH_APP:150:5
 ATIS2:Callsign HOLZDORF RADAR
 ATIS3:Submit your feedback at feedback.vatger.de
 ATIS4:
+PROFILE:ETXX_SR_CTR:150:5
+ATIS2:Callsign SUNRISE
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:
+PROFILE:ETXX_LS_CTR:150:5
+ATIS2:Callsign LONESHIP
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:
+PROFILE:ETXX_TRA_CTR:150:5
+ATIS2:Callsign BREMEN MONITOR
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:
 END
