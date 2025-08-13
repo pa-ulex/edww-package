@@ -59,4 +59,16 @@ PROFILE:EDYY_BB_CTR:300:6
 ATIS2:Callsign MAASTRICHT RADAR - CPDLC on EDYB
 ATIS3:Bandbox Sector - Check sector coverage at vatglasses.uk
 ATIS4:Submit your feedback at feedback.vatger.de
+PROFILE:ETXX_SR_CTR:150:5
+ATIS2:Callsign SUNRISE
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:
+PROFILE:ETXX_LS_CTR:150:5
+ATIS2:Callsign LONESHIP
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:
+PROFILE:ETXX_TRA_CTR:150:5
+ATIS2:Callsign MAASTRICHT MONITOR
+ATIS3:Submit your feedback at feedback.vatger.de
+ATIS4:
 END
