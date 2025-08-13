@@ -1,12 +1,13 @@
 System_UseAUP=1
 HTTP_AUP_URL=https://atciss.vatsim-germany.org/api/areas/topsky
 
-HTTP_Areas_Remote_URL=https://raw.githubusercontent.com/VATGER-Nav/EDWW-Area-Activation/main/Topsky-Area-Remote-Activation.txt
+HTTP_Areas_Remote_URL=https://lara-backend.lusep.fi/topsky/edxx.txt
 
 Setup_COOPANS=1
 RwyAppLines_Auto=0
 
-//Areas_Remote_Activation=1
+Areas_PreActiveTime=900
+Areas_Remote_Activation=1
 
 Airspace_ASSR_Type=2
 Airspace_ASSR_AutoAssign_Type=0
