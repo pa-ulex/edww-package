@@ -1,7 +1,7 @@
 System_UseAUP=1
 HTTP_AUP_URL=https://atciss.vatsim-germany.org/api/areas/topsky
 
-HTTP_Areas_Remote_URL=https://raw.githubusercontent.com/VATGER-Nav/EDWW-Area-Activation/main/Topsky-Area-Remote-Activation.txt
+HTTP_Areas_Remote_URL=https://lara-backend.lusep.fi/topsky/edxx.txt
 
 
 Setup_COOPANS=1
@@ -27,7 +27,8 @@ APW_Buffer_Vert_L_IFR=799
 APW_Buffer_Vert_L_IFR=799
 
 Areas_NOTAM_Activation=1
-//Areas_Remote_Activation=1
+Areas_PreActiveTime=900
+Areas_Remote_Activation=1
 Areas_Altitude_Filtering=1
 
 Color_Active_Map_Type_1=82,162,112 	 //ED-R + Centerlines EDDB 
