@@ -421,7 +421,7 @@ FOLDER:Ice/Snow
 COLOR:deicing
 ZOOM:150
 FONTSIZE:=:10
-BLOCKS:EDDV:53,54,55,56,57,58,59,60,53R,54R,56R,57R,58A,59R,60R,60A
+BLOCKS:EDDV:53,54,55,56,57,58,59,60,61,53A,55A,56R,56A,58A,59A,61R
 {% set default = 0.000005 %}
 
 {% for _, geom in data.eddv['DeicingArea'].items() %}
@@ -432,4 +432,4 @@ BLOCKS:EDDV:53,54,55,56,57,58,59,60,53R,54R,56R,57R,58A,59R,60R,60A
     {{- data.eddv['GuidanceLineByDesig'][ stand | string ] | join_segments | to_line(stand) }}
 {% endfor %}
 TEXT:N052.27.31.797:E009.41.17.308:DP1
-TEXT:N052.27.31.086:E009.41.04.112:DP2
+TEXT:N052.27.31.632:E009.41.01.759:DP2
