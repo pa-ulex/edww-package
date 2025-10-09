@@ -8,19 +8,18 @@
 		"timezone": "Europe/Berlin",
         "sids": {
             "ARSAP": {
+				"climbvia": true,
                 "B": {
                     "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1": {
                         "rwy": "06L",
                         "initial": 5000,
-                        "climbvia": false,
                         "prio": 1,
                         "area": "north"
                     },
                     "2": {
                         "rwy": "06L",
                         "initial": 5000,
-                        "climbvia": false,
                         "prio": 3,
                         "rmk": "req. if southern runway is closed"
                     }
@@ -29,14 +28,12 @@
                     "1": {
                         "rwy": "06R",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 1,
                         "area": "south"
                     },
                     "2": {
                         "rwy": "06R",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 2,
                         "rmk": "pref. if areas are deactivated"
                     }
@@ -45,7 +42,6 @@
                     "1": {
                         "rwy": "06R",
                         "initial": 4000,
-                        "climbvia": false,
                         "prio": 99
                     }
                 },
@@ -53,14 +49,12 @@
                     "1": {
                         "rwy": "24L",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 1,
                         "area": "south"
                     },
                     "2": {
                         "rwy": "24L",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 2,
                         "rmk": "pref. if areas are deactivated"
                     }
@@ -70,14 +64,12 @@
                     "1": {
                         "rwy": "24R",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 1,
                         "area": "north"
                     },
                     "2": {
                         "rwy": "24R",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 3,
                         "rmk": "req. if southern runway is closed"
                     }
@@ -87,84 +79,42 @@
                     "1": {
                         "rwy": "24R",
                         "initial": 4000,
-                        "climbvia": false,
-                        "prio": 99,
-                        "pilotfiled": true
+                        "prio": 99
                     }
                 }
 			},
-			"GERGA": {
-                "B": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
-                    "1": {
-                        "rwy": "06L",
-                        "initial": 5000,
-                        "climbvia": false,
-                        "prio": 1,
-                        "area": "north"
-                    },
-                    "2": {
-                        "rwy": "06L",
-                        "initial": 5000,
-                        "climbvia": false,
-                        "prio": 2,
-                        "rmk": "pref. if areas are deactivated"
-                    }
-                },
-                "Q": {
-                    "1": {
-                        "rwy": "06R",
-                        "initial": 5000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "area": "south"
-                    },
-                    "2": {
-                        "rwy": "06R",
-                        "initial": 5000,
-                        "climbvia": true,
-                        "prio": 3,
-                        "rmk": "req. if northern runway is closed"
-                    }
-                },
-                "Z": {
-                    "1": {
-                        "rwy": "06R",
-                        "initial": 4000,
-                        "climbvia": false,
-                        "prio": 99
-                    }
-                },
-                "N": {
-                    "1": {
-                        "rwy": "24L",
-                        "initial": 5000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "area": "south"
-                    },
-                    "2": {
-                        "rwy": "24L",
-                        "initial": 5000,
-                        "climbvia": true,
-                        "prio": 3,
-                        "rmk": "req. if northern runway is closed"
-                    }
-                },
+			"BIKPO": {
+				"climbvia": true,
                 "A": {
                     "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1": {
                         "rwy": "24R",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 1,
+                        "wpt": "BIKPO",
                         "area": "north"
                     },
                     "2": {
                         "rwy": "24R",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 2,
+                        "wpt": "GERGA",
+						"sidHighlight": true,
+                        "area": "north"
+                    },
+                    "3": {
+                        "rwy": "24R",
+                        "initial": 5000,
+                        "prio": 3,
+                        "wpt": "BIKPO",
+                        "rmk": "pref. if areas are deactivated"
+                    },
+                    "4": {
+                        "rwy": "24R",
+                        "initial": 5000,
+                        "prio": 4,
+                        "wpt": "GERGA",
+						"sidHighlight": true,
                         "rmk": "pref. if areas are deactivated"
                     }
                 },
@@ -174,25 +124,125 @@
                         "designator": "M",
                         "rwy": "24R",
                         "initial": 4000,
-                        "climbvia": false,
                         "prio": 99
                     }
                 }
 			},
-			"LUROS": {
+			"GERGA": {
+				"climbvia": true,
                 "B": {
                     "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1": {
                         "rwy": "06L",
                         "initial": 5000,
-                        "climbvia": false,
+                        "prio": 1,
+                        "area": "north"
+                    },
+					"2": {
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "prio": 2,
+						"wpt": "BIKPO",
+						"sidHighlight": true,
+                        "area": "north"
+                    },
+                    "3": {
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "prio": 3,
+                        "rmk": "pref. if areas are deactivated"
+					},
+                    "4": {
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "prio": 4,
+						"wpt": "BIKPO",
+						"sidHighlight": true,
+                        "rmk": "pref. if areas are deactivated"
+                    }
+                },
+                "Q": {
+                    "1": {
+                        "rwy": "06R",
+                        "initial": 5000,
+                        "prio": 1,
+                        "area": "south"
+                    },
+					"2": {
+                        "rwy": "06R",
+                        "initial": 5000,
+                        "prio": 2,
+						"wpt": "BIKPO",
+						"sidHighlight": true,
+                        "area": "south"
+                    },
+                    "3": {
+                        "rwy": "06R",
+                        "initial": 5000,
+                        "prio": 3,
+                        "rmk": "req. if northern runway is closed"
+					},
+                    "4": {
+                        "rwy": "06R",
+                        "initial": 5000,
+                        "prio": 4,
+						"wpt": "BIKPO",
+						"sidHighlight": true,
+                        "rmk": "req. if northern runway is closed"
+                    }
+                },
+                "Z": {
+                    "1": {
+                        "rwy": "06R",
+                        "initial": 4000,
+                        "prio": 99
+                    }
+                },
+                "N": {
+                    "1": {
+                        "rwy": "24L",
+                        "initial": 5000,
+                        "prio": 1,
+                        "wpt": "GERGA",
+                        "area": "south"
+                    },
+                    "2": {
+                        "rwy": "24L",
+                        "initial": 5000,
+                        "prio": 2,
+                        "wpt": "BIKPO",
+						"sidHighlight": true,
+                        "area": "south"
+                    },
+                    "3": {
+                        "rwy": "24L",
+                        "initial": 5000,
+                        "prio": 3,
+                        "wpt": "GERGA",
+                        "rmk": "pref. if areas are deactivated"
+                    },
+                    "4": {
+                        "rwy": "24L",
+                        "initial": 5000,
+                        "prio": 4,
+                        "wpt": "BIKPO",
+						"sidHighlight": true,
+                        "rmk": "pref. if areas are deactivated"
+                    }
+                }
+			"LUROS": {
+				"climbvia": true,
+                "B": {
+                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
+                    "1": {
+                        "rwy": "06L",
+                        "initial": 5000,
                         "prio": 1,
                         "area": "north"
                     },
                     "2": {
                         "rwy": "06L",
                         "initial": 5000,
-                        "climbvia": false,
                         "prio": 3,
                         "rmk": "req. if southern runway is closed"
                     }
@@ -201,14 +251,12 @@
                     "1": {
                         "rwy": "06R",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 1,
                         "area": "south"
                     },
                     "2": {
                         "rwy": "06R",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 2,
                         "rmk": "pref. if areas are deactivated"
                     }
@@ -217,23 +265,19 @@
                     "1": {
                         "rwy": "06R",
                         "initial": 4000,
-                        "climbvia": false,
-                        "prio": 99,
-                        "pilotfiled": true
+                        "prio": 99
                     }
                 },
                 "N": {
                     "6": {
                         "rwy": "24L",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 1,
                         "area": "south"
                     },
                     "7": {
                         "rwy": "24L",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 2,
                         "rmk": "pref. if areas are deactivated"
                     }
@@ -243,14 +287,12 @@
                     "1": {
                         "rwy": "24R",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 1,
                         "area": "north"
                     },
                     "2": {
                         "rwy": "24R",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 3,
                         "rmk": "req. if southern runway is closed"
                     }
@@ -260,25 +302,23 @@
                     "1": {
                         "rwy": "24R",
                         "initial": 4000,
-                        "climbvia": false,
                         "prio": 99
                     }
                 }
 			},
 			"SUKIP": {
+				"climbvia": true,
                 "B": {
                     "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1": {
                         "rwy": "06L",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 1,
                         "area": "north"
                     },
                     "2": {
                         "rwy": "06L",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 2,
                         "rmk": "pref. if areas are deactivated"
                     }
@@ -288,23 +328,19 @@
                     "3": {
                         "rwy": "06L",
                         "initial": 5000,
-                        "climbvia": false,
-                        "prio": 99,
-                        "pilotfiled": true
+                        "prio": 99
                     }
                 },
                 "Q": {
                     "1": {
                         "rwy": "06R",
                         "initial": 8000,
-                        "climbvia": true,
                         "prio": 1,
                         "area": "south"
                     },
                     "2": {
                         "rwy": "06R",
                         "initial": 8000,
-                        "climbvia": true,
                         "prio": 3,
                         "rmk": "req. if northern runway is closed"
                     }
@@ -313,23 +349,19 @@
                     "1": {
                         "rwy": "06R",
                         "initial": 8000,
-                        "climbvia": false,
-                        "prio": 99,
-                        "pilotfiled": true
+                        "prio": 99
                     }
                 },
                 "N": {
                     "1":  {
                         "rwy": "24L",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 1,
                         "area": "south"
                     },
                     "2": {
                         "rwy": "24L",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 3,
                         "rmk": "req. if northern runway is closed"
                     }
@@ -339,33 +371,30 @@
                     "1": {
                         "rwy": "24R",
                         "initial": 5000,
-                        "climbvia": false,
                         "prio": 1,
                         "area": "north"
                     },
                     "2": {
                         "rwy": "24R",
                         "initial": 5000,
-                        "climbvia": false,
                         "prio": 2,
                         "rmk": "pref. if areas are deactivated"
                     }
                 }
 			},
-			"LOGDO": {
+			"KUSIC": {
+				"climbvia": true,
                 "B": {
                     "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1":{
                         "rwy": "06L",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 1,
                         "area": "north"
                     },
                     "2":{
                         "rwy": "06L",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 3,
                         "rmk": "req. if southern runway is closed"
                     }
@@ -375,23 +404,19 @@
                     "1":{
                         "rwy": "06L",
                         "initial": 5000,
-                        "climbvia": false,
-                        "prio": 99,
-                        "pilotfiled": true
+                        "prio": 99
                     }
                 },
                 "Q": {
                     "1":{
                         "rwy": "06R",
                         "initial": 8000,
-                        "climbvia": true,
                         "prio": 1,
                         "area": "south"
                     },
                     "2":{
                         "rwy": "06R",
                         "initial": 8000,
-                        "climbvia": true,
                         "prio": 2,
                         "rmk": "pref. if areas are deactivated"
                     }
@@ -400,23 +425,19 @@
                     "1":{
                         "rwy": "06R",
                         "initial": 8000,
-                        "climbvia": false,
-                        "prio": 99,
-                        "pilotfiled": true
+                        "prio": 99
                     }
                 },
                 "N": {
                     "1":{
                         "rwy": "24L",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 1,
                         "area": "south"
                     },
                     "2":{
                         "rwy": "24L",
                         "initial": 5000,
-                        "climbvia": true,
                         "prio": 2,
                         "rmk": "pref. if areas are deactivated"
                     }
@@ -426,27 +447,46 @@
                     "1":{
                         "rwy": "24R",
                         "initial": 5000,
-                        "climbvia": false,
                         "prio": 1,
                         "area": "north"
                     },
                     "2":{
                         "rwy": "24R",
                         "initial": 5000,
-                        "climbvia": false,
                         "prio": 3,
                         "rmk": "req. if southern runway is closed"
                     }
                 }
 			},
-			"ROKMU": {
-                "P": {
+			"EDDB": {
+				"equip": {"NON-RNAV": true},
+				"climbvia": false,
+                "B": {
+                    "1":{
+                        "rwy": "06L",
+                        "initial": 5000,
+                        "prio": 99
+					}
+                },
+                "Q": {
+                    "1":{
+                        "rwy": "06R",
+                        "initial": 5000,
+                        "prio": 99
+					}
+                },
+                "N": {
                     "1":{
                         "rwy": "24L",
-                        "initial": 4000,
-                        "climbvia": false,
-                        "equip": {"NON-RNAV": true},
-                        "prio": 1
+                        "initial": 5000,
+                        "prio": 99
+					}
+                },
+                "A": {
+                    "1":{
+                        "rwy": "24R",
+                        "initial": 5000,
+                        "prio": 99
                     }
                 }
 			}

@@ -31,7 +31,7 @@ Areas_PreActiveTime=900
 Areas_Remote_Activation=1
 Areas_Altitude_Filtering=1
 
-Color_Active_Map_Type_1=82,162,112 	 //ED-R + Centerlines EDDB 
+Color_Active_Map_Type_1=82,162,112 	 //ED-R
 Color_Active_Map_Type_2=120,101,59	 //Sectorlines + Fixes (brown)
 Color_Active_Map_Type_3=0,150,150	 //MVA
 Color_Active_Map_Type_4=0,188,198 	 //TRA + alternate colour
@@ -42,7 +42,7 @@ Color_Active_Map_Type_11=255,0,255	   //Sector info MIL APP (magenta)
 Color_Active_Map_Type_12=255,255,255	 //Sector info other sector (white)
 Color_Active_Map_Type_13=82,162,112 	 //EDDV airspace
 Color_Active_Map_Type_14=82,162,112 	 //D(HX) CTR
-Color_Active_Map_Type_15
+Color_Active_Map_Type_15=82,162,112 	 //Centerlines blue
 Color_Active_Map_Type_16
 Color_Active_Map_Type_17
 Color_Active_Map_Type_18=0,100,255	//Blue
