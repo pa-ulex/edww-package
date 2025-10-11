@@ -115,27 +115,27 @@
 	},
 	"ETNS": {
         "elevation": 39,
-        "runways": "05,23",
+        "runways": "04,22",
         "transAlt": 5000,
         "maxInitialClimb": 27000,
 		"appSI": "EID,ALR,WW,WC",
         "sids": {
-            "NS105": {
+            "ETNS1A": {
                 "1": {
                     "1": {
                         "wpt": "XXX",
-                        "rwy": "05",
-                        "initial": 2500,
+                        "rwy": "04",
+                        "initial": 4000,
                         "prio": 1
                     }
                 }
 			},
-			"NS123": {
+			"ETNS2B": {
                 "1": {
                     "1": {
                         "wpt": "XXX",
-                        "rwy": "23",
-                        "initial": 2500,
+                        "rwy": "22",
+                        "initial": 4000,
                         "prio": 1
                     }
                 }
