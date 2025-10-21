@@ -382,7 +382,7 @@
                     }
                 }
 			},
-			"KUSIC": {
+			"KISUC": {
 				"climbvia": true,
                 "B": {
                     "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
