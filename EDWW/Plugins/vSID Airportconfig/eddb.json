@@ -10,7 +10,6 @@
             "ARSAP": {
 				"climbvia": true,
                 "B": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1": {
                         "rwy": "06L",
                         "initial": 5000,
@@ -60,7 +59,6 @@
                     }
                 },
                 "A": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1": {
                         "rwy": "24R",
                         "initial": 5000,
@@ -75,7 +73,6 @@
                     }
                 },
                 "M": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1": {
                         "rwy": "24R",
                         "initial": 4000,
@@ -86,7 +83,6 @@
 			"BIKPO": {
 				"climbvia": true,
                 "A": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1": {
                         "rwy": "24R",
                         "initial": 5000,
@@ -119,7 +115,6 @@
                     }
                 },
                 "M": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1": {
                         "designator": "M",
                         "rwy": "24R",
@@ -131,7 +126,6 @@
 			"GERGA": {
 				"climbvia": true,
                 "B": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1": {
                         "rwy": "06L",
                         "initial": 5000,
@@ -233,7 +227,6 @@
 			"LUROS": {
 				"climbvia": true,
                 "B": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1": {
                         "rwy": "06L",
                         "initial": 5000,
@@ -283,7 +276,6 @@
                     }
                 },
                 "A": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1": {
                         "rwy": "24R",
                         "initial": 5000,
@@ -298,7 +290,6 @@
                     }
                 },
                 "M": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1": {
                         "rwy": "24R",
                         "initial": 4000,
@@ -309,7 +300,6 @@
 			"SUKIP": {
 				"climbvia": true,
                 "B": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1": {
                         "rwy": "06L",
                         "initial": 5000,
@@ -324,7 +314,6 @@
                     }
                 },
                 "K": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "3": {
                         "rwy": "06L",
                         "initial": 5000,
@@ -367,7 +356,6 @@
                     }
                 },
                 "A": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1": {
                         "rwy": "24R",
                         "initial": 5000,
@@ -385,7 +373,6 @@
 			"KISUC": {
 				"climbvia": true,
                 "B": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1":{
                         "rwy": "06L",
                         "initial": 5000,
@@ -400,7 +387,6 @@
                     }
                 },
                 "K": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1":{
                         "rwy": "06L",
                         "initial": 5000,
@@ -443,7 +429,6 @@
                     }
                 },
                 "A": {
-                    "acftType": {"B748": false, "A388": false, "AN124":false, "AN225":false},
                     "1":{
                         "rwy": "24R",
                         "initial": 5000,
