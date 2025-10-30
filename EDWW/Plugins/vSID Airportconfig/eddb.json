@@ -224,6 +224,7 @@
                         "rmk": "pref. if areas are deactivated"
                     }
                 }
+			},
 			"LUROS": {
 				"climbvia": true,
                 "B": {
