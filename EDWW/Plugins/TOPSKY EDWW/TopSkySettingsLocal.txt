@@ -18,6 +18,12 @@
 //Remove "//" in front of this setting to use a gray color to disable minor D(CTR) highlight when online
 //Color_Active_Map_Type_14=110,90,80
 
+//Remove "//" in front of this setting to change all blue extended centerlines (ECL) to a brown color (relevant for EDDB, EDDV, EDDW)
+//Color_Active_Map_Type_15=120,101,59
+
+//Remove "//" in front of this setting to change all blue extended centerlines (ECL) to a grey color (relevant for EDDB, EDDV, EDDW)
+//Color_Active_Map_Type_15=110,90,80
+
 //Remove "//" in front of this setting to use leader lines for all stations
 //Track_PredictionLine=1
 

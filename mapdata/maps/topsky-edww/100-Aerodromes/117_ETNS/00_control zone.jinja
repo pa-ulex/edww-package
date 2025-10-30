@@ -7,16 +7,17 @@ ACTIVE:ID:NSR:*:*:*
 ACTIVE:ID:NSP:*:*:*
 ACTIVE:ID:EID:*:NST:*
 ACTIVE:ID:ALR:*:NST:EID
-ACTIVE:ID:WW:*:NST:EID,ALR
-ACTIVE:ID:WC:*:NST:EID,ALR,WW
+ACTIVE:ID:HEI:*:NST:EID,ALR
+ACTIVE:ID:WW:*:NST:EID,ALR,HEI
+ACTIVE:ID:WC:*:NST:EID,ALR,HEI,WW
 {{ render_sectorlines(
 		EDWW['ETNS TWR']['000-026']
 ) }}
 
-{{ ecl_dashes(runways['ETNS']['05'], 12) }}
-{{ marker_ticks(runways['ETNS']['05'], [10], 0.5, 0.5) }}
-{{ marker_ticks(runways['ETNS']['05'], [5], -0.5, 1) }}
+{{ ecl_dashes(runways['ETNS']['04'], 12) }}
+{{ marker_ticks(runways['ETNS']['04'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETNS']['04'], [5], -0.5, 1) }}
 
-{{ ecl_dashes(runways['ETNS']['23'], 12) }}
-{{ marker_ticks(runways['ETNS']['23'], [10], 0.5, 0.5) }}
-{{ marker_ticks(runways['ETNS']['23'], [5], -0.5, 1) }}
+{{ ecl_dashes(runways['ETNS']['22'], 12) }}
+{{ marker_ticks(runways['ETNS']['22'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETNS']['22'], [5], -0.5, 1) }}

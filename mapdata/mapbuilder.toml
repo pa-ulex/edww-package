@@ -606,7 +606,7 @@ bearing = 277.72
 fap = [ 53.8785, 12.760166 ] # OSGIG
 loc = [ 53.920588, 12.247853 ]
 
-[runways.ETNS.05]
+[runways.ETNS.04]
 thr = [ 54.451971, 9.502462 ]
 bearing = 47.66
 fap = [ 54.385532, 9.377646 ] # NS409
@@ -618,7 +618,7 @@ bearing = 74.2
 fap = [ ]
 loc = [ ]
 
-[runways.ETNS.23]
+[runways.ETNS.22]
 thr = [ 54.466726, 9.530271 ]
 bearing = 227.69
 fap = [ 54.532982, 9.655541 ] # NS419
@@ -630,13 +630,13 @@ bearing = 254.23
 fap = [ ]
 loc = [ ]
 
-[runways.ETNT.08]
+[runways.ETNT.07]
 thr = [ 53.545603, 7.649407 ]
 bearing = 77.83
 fap = [ ]
 loc = [ ]
 
-[runways.ETNT.26]
+[runways.ETNT.25]
 thr = [ 53.550219, 7.685393 ]
 bearing = 257.86
 fap = [ ]

@@ -3,15 +3,16 @@ MAP:EDDW CTR
 LAYER:-1
 FOLDER:D(CTR)
 COLOR:Active_Map_Type_2
-ACTIVE:ID:WC:*:*:FRI,EID,ALR,WW
-ACTIVE:ID:WW:*:*:FRI,EID,ALR
+ACTIVE:ID:WC:*:*:FRI,EID,ALR,HEI,WW
+ACTIVE:ID:WW:*:*:FRI,EID,ALR,HEI
+ACTIVE:ID:HEI:*:*:FRI,EID,ALR
 ACTIVE:ID:ALR:*:*:FRI,EID
 ACTIVE:ID:EID:*:*:FRI
 ACTIVE:ID:FRI:*:*:*
 {{ render_sectorlines(
 		EDWW['EDDW']['000-025']
 ) }}
-COLOR:Active_Map_Type_1
+COLOR:Active_Map_Type_15
 
 {{ ecl_dashes(runways['EDDW']['09'], 14) }}
 {{ marker_ticks(runways['EDDW']['09'], [6, 10], 0.5, 0.5) }}
