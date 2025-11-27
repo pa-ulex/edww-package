@@ -2,33 +2,27 @@
 
 [data.eddb]
 type = "aixm"
-#source = "aixm:dfs:0:EDDB AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDB_AerodromeMapping_2025-10-02_2025-10-02_snapshot.zip"
+source = "dfs:0:EDDB AerodromeMapping:AIXM 5.1.1"
 
 [data.eddh]
 type = "aixm"
-#source = "aixm:dfs:0:EDDH AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDH_AerodromeMapping_2025-10-02_2025-10-02_snapshot.zip"
+source = "dfs:0:EDDH AerodromeMapping:AIXM 5.1.1"
 
 [data.eddv]
 type = "aixm"
-#source = "aixm:dfs:0:EDDV AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDDV_AerodromeMapping_2025-10-02_2025-10-02_snapshot.zip"
+source = "dfs:0:EDDV AerodromeMapping:AIXM 5.1.1"
 
 [data.edhi]
 type = "aixm"
-#source = "aixm:dfs:0:EDHI AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDHI_AerodromeMapping_2025-10-02_2025-10-02_snapshot.zip"
+source = "dfs:0:EDHI AerodromeMapping:AIXM 5.1.1"
 
 [data.edhl]
 type = "aixm"
-#source = "aixm:dfs:0:EDHL AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDHL_AerodromeMapping_2025-10-02_2025-10-02_snapshot.zip"
+source = "dfs:0:EDHL AerodromeMapping:AIXM 5.1.1"
 
 [data.edve]
 type = "aixm"
-#source = "aixm:dfs:0:EDVE AerodromeMapping"
-source = "https://aip.dfs.de/datasets/scripts/getItem.php?amdt=9999&content=aerodrome_mapping/EDVE_AerodromeMapping_2025-10-02_2025-10-02_snapshot.zip"
+source = "dfs:0:EDVE AerodromeMapping:AIXM 5.1.1"
 
 [data.edah_kml]
 type = "kml"
